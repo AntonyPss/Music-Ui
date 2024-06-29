@@ -1,0 +1,25 @@
+{
+  "music.music_1": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/music/phonk_200mg",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+
+  "music.music_2": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/music/why_not",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

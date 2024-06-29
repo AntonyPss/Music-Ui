@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Phonk Music Ui v1",
+    "description": "Phonk Music Ui create by @Antony Pss (Discord)",
+    "uuid": "03e922c9-e3e3-4915-92fa-155ff0c8fede",
+    "min_engine_version": [ 1, 20, 0 ],
+    "version": [ 1, 0, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "2f13a2bd-e4b3-4519-872b-3ef2c1ac3998",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}

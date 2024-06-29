@@ -1,0 +1,49 @@
+{
+  "namespace": "music_screen",
+
+  "music_scrolling_content": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "header_1@music_common.music_header_section": {
+          "$music_icon": "textures/ui/music/icon_1",
+          "$music_name": "PHONK (200mg)",
+          "$music_time": "02:04",
+          "$music_creator": "Deha INC.",
+          "$music_button_sound_name": "music.music_1"
+        }
+      },
+      {
+        "header_2@music_common.music_header_section": {
+          "$music_icon": "textures/ui/music/icon_1",
+          "$music_name": "Why Not",
+          "$music_time": "02:50",
+          "$music_creator": "Ghostface Playa",
+          "$music_button_sound_name": "music.music_2"
+        }
+      },
+      {
+        "header_3@music_common.music_header_section": {
+          "$music_icon": "textures/ui/music/icon_1",
+          "$music_name": "Musica 3",
+          "$music_time": "2:23"
+        }
+      },
+      {
+        "header_4@music_common.music_header_section": {
+          "$music_icon": "textures/ui/music/icon_1",
+          "$music_name": "Musica 4",
+          "$music_time": "2:23"
+        }
+      }
+    ]
+  },
+
+  "music_screen_content": {
+    "type": "panel",
+    "controls": [
+      { "dialog_screen@music_common.music_dialog_screen": {} }
+    ]
+  }
+}

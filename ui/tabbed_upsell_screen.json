@@ -1,0 +1,5 @@
+{
+  "tabbed_upsell_screen": {
+    "$screen_content": "music_screen.music_screen_content"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "namespace": "music_common",
+
+  "play_icon": {
+    "type": "image",
+    "texture": "textures/music/play_icon",
+    "layer": 2,
+    "size": [ 12, 12 ]
+  },
+
+  "stop_icon": {
+    "type": "image",
+    "texture": "textures/music/stop_icon",
+    "layer": 2,
+    "size": [ 12, 12 ]
+  },
+
+  "label_common": {
+    "type": "label",
+    "layer": 2,
+    "shadow": true,
+    "size": [ "default", 10 ]
+  },
+
+  "music_header_section": {
+    "type": "panel",
+    "size": [ "100%", 48 ],
+
+    "$music_icon_|default": "textures/music/music_icon",
+    "$music_name|default": "Music",
+    "$music_creator|default": "Unknown",
+    "$music_time|default": "1:00",
+    "controls": [
+      {
+        "music_header_stack": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [ "100%", 36 ],
+          "controls": [
+            {
+              "music_icon_panel": {
+                "type": "panel",
+                "size": [ "100%c", "100%" ],
+                "controls": [
+                  {
+                    "music_icon": {
+                      "type": "image",
+                      "texture": "$music_icon_",
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "layer": 4,
+                      "size": [ 28, 28 ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding": {
+                "type": "panel",
+                "size": [ 4, 0  ]
+              }
+            },
+            {
+              "music_label_panel": {
+                "type": "panel",
+                "size": [ 116, "100%" ],
+                "controls": [
+                  {
+                    "music_label_stack": {
+                      "type": "stack_panel",
+                      "size": [ "100% - 2px", 20 ],
+                      "controls": [
+                        {
+                          "music_name@music_common.label_common": {
+                            "text": "$music_name"
+                          }
+                        },
+                        {
+                          "music_time@music_common.label_common": {
+                            "text": "$music_time"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding1": {
+                "type": "panel",
+                "size": [ 2, 0 ]
+              }
+            },
+            {
+              "music_creator_panel": {
+                "type": "panel",
+                "size": [ "fill", "100%" ],
+                "controls": [
+                  {
+                    "music_creator_stack": {
+                      "type": "stack_panel",
+                      "size": [ "100% - 4px", 20 ],
+                      "controls": [
+                        {
+                          "music_creator_name@music_common.label_common": {
+                            "text": "Creators"
+                          }
+                        },
+                        {
+                          "padding": {
+                            "type": "panel",
+                            "size": [ 0, 2 ]
+                          }
+                        },
+                        {
+                          "music_creator_text@music_common.label_common": {
+                            "text": "$music_creator",
+                            "text_alignment": "center"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding2": {
+                "type": "panel",
+                "size": [ 2, 0 ]
+              }
+            },
+            {
+              "music_buttons_panel": {
+                "type": "panel",
+                "size": [ 86, "100%" ],
+                "controls": [
+                  {
+                    "music_buttons@music_common.music_buttons_stack": {
+                      "layer": 4
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "icon_wrapper": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100% - 2px", "100% - 2px" ],
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "controls": [
+            {
+              "icon_panel": {
+                "type": "panel",
+                "size": [ "100%c", "100%" ],
+                "controls": [
+                  {
+                    "icon@$button_content": {
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [ 0, 1 ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding": {
+                "type": "panel",
+                "size": [ 4, "100%" ]
+              }
+            },
+            {
+              "label_panel": {
+                "type": "panel",
+                "size": [ "100%c", "100%" ],
+                "controls": [
+                  {
+                    "text": {
+                      "type": "label",
+                      "text": "$button_text",
+                      "layer": 2,
+                      "color": "$text_color",
+                      "size": [ "default", 10 ],
+                      "offset": [ 0, 1 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "music_button_template@common_buttons.dark_text_button": {
+    "$button_type_panel": "music_common.icon_wrapper",
+    "sound_name": "$music_button_sound_name",
+    "sound_volume": "$music_button_sound_volume",
+    "sound_pitch": 1.0,
+    "$music_button_sound_name|default": "random.click",
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "$music_button_name",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "$music_button_name",
+        "mapping_type": "focused"
+      }
+    ]
+  },
+
+  "music_buttons_stack": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "play_button@music_common.music_button_template": {
+          "$music_button_sound_volume": 1.0,
+          "$music_button_name": "button.menu_play",
+          "$button_text": "Play",
+          "$button_content": "music_common.play_icon",
+          "size": [ "100%", 18 ]
+        }
+      },
+      {
+        "stop_button@music_common.music_button_template": {
+          "$music_button_sound_volume": 0.0000000000000001,
+          "$music_button_name": "button.menu_stop",
+          "$button_text": "Stop",
+          "$button_content": "music_common.stop_icon",
+          "size": [ "100%", 18 ]
+        }
+      }
+    ]
+  },
+
+  "music_scrolling_panel@common.scrolling_panel": {
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "$show_background": false,
+    "$scrolling_content": "music_screen.music_scrolling_content",
+    "size": [ "100%", "100%" ]
+  },
+
+  "close_button@common_buttons.dark_text_button": {
+    "$pressed_button_name": "button.menu_exit",
+    "$button_text": "gui.exit",
+    "size": [ "100%", "100%" ]
+  },
+
+  "music_dialog_screen@music_common.custom_dialog_screen": {
+    "$dialog_title": "Music Player",
+    "$dialog_content": "music_common.music_scrolling_panel",
+    "$dialog_button": "music_common.close_button",
+    "size": "$extra_large_screen_size",
+    "max_size": "$extra_large_max_screen_size"
+  },
+
+  "custom_dialog_screen": {
+    "type": "panel",
+    "controls": [
+      {
+        "dialog_background": {
+          "type": "image",
+          "texture": "textures/music/background_screen",
+          "layer": 1,
+          "alpha": 0.5
+        }
+      },
+      {
+        "dialog_title@music_common.label_common": {
+          "text": "$dialog_title",
+          "font_type": "smooth",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [ 0, 1 ]
+        }
+      },
+      {
+        "dialog_content": {
+          "type": "panel",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [ "100% - 8px", "100% - 42px" ],
+          "offset": [ 0, -8 ],
+          "controls": [
+            {
+              "dialog_content@$dialog_content": {
+                "layer": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "dialog_button": {
+          "type": "panel",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "size": [ "100%", 24 ],
+          "offset": [ 0, -2 ],
+          "controls": [
+            {
+              "dialog_button@$dialog_button": {
+                "size": [ "100% - 4px", "100%" ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
