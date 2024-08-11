@@ -1,0 +1,8 @@
+## Music Player ##
+music.menu.title=Music Player
+music.menu.location=You can customize the music at:
+music.menu.name=Name
+music.menu.creator=Creator
+music.menu.options=Options
+music.menu.noname=No Name
+music.menu.nocreator=Unknown

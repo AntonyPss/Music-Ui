@@ -1,0 +1,8 @@
+## Music Player ##
+music.menu.title=Reproductor de Música
+music.menu.location=Puedes personalizar la música en:
+music.menu.name=Nombre
+music.menu.creator=Creador
+music.menu.options=Opciones
+music.menu.noname=Sin Nombre
+music.menu.nocreator=Desconocido
