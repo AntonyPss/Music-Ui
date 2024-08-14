@@ -6,3 +6,6 @@ music.menu.creator=Creador
 music.menu.options=Opciones
 music.menu.noname=Sin Nombre
 music.menu.nocreator=Desconocido
+
+music.menu.section.default=Música predeterminada
+music.menu.section.user=Música personalizada

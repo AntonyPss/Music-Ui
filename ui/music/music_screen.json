@@ -86,28 +86,65 @@
     "controls": [
       {
         "music_1@music_common.music_header_section": {}
+      },
+      {
+        "music_2@music_common.music_header_section": {}
+      },
+      {
+        "music_3@music_common.music_header_section": {}
+      },
+      {
+        "music_4@music_common.music_header_section": {}
+      },
+      {
+        "music_5@music_common.music_header_section": {}
+      },
+      {
+        "music_6@music_common.music_header_section": {}
+      },
+      {
+        "music_7@music_common.music_header_section": {}
+      },
+      {
+        "music_8@music_common.music_header_section": {}
+      },
+      {
+        "music_9@music_common.music_header_section": {}
+      },
+      {
+        "music_10@music_common.music_header_section": {}
       }
     ]
   },
 
   "music_scrolling_content": {
-    "type": "stack_panel",
+    "type": "panel",
     "size": [ "100% - 0.5px", "100%c" ],
     "controls": [
       {
         "music_default_pack@music_screen.music_default_pack": {
-          "ignored": "(not $default_pack_music_visible)"
-        }
-      },
-      {
-        "padding": {
-          "type": "panel",
-          "size": [ "100%", 6 ]
+          "ignored": "(not $default_pack_music_visible)",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "music_default_section",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ]
         }
       },
       {
         "music_custom_user@music_screen.music_custom_user": {
-          "ignored": "(not $user_custom_music_visible)"
+          "ignored": "(not $user_custom_music_visible)",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "music_user_section",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ]
         }
       }
     ]
@@ -116,7 +153,11 @@
   "music_screen_content": {
     "type": "panel",
     "controls": [
-      { "dialog_screen@music_common.music_dialog_screen": {} }
+      {
+        "dialog_screen@music_common.music_dialog_screen": {
+          "size": "$music_screen_size"
+        }
+      }
     ]
   }
 }
