@@ -87,7 +87,7 @@
             {
               "music_icon": {
                 "type": "image",
-                "texture": "textures/ui/icons/music_unknown_icon",
+                "texture": "textures/ui/icons/music_icon",
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 2,
@@ -252,8 +252,7 @@
           "anchor_to": "center",
           "layer": 4,
           "color": "$text_color",
-          "size": [ "default", "default" ],
-          "offset": "$button_offset"
+          "size": [ "default", "default" ]
         }
       },
       {
@@ -279,23 +278,20 @@
     "controls": [
       {
         "default@music_common.music_button_image": {
-          "$button_image": "textures/ui/menu_button",
-          "$text_color": [ 1.0, 1.0, 1.0 ],
-          "$button_offset": [ 0, -1 ]
+          "$button_image": "textures/ui/white_button",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       },
       {
         "hover@music_common.music_button_image": {
-          "$button_image": "textures/ui/menu_button_hover",
-          "$text_color": [ 1.0, 1.0, 1.0 ],
-          "$button_offset": [ 0, -1 ]
+          "$button_image": "textures/ui/white_button_hover",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       },
       {
         "pressed@music_common.music_button_image": {
-          "$button_image": "textures/ui/menu_button_pressed",
-          "$text_color": [ 1.0, 1.0, 1.0 ],
-          "$button_offset": [ 0, 1 ]
+          "$button_image": "textures/ui/white_button_pressed",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       }
     ]
@@ -603,7 +599,7 @@
           "anchor_from": "center",
           "anchor_to": "center",
           "layer": 2,
-          "color": [ 1.0, 1.0, 1.0 ],
+          "color": [ 0.1, 0.1, 0.1 ],
           "size": [ "default", 10 ],
           "offset": [ 0, 0 ]
         }
@@ -617,8 +613,8 @@
 
     "$default_texture": "textures/ui/white_button",
     "$hover_texture": "textures/ui/white_button_hover",
-    "$pressed_texture": "textures/ui/white_button_pressed",
-    "$pressed_no_hover_texture": "textures/ui/white_button_pressed",
+    "$pressed_texture": "textures/ui/white_button",
+    "$pressed_no_hover_texture": "textures/ui/white_button_hover",
 
     "$default_border_visible": false,
     "$hover_border_visible": false
