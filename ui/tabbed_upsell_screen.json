@@ -1,7 +1,0 @@
-{
-  "tabbed_upsell_screen": {
-    "$screen_content": "music_screen.music_screen_content",
-    "$screen_bg_content": "common.screen_background",
-    "$screen_background_alpha": 0.4
-  }
-}
