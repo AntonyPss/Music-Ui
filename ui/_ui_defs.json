@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/music/music_common.json",
+    "ui/music/music_screen.json"
+  ]
+}

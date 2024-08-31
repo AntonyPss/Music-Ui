@@ -7,6 +7,18 @@
     "min_engine_version": [ 1, 20, 0 ],
     "version": [ 2, 1, 0 ]
   },
+  "subpacks": [
+    {
+      "folder_name": "ore_ui",
+      "name": "Ore-Ui Theme",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "default",
+      "name": "Default Theme",
+      "memory_tier": 0
+    }
+  ],
   "modules": [
     {
       "type": "resources",
