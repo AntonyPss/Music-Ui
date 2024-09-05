@@ -1,7 +1,7 @@
 # Phonk Music Ui
 Phonk Music Ui create by **@Antony Pss** (Discord)
 
-- Current Version: **v2**
+- Current Version: **v2.6**
 - Status: **Update**
 
 ## 📣 Information
