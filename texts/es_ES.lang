@@ -1,11 +1,7 @@
-## Music Player ##
-music.menu.title=Reproductor de Música
-music.menu.location=Puedes personalizar la música en:
-music.menu.name=Nombre
-music.menu.creator=Creador
-music.menu.options=Opciones
-music.menu.noname=Sin Nombre
-music.menu.nocreator=Desconocido
+## Music Screen ##
+music.screen.title=Reproductor de Música
+music.screen.tip=Tip
 
-music.menu.section.default=Música predeterminada
-music.menu.section.user=Música personalizada
+## Music Popup ##
+music.popup.title=Tip
+music.popup.message=Podrasa personalizar la musica en la siguiente ubicacion del dispositivo en tu almacenamiento.
