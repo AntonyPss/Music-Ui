@@ -48,7 +48,3 @@ This pack adds a fully functional music player inside Minecraft Bedrock Edition.
 ## 💬 Contributions and Support
 
 If you have suggestions or need help, feel free to contact me through our [Discord Server](https://discord.gg/kYDf4gadKw).
-
----
-
-Let me know if you’d like to modify anything!
