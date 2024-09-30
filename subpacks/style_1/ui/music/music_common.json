@@ -432,7 +432,10 @@
       {
         "main_panel_content": {
           "type": "panel",
-          "size": [ "100%", "fill" ]
+          "size": [ "100%", "fill" ],
+          "controls": [
+            {}
+          ]
         }
       }
     ]
