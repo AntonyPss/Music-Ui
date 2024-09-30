@@ -289,31 +289,24 @@
     ]
   },
 
-  "main_panel": {
+
+  "main_panel_content": {
     "type": "panel",
-    "ttsSectionContainer": true,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [ "100% - 16px", "100% - 4px" ],
     "controls": [
       {
-        "main_panel_content": {
-          "type": "panel",
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "size": [ "100% - 16px", "100% - 4px" ],
-          "controls": [
-            {
-              "scrolling_panel@common.scrolling_panel": {
-                "$show_background": false,
-                "$scrolling_content": "music_common.scrolling_content_panel",
-                "$scroll_size": [ 4, "100% - 4px" ],
-                "$scrolling_pane_size": [ "100% - 4px", "100% - 4px" ],
-                "size": [ "100%", "100%" ]
-              }
-            }
-          ]
+        "scrolling_panel@common.scrolling_panel": {
+          "$show_background": false,
+          "$scrolling_content": "music_common.scrolling_content_panel",
+          "$scroll_size": [ 4, "100% - 4px" ],
+          "$scrolling_pane_size": [ "100% - 4px", "100% - 4px" ],
+          "size": [ "100%", "100%" ]
         }
       }
     ]
-  },
+  }
 
   "header_tab_common": {
     "type": "panel",
