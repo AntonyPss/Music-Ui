@@ -356,7 +356,7 @@
       {
         "header_tab_section": {
           "type": "panel",
-          "size": [ "100%", "100%"]
+          "size": [ "100%", "100%c"]
         }
       }
     ]
