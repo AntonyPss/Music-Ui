@@ -364,7 +364,9 @@
                 "orientation": "horizontal",
                 "size": [ "100% - 24px", 28 ],
                 "controls": [
-                  {}
+                  {
+                    "": {}
+                  }
                 ]
               }
             }
