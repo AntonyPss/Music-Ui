@@ -424,7 +424,10 @@
         }
       },
       {
-        "main_panel_content": {}
+        "main_panel_content": {
+          "type": "panel",
+          "size": [ ""]
+        }
       }
     ]
   },
