@@ -369,7 +369,12 @@
                       "size": [ "40%", "100%"]
                     }
                   },
-                  {},
+                  {
+                    "padding_middle": {
+                      "type": "panel",
+                      "size": [ 4, 0 ]
+                    }
+                  },
                   {
                     "header_tab_1@music_common.header_tab_base": {
                       "size": [ "40%", "100%"]
