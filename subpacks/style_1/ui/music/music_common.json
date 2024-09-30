@@ -424,7 +424,7 @@
         }
       },
       {
-        "padding0": {
+        "padding1": {
           "type": "panel",
           "size": [ "100%", 4 ]
         }
