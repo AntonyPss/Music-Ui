@@ -5,7 +5,7 @@
 
 ## 📝 Description
 
-This pack adds a fully functional music player inside Minecraft Bedrock Edition. The player allows you to play a customizable list of songs directly in the game. It’s perfect for those who want to enjoy their favorite music while exploring and building in their Minecraft worlds.
+This pack adds a fully functional music player inside Minecraft Bedrock. The player allows you to play a customizable list of songs directly in the game. It’s perfect for those who want to enjoy their favorite music while exploring and building in their Minecraft worlds.
 
 ## ⚙️ Features
 
