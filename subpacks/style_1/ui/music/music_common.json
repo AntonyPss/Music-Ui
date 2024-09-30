@@ -321,7 +321,7 @@
     "size": [ "100%", "100%" ],
     "controls": [
       {
-        "label_bindings": {
+        "labe": {
           "type": "label",
           "text": "$button_text",
           "anchor_from": "center",
