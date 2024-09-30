@@ -335,7 +335,7 @@
   },
 
   "header_tab_base@settings_common.section_toggle_base": {
-    "$button_type_panel": "music_common.music_tab_panel",
+    "$button_type_panel": "music_common.header_tab_common",
     "$toggle_name": "music_tab_toggle",
 
     "$default_texture": "textures/ui/white_button",
