@@ -296,6 +296,7 @@
     "controls": [
       {
         "scrolling_panel@common.scrolling_panel": {
+          "layer": 4,
           "$show_background": false,
           "$scrolling_content": "music_common.scrolling_content_panel",
           "$scroll_size": [ 4, "100% - 4px" ],
