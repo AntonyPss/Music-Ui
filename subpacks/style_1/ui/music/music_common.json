@@ -348,9 +348,6 @@
 
   "music_screen_content": {
     "type": "panel",
-    "$header_bar_panel": "music_common.top_bar",
-    "$header_safezone_panel": "music_common.top_bar",
-    "$radio_toggle_group": false,
     "size": [ "100%", "100%" ],
     "controls": [
       {
