@@ -3,7 +3,7 @@ music.screen.title=Reproductor de Música
 music.screen.tip=Tip
 
 ## Music Tabs ##
-music.tabSection.default=M
+music.tabSection.default=Música predeterminada
 
 ## Music Popup ##
 music.popup.title=Tip
