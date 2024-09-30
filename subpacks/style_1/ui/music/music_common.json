@@ -372,7 +372,7 @@
                   {
                     "padding_middle": {
                       "type": "panel",
-                      "size": [ 4, 0 ]
+                      "size": [ "fill", 0 ]
                     }
                   },
                   {
