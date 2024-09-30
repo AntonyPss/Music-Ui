@@ -291,8 +291,6 @@
 
   "main_panel_content": {
     "type": "panel",
-    "anchor_from": "center",
-    "anchor_to": "center",
     "size": [ "100% - 16px", "100% - 4px" ],
     "controls": [
       {
