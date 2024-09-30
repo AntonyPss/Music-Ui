@@ -328,7 +328,10 @@
           "type": "image",
           "texture": "textures/ui/top_bar",
           "layer": 2,
-          "size": [ "100%", 24 ]
+          "size": [ "100%", 24 ],
+          "controls": [
+            {}
+          ]
         }
       }
     ]
