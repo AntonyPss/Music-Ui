@@ -1,13 +1,16 @@
-# Music Ui
-## Reproductor de Música para Minecraft Bedrock
+¡Por supuesto! Aquí te dejo la versión con emojis en los títulos:
 
-**Creador: @AntonyPss (Discord)**
+---
 
-##  Descripción
+# 🎵 Reproductor de Música para Minecraft Bedrock Edition
+
+**Autor: @AntonyPss (Discord)**
+
+## 📝 Descripción
 
 Este paquete añade un reproductor de música completamente funcional dentro de Minecraft Bedrock Edition. Desarrollado en **JSON**, el reproductor permite la reproducción de una lista de canciones personalizables directamente dentro del juego. Ideal para aquellos que quieren disfrutar de su música favorita mientras exploran y construyen en sus mundos de Minecraft.
 
-## Características
+## ⚙️ Características
 
 - **Interfaz amigable**: La interfaz ha sido diseñada para ser fácil de usar. Cada canción cuenta con controles de reproducción y pausa, así como una visualización clara de la duración de la misma.
   
@@ -17,7 +20,7 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 
 - **Diseño minimalista**: Siguiendo una estética sencilla pero funcional, la interfaz se integra perfectamente con el estilo visual de Minecraft, manteniendo una cohesión estética en el juego.
 
-## Canciones incluidas (por defecto)
+## 🎶 Canciones incluidas (por defecto)
 
 - **PHONK (200MG)** - Deha INC.
 - **WHY NOT** - Ghostface Playa
@@ -28,23 +31,23 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 - **GHOST!** - phonk.me
 - **GIGACHAD THEME** - g3ox_em
 
-## Cómo instalar
+## 📥 Cómo instalar
 
 1. Descarga el paquete y añade el archivo `.mcpack` a tu dispositivo.
 2. Importa el paquete en Minecraft Bedrock Edition desde el menú de paquetes de recursos.
 3. Activa el paquete en el mundo donde desees utilizar el reproductor de música.
 4. Accede al reproductor dentro del juego y disfruta de la música.
 
-## Cómo usar
+## 🎮 Cómo usar
 
 - Abre el **Reproductor de Música** desde el menú del juego.
 - Usa los botones de reproducción y pausa para controlar la música.
 - Cambia entre la música por defecto y la personalizada a través de las opciones proporcionadas.
 
-## Contribuciones y soporte
+## 💬 Contribuciones y soporte
 
 Si tienes sugerencias o necesitas ayuda, no dudes en contactarme a través de Discord: **@AntonyPss**.
 
 ---
 
-¿Qué te parece? ¿Te gustaría agregar o modificar algo más?
+¡Listo! Ahora el texto tiene emojis en los títulos. ¿Qué te parece así?
