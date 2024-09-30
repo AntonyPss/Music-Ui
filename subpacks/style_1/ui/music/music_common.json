@@ -426,7 +426,9 @@
           "type": "panel",
           "size": [ "100%", "fill" ],
           "controls": [
-            {}
+            {
+              "main_panel_content@musi"
+            }
           ]
         }
       }
