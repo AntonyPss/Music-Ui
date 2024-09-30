@@ -328,7 +328,7 @@
           "anchor_to": "center",
           "layer": 2,
           "color": "$text_color",
-          "size": [ "default", 10 ],
+          "size": [ "default", "default" ],
           "offset": [ 0, 0 ]
         }
       }
