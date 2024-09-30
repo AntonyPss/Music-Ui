@@ -348,7 +348,7 @@
         "top_bar_image": {
           "type": "image",
           "texture": "textures/ui/top_bar",
-          "layer": 
+          "layer": 2,
           "size": [ "100%", 24 ]
         }
       }
