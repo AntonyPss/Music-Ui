@@ -345,8 +345,10 @@
     "size": [ "100%", "100%" ],
     "controls": [
       {
-        "top_bar_image": V
-
+        "top_bar_image": {
+          "type": "image",
+          "texture": "textures/ui/top_bar",
+          "size": [ "100%", 22 ]
         }
       }
     ]
