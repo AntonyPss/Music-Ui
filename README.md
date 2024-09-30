@@ -1,7 +1,3 @@
-¡Claro! Puedo ayudarte a redactar un texto para el archivo **MD** que hable sobre tu reproductor de música en JSON para Minecraft Bedrock Edition. Aquí tienes una propuesta:
-
----
-
 # Reproductor de Música para Minecraft Bedrock Edition
 
 **Autor: @AntonyPss (Discord)**
