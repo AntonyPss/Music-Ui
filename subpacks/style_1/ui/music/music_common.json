@@ -289,7 +289,6 @@
     ]
   },
 
-
   "main_panel_content": {
     "type": "panel",
     "anchor_from": "center",
@@ -306,7 +305,7 @@
         }
       }
     ]
-  }
+  },
 
   "header_tab_common": {
     "type": "panel",
