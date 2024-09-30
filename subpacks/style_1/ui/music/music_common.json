@@ -366,7 +366,7 @@
                 "controls": [
                   {
                     "header_tab_0@music_common.header_tab_base": {
-                      "size": [ "50% - 2px", "100%"]
+                      "size": [ "50% - 4px", "100%"]
                     }
                   },
                   {
