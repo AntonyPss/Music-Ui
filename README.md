@@ -1,7 +1,3 @@
-Sure! Here’s the translation into English:
-
----
-
 # Music UI  
 ## Music Player for Minecraft Bedrock Edition
 
