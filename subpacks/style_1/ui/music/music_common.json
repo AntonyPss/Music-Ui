@@ -1,9 +1,6 @@
 {
   "namespace": "music_common",
 
-  "top_bar": {
-  },
-
   "label_common": {
     "type": "label",
     "layer": 2,
