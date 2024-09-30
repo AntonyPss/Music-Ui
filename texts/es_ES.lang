@@ -3,7 +3,7 @@ music.screen.title=Reproductor de Música
 music.screen.tip=Tip
 
 ## Music Tabs ##
-music.tabSection.
+music.tabSection.default
 
 ## Music Popup ##
 music.popup.title=Tip
