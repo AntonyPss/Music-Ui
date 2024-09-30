@@ -345,7 +345,9 @@
     "size": [ "100%", "100%" ],
     "controls": [
       {
-        "top_bar_image": {}
+        "top_bar_image": {
+          
+        }
       }
     ]
   },
