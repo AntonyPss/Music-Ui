@@ -13,7 +13,7 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
   
 - **Música por defecto y personalizada**: Puedes elegir entre una lista de canciones por defecto o cargar tu propia música utilizando la opción de "Custom Music". ¡Personaliza tu experiencia al máximo!
 
-- **Compatibilidad**: El paquete es compatible con la versión más reciente de **Minecraft Bedrock Edition**, y está diseñado para ser ligero y eficiente, sin afectar el rendimiento del juego.
+- **Compatibilidad**: El paquete es compatible con la versión más reciente de **Minecraft Bedrock**, y está diseñado para ser ligero y eficiente, sin afectar el rendimiento del juego.
 
 - **Diseño minimalista**: Siguiendo una estética sencilla pero funcional, la interfaz se integra perfectamente con el estilo visual de Minecraft, manteniendo una cohesión estética en el juego.
 
