@@ -315,6 +315,25 @@
     ]
   },
 
+  "music_tab_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "label_bindings": {
+          "type": "label",
+          "text": "$button_text",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 2,
+          "color": [ 0.1, 0.1, 0.1 ],
+          "size": [ "default", 10 ],
+          "offset": [ 0, 0 ]
+        }
+      }
+    ]
+  },
+
   "header_tab_base@settings_common.section_toggle_base": {
     "$button_type_panel": "music_common.music_tab_panel",
     "$toggle_name": "music_tab_toggle",
