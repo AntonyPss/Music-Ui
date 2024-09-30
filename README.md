@@ -43,4 +43,4 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 
 ## 💬 Contribuciones y soporte
 
-Si tienes sugerencias o necesitas ayuda, no dudes en contactarme a través de []]: **@AntonyPss**.
+Si tienes sugerencias o necesitas ayuda, no dudes en contactarme a través de []: **@AntonyPss**.
