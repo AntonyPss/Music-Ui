@@ -348,7 +348,10 @@
         }
       },
       {
-        "padding0": {}
+        "padding0": {
+          "type": "panel",
+          "size": [ "100%", 4 ]
+        }
       }
     ]
   },
