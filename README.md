@@ -1,5 +1,5 @@
 #
-# 🎵 Reproductor de Música para Minecraft Bedrock Edition
+#  Reproductor de Música para Minecraft Bedrock Edition
 
 **Autor: @AntonyPss (Discord)**
 
