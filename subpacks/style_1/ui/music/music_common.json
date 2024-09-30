@@ -362,7 +362,10 @@
               "stack_panel": {
                 "type": "stack_panel",
                 "orientation": "horizontal",
-                "size": [ "100% - 24px", 28 ]
+                "size": [ "100% - 24px", 28 ],
+                "controls": [
+                  {}
+                ]
               }
             }
           ]
