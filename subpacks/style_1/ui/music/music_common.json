@@ -2,9 +2,6 @@
   "namespace": "music_common",
 
   "top_bar": {
-    "type": "image",
-    "texture": "textures/ui/top_bar",
-    "size": [ "100%", 22 ]
   },
 
   "label_common": {
