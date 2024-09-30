@@ -9,7 +9,7 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 
 ## ⚙️ Características
 
-- **Interfaz amigable**: La interfaz ha sido diseñada para ser fácil de usar. Cada canción cuenta con controles de reproducción y pausa, así como una visualización clara de la duración de la misma.
+- **Interfaz moderna**: La interfaz ha sido diseñada para ser fácil de usar. Cada canción cuenta con controles de reproducción y pausa, así como una visualización clara de la duración de la misma.
   
 - **Música por defecto y personalizada**: Puedes elegir entre una lista de canciones por defecto o cargar tu propia música utilizando la opción de "Custom Music". ¡Personaliza tu experiencia al máximo!
 
