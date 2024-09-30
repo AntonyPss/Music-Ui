@@ -1,23 +1,27 @@
-# Music Ui
-## Reproductor de Música para Minecraft Bedrock Edition
+Sure! Here’s the translation into English:
 
-**Autor: @AntonyPss (Discord)**
+---
 
-## 📝 Descripción
+# Music UI  
+## Music Player for Minecraft Bedrock Edition
 
-Este paquete añade un reproductor de música completamente funcional dentro de Minecraft Bedrock. El reproductor permite la reproducción de una lista de canciones personalizables directamente dentro del juego. Ideal para aquellos que quieren disfrutar de su música favorita mientras exploran y construyen en sus mundos de Minecraft.
+**Author: @AntonyPss (Discord)**
 
-## ⚙️ Características
+## 📝 Description
 
-- **Interfaz moderna**: La interfaz ha sido diseñada para ser fácil de usar. Cada canción cuenta con controles de reproducción y pausa, así como una visualización clara de la duración de la misma.
+This pack adds a fully functional music player inside Minecraft Bedrock Edition. The player allows you to play a customizable list of songs directly in the game. It’s perfect for those who want to enjoy their favorite music while exploring and building in their Minecraft worlds.
+
+## ⚙️ Features
+
+- **Modern Interface**: The interface is designed to be easy to use. Each song has play and pause controls, along with a clear display of its duration.
   
-- **Música por defecto y personalizada**: Puedes elegir entre una lista de canciones por defecto o cargar tu propia música utilizando la opción de "Custom Music". ¡Personaliza tu experiencia al máximo!
+- **Default and Custom Music**: You can choose from a default list of songs or load your own music using the "Custom Music" option. Customize your experience to the fullest!
 
-- **Compatibilidad**: El paquete es compatible con la versión más reciente de **Minecraft Bedrock**, y está diseñado para ser ligero y eficiente, sin afectar el rendimiento del juego.
+- **Compatibility**: The pack is compatible with the latest version of **Minecraft Bedrock**, and it’s designed to be lightweight and efficient, without affecting game performance.
 
-- **Diseño minimalista**: Siguiendo una estética sencilla pero funcional, la interfaz se integra perfectamente con el estilo visual de Minecraft, manteniendo una cohesión estética en el juego.
+- **Minimalist Design**: Following a simple yet functional aesthetic, the interface integrates seamlessly with Minecraft’s visual style, maintaining aesthetic cohesion in the game.
 
-## 🎶 Canciones incluidas (por defecto)
+## 🎶 Default Songs Included
 
 - **PHONK (200MG)** - Deha INC.
 - **WHY NOT** - Ghostface Playa
@@ -28,19 +32,23 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 - **GHOST!** - phonk.me
 - **GIGACHAD THEME** - g3ox_em
 
-## 📥 Cómo instalar
+## 📥 How to Install
 
-1. Descarga el paquete y añade el archivo `.mcpack` a tu dispositivo.
-2. Importa el paquete en Minecraft Bedrock desde el menú de paquetes de recursos.
-3. Activa el paquete en el mundo donde desees utilizar el reproductor de música.
-4. Accede al reproductor dentro del juego y disfruta de la música.
+1. Download the pack and add the `.mcpack` file to your device.
+2. Import the pack into Minecraft Bedrock from the resource packs menu.
+3. Activate the pack in the world where you want to use the music player.
+4. Access the player in-game and enjoy the music.
 
-## 🎮 Cómo usar
+## 🎮 How to Use
 
-- Abre el **Reproductor de Música** desde el menú del juego.
-- Usa los botones de reproducción y pausa para controlar la música.
-- Cambia entre la música por defecto y la personalizada a través de las opciones proporcionadas.
+- Open the **Music Player** from the game’s menu.
+- Use the play and pause buttons to control the music.
+- Switch between default and custom music through the provided options.
 
-## 💬 Contribuciones y soporte
+## 💬 Contributions and Support
 
-Si tienes sugerencias o necesitas ayuda, no dudes en contactarme a través de nuestro [Servidor de Discord](https://discord.gg/kYDf4gadKw)
+If you have suggestions or need help, feel free to contact me through our [Discord Server](https://discord.gg/kYDf4gadKw).
+
+---
+
+Let me know if you’d like to modify anything!
