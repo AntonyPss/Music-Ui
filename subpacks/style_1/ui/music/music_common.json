@@ -291,7 +291,7 @@
 
   "main_panel_content": {
     "type": "panel",
-    "ttts"
+    "ttsSectionContainer": true,
     "size": [ "100% - 16px", "100% - 4px" ],
     "controls": [
       {
