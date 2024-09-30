@@ -354,7 +354,10 @@
         }
       },
       {
-        "header_tab_section": {}
+        "header_tab_section": {
+          "type": "panel",
+          "size": [ "100%"]
+        }
       }
     ]
   },
