@@ -1,6 +1,3 @@
-¡Por supuesto! Aquí te dejo la versión con emojis en los títulos:
-
----
 
 # 🎵 Reproductor de Música para Minecraft Bedrock Edition
 
