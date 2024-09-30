@@ -5,7 +5,7 @@
 
 ## 📝 Descripción
 
-Este paquete añade un reproductor de música completamente funcional dentro de Minecraft Bedrock. Desarrollado en **JSON**, el reproductor permite la reproducción de una lista de canciones personalizables directamente dentro del juego. Ideal para aquellos que quieren disfrutar de su música favorita mientras exploran y construyen en sus mundos de Minecraft.
+Este paquete añade un reproductor de música completamente funcional dentro de Minecraft Bedrock. el reproductor permite la reproducción de una lista de canciones personalizables directamente dentro del juego. Ideal para aquellos que quieren disfrutar de su música favorita mientras exploran y construyen en sus mundos de Minecraft.
 
 ## ⚙️ Características
 
