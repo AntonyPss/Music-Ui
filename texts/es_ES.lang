@@ -4,7 +4,7 @@ music.screen.tip=Tip
 
 ## Music Tabs ##
 music.tabSection.default=Música predeterminada
-music.tabSection.default=Música personalizada
+music.tabSection.custom=Música personalizada
 
 ## Music Popup ##
 music.popup.title=Tip
