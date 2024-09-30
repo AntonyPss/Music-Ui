@@ -380,7 +380,7 @@
                   {
                     "header_tab_1@music_common.header_tab_base": {
                       "$toggle_view_binding_name": "music_custom_section",
-                      "$button_text": "music.tabSection.default",
+                      "$button_text": "music.tabSection.custom",
                       "size": [ "50% - 4px", "100%"]
                     }
                   }
