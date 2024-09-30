@@ -47,7 +47,3 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 ## 💬 Contribuciones y soporte
 
 Si tienes sugerencias o necesitas ayuda, no dudes en contactarme a través de Discord: **@AntonyPss**.
-
----
-
-¡Listo! Ahora el texto tiene emojis en los títulos. ¿Qué te parece así?
