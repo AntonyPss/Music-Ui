@@ -424,6 +424,12 @@
         }
       },
       {
+        "padding0": {
+          "type": "panel",
+          "size": [ "100%", 4 ]
+        }
+      },
+      {
         "main_panel_content": {
           "type": "panel",
           "size": [ "100%", "fill" ]
