@@ -1,7 +1,7 @@
 # Music Ui
 ## Reproductor de Música para Minecraft Bedrock
 
-**Autor: @AntonyPss (Discord)**
+**Creador: @AntonyPss (Discord)**
 
 ## Descripción
 
