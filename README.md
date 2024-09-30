@@ -31,7 +31,7 @@ Este paquete añade un reproductor de música completamente funcional dentro de 
 ## 📥 Cómo instalar
 
 1. Descarga el paquete y añade el archivo `.mcpack` a tu dispositivo.
-2. Importa el paquete en Minecraft Bedrock Edition desde el menú de paquetes de recursos.
+2. Importa el paquete en Minecraft Bedrock desde el menú de paquetes de recursos.
 3. Activa el paquete en el mundo donde desees utilizar el reproductor de música.
 4. Accede al reproductor dentro del juego y disfruta de la música.
 
