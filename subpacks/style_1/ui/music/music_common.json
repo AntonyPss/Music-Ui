@@ -315,7 +315,7 @@
     ]
   },
 
-  "music_tab_base@settings_common.section_toggle_base": {
+  "tab@settings_common.section_toggle_base": {
     "$button_type_panel": "music_common.music_tab_panel",
     "$toggle_name": "music_tab_toggle",
 
