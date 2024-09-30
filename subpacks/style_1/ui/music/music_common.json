@@ -348,6 +348,7 @@
 
   "music_screen_content": {
     "type": "stack_panel",
+    "size"
     "controls": [
       {
         "": {}
