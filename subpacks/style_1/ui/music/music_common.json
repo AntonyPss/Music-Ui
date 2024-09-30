@@ -330,7 +330,20 @@
           "layer": 2,
           "size": [ "100%", 24 ],
           "controls": [
-            {}
+            {
+              "title_text@music_common.label_common": {
+                "text": "music.menu.title",
+                "text_alignment": "center",
+                "font_type": "MinecraftTen",
+                "font_scale_factor": 1.05,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 4,
+                "color": [ 0.1, 0.1, 0.1 ],
+                "size": [ "default", "default" ],
+                "offset": [ 0, -2 ]
+              }
+            }
           ]
         }
       }
