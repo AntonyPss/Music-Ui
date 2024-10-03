@@ -317,7 +317,7 @@
                           }
                         },
                         {
-                          "card_down_label": {
+                          "card_container_title": {
                             "type": "stack_panel",
                             "orientation": "horizontal",
                             "size": [ "100%", "100%c" ],
