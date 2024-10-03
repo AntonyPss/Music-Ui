@@ -6,7 +6,7 @@ music.screen.tip=Tip
 music.tabSection.default=Música predeterminada
 music.tabSection.custom=Música personalizada
 
-## Music Pro ##
+## Music Property ##
 
 ## Music Tip ##
 music.tip.message=Podrasa personalizar la musica en la siguiente ubicacion del dispositivo en tu almacenamiento.
