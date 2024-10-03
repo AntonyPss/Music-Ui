@@ -131,6 +131,41 @@
     ]
   },
 
+  "music_button_template@common.button": {
+    "sound_name": "$music_button_sound_name",
+    "sound_volume": "$music_button_sound_volume",
+    "sound_pitch": 1.0,
+    "$music_button_sound_name|default": "random.click",
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "$music_button_name",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "$music_button_name",
+        "mapping_type": "focused"
+      }
+    ],
+    "controls": [
+      {
+        "default@$button_content": {}
+      },
+      {
+        "hover@$button_content": {
+          "color": [ 0.6, 0.6, 0.6 ]
+        }
+      },
+      {
+        "pressed@$button_content": {
+          "color": [ 0.4, 0.4, 0.4 ],
+          "offset": [ 0, 1 ]
+        }
+      }
+    ]
+  },
+
   //---------------------------------------------------------------------------
   // Screen Content
   //---------------------------------------------------------------------------
