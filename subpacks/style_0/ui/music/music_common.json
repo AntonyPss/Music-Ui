@@ -323,7 +323,7 @@
                             "size": [ "100%", "100%c" ],
                             "controls": [
                               {
-                                "card_container_img": {
+                                "card_container_cimg": {
                                   "type": "image",
                                   "texture": "textures/ui/Black",
                                   "layer": 2,
