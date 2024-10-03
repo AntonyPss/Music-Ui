@@ -22,8 +22,7 @@
   "header_image": {
     "type": "image",
     "texture": "textures/icons/stop_icon",
-    "layer": 2,
-    "size": [ 16, 16 ]
+    "layer": 2
   },
 
   //---------------------------------------------------------------------------
