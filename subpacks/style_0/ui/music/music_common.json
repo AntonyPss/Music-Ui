@@ -239,32 +239,10 @@
   },
 
   "music_button_image": {
-    "type": "panel",
-    "size": [ "100%", "100%" ],
-    "controls": [
-      {
-        "label": {
-          "type": "label",
-          "text": "$button_text",
-          "text_alignment": "center",
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "layer": 4,
-          "color": "$text_color",
-          "size": [ "default", "default" ]
-        }
-      },
-      {
-        "button_image": {
-          "type": "image",
-          "texture": "$button_image",
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "layer": 2,
-          "size": [ "100%", "100%" ]
-        }
-      }
-    ]
+    "type": "image",
+    "texture": "$button_image",
+    "layer": 1,
+    "size": [ "100%", "100%" ]
   },
 
   "menu_open_button@common.button": {
