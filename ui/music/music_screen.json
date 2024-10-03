@@ -111,27 +111,44 @@
               }
             },
             {
-              "padding0@music_common.section_divider_padding": {
+              "music_9@music_common.music_header_section": {
+                // "$music_name": ""
+                // "$music_time": "",
+                // "$music_creator": "",
+                // "$music_button_sound_name": ""
               }
+            },
+            {
+              "padding0@music_common.section_divider_padding": {}
             },
             {
               "music_10@music_common.music_header_section": {
+                // "$music_name": ""
+                // "$music_time": "",
+                // "$music_creator": "",
+                // "$music_button_sound_name": ""
               }
             },
             {
-              "padding1@music_common.section_divider_padding": {
-              }
+              "padding1@music_common.section_divider_padding": {}
             },
             {
               "music_11@music_common.music_header_section": {
+                // "$music_name": ""
+                // "$music_time": "",
+                // "$music_creator": "",
+                // "$music_button_sound_name": ""
               }
             },
             {
-              "padding2@music_common.section_divider_padding": {
-              }
+              "padding2@music_common.section_divider_padding": {}
             },
             {
               "music_12@music_common.music_header_section": {
+                // "$music_name": ""
+                // "$music_time": "",
+                // "$music_creator": "",
+                // "$music_button_sound_name": ""
               }
             }
           ]
