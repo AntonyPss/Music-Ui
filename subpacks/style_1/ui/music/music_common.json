@@ -301,7 +301,7 @@
   // Music Section
   //---------------------------------------------------------------------------
 
-  "music_grid_panel@music_common.music_header_section": {
+  /*"music_grid_panel@music_common.music_header_section": {
     "$music_name": "PHONK (200mg)",
     "$music_time": "02:04",
     "$music_creator": "Deha INC.",
