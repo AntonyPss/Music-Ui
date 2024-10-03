@@ -606,7 +606,7 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$pressed_button_name": "button.menu_buy_game",
-    "size": [ 20, 20 ],
+    "size": [ 24, 20 ],
     "offset": [ 2, 2 ],
     "controls": [
       {
