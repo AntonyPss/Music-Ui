@@ -136,57 +136,6 @@
     "size": [ 4, 0 ]
   },
 
-  "top_bar_image": {
-    "type": "panel",
-    "layer": 2,
-    "controls": [
-      { "back_button@back_button_panel": {} },
-      {
-        "top_bar_stack": {
-          "type": "stack_panel",
-          "orientation": "horizontal",
-          "size": [ "100%", "100%" ],
-          "controls": [
-            {
-              "top_bar_image_left": {
-                "type": "image",
-                "texture": "textures/ui/top_bar",
-                "layer": 2,
-                "size": [ "fill", "100%" ]
-              }
-            },
-            {
-              "top_bar_image_divider": {
-                "type": "image",
-                "texture": "textures/ui/top_bar_divider",
-                "layer": 2,
-                "size": [ "100%c", "100%" ],
-                "controls": [
-                  {
-                    "tip_button@music_common.tip_button_toggle": {
-                      "$toggle_group_forced_index": 0,
-                      "$default_texture_alpha": 0.0,
-                      "$default_checked_texture_alpha": 0.0,
-                      "$hover_texture_alpha": 0.0,
-                      "$hover_checked_texture_alpha": 0.0,
-                      "$default_border_visible": false,
-                      "$hover_border_visible": false,
-                      "$toggle_view_binding_name": "show_tip_modal",
-                      "$button_content": "music_common.tip_button_panel",
-                      "size": [ 48, 12 ],
-                      "offset": [ 0, -1 ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      { "title_header_panel@title_header_panel": {} }
-    ]
-  },
-
   "music_header_section": {
     "type": "panel",
     "size": [ "24%", "100%cm" ],
