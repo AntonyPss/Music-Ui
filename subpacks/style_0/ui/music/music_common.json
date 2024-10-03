@@ -345,9 +345,6 @@
                               },
                               {
                                 "card_container_time_img@music_common.card_label_background": {
-                                  "type": "image",
-                                  "texture": "textures/ui/Black",
-                                  "layer": 2,
                                   "color": "yellow",
                                   "size": [ "100%c + 4px", 12 ],
                                   "controls": [
