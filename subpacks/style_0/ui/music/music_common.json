@@ -39,7 +39,7 @@
 
   "card_label_background": {
     "type": "image",
-    "texture": "textures/ui/Black",
+    "texture": "textures/ui/icons/label_background",
     "layer": 2
   },
 
