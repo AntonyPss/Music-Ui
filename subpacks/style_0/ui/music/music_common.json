@@ -11,7 +11,33 @@
     "controls": [
       {
         "header_common_panel": {
-          ""
+          "type": "image",
+          "texture": "textures/ui/top_bar",
+          "layer": 2,
+          "size": [ "100%", 24 ],
+          "controls": [
+            {
+              "close_button@music_common.close_button": {
+                "size": [ 18, 18 ],
+                "offset": [ 0.5, 0.5 ]
+              }
+            },
+            {
+              "title_text@music_common.label_common": {
+                "text": "music.screen.title",
+                "text_alignment": "center",
+                "font_type": "MinecraftTen",
+                "font_scale_factor": 1.05,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 4,
+                "color": [ 0.1, 0.1, 0.1 ],
+                "size": [ "default", "default" ],
+                "offset": [ 0, -2 ]
+              }
+            }
+          ]
+        }
         }
       }
     ]
