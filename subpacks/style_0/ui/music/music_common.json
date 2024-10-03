@@ -323,7 +323,7 @@
                             "size": [ "100%", "100%c" ],
                             "controls": [
                               {
-                                "card_container_creator_img": {
+                                "card_container_creator_img@music_common": {
                                   "alpha": 0.3,
                                   "size": [ "100%c + 4px", 12 ],
                                   "controls": [
@@ -371,7 +371,7 @@
               }
             },
             {
-              "card_container_button": {
+              "card_container_button_i": {
                 "type": "image",
                 "texture": "textures/ui/dialog/dialog_background_footer",
                 "layer": 2,
