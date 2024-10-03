@@ -19,7 +19,7 @@
     "size": [ 16, 16 ]
   },
 
-  "stop_icon": {
+  "header_image": {
     "type": "image",
     "texture": "textures/icons/stop_icon",
     "layer": 2,
