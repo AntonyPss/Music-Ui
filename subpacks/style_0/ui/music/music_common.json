@@ -286,6 +286,7 @@
 
     "$music_name|default": "",
     "$music_time|default": "",
+    "$mu"
 
     "size": [ "24%", "100%cm" ],
     "controls": [
