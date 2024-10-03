@@ -269,9 +269,6 @@
     "controls": [
       {
         "card_background": {
-          "type": "image",
-          "texture": "textures/ui/dialog/dialog_background",
-          "layer": 1,
           "size": [ "100%", "100%sm + 2px" ]
         }
       },
