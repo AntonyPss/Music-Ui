@@ -313,7 +313,7 @@
     "grid_item_template": "music_common.music_grid_panel",
     "grid_dimensions": [ 1, 12 ],
     "size": [ "100%", "default" ]
-  },
+  },*/
 
   "music_scrolling_panel@common.scrolling_panel": {
     "anchor_from": "top_middle",
