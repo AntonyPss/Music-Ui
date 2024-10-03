@@ -20,7 +20,7 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 
 - **PHONK (200MG)** - Deha Inc.
 - **WHY NOT** - Ghostface Playa
-- **BULLET IN MY HEAD** (feat. Blxckbusta)
+- **BULLET IN MY HEAD** Ghostface Playa
 - **CLOSE EYES** - DVRST
 - **CRYSTALS** - Isolate.exe
 - **FIGHT CLUB** - MoonDeity
