@@ -7,5 +7,5 @@ music.tabSection.default=Música predeterminada
 music.tabSection.custom=Música personalizada
 
 ## Music Popup ##
-music.popup.title=Tip
+music.tip.title=Tip
 music.popup.message=Podrasa personalizar la musica en la siguiente ubicacion del dispositivo en tu almacenamiento.
