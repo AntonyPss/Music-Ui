@@ -238,11 +238,34 @@
     ]
   },
 
+
   "music_button_image": {
-    "type": "image",
-    "texture": "$button_image",
-    "layer": 1,
-    "size": [ "100%", "100%" ]
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "$button_text",
+          "text_alignment": "center",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 4,
+          "color": "$text_color",
+          "size": [ "default", "default" ]
+        }
+      },
+      {
+        "button_image": {
+          "type": "image",
+          "texture": "$button_image",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 2,
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
   },
 
   "menu_open_button@common.button": {
@@ -255,17 +278,20 @@
     "controls": [
       {
         "default@music_common.music_button_image": {
-          "$button_image": "textures/ui/buttons/default_img"
+          "$button_image": "textures/ui/white_button",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       },
       {
         "hover@music_common.music_button_image": {
-          "$button_image": "textures/ui/buttons/hover_img"
+          "$button_image": "textures/ui/white_button_hover",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       },
       {
         "pressed@music_common.music_button_image": {
-          "$button_image": "textures/ui/buttons/pressed_img"
+          "$button_image": "textures/ui/white_button_pressed",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       }
     ]
