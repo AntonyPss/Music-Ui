@@ -459,7 +459,9 @@
           "size": [ "100%", 24 ],
           "controls": [
             {
-              "close_button@music_common.close_button": {}
+              "close_button@music_common.close_button": {
+                
+              }
             },
             {
               "title_text@music_common.label_common": {
