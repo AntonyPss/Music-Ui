@@ -97,7 +97,7 @@
           "controls": [
             {
               "main_panel_content@music_common.main_panel_content": {
-                "size": [ "100% - 24px", "100% - 2px" ]
+                "size": [ "100% - 24px", "100% - 4px" ]
               }
             }
           ]
