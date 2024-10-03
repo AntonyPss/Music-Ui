@@ -347,7 +347,7 @@
                                 }
                               },
                               {
-                                "card_container_time_text": {
+                                "card_container_time_img": {
                                   "type": "image",
                                   "texture": "textures/ui/Black",
                                   "layer": 2,
