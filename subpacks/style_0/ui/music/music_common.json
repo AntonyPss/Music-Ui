@@ -347,7 +347,7 @@
                                 }
                               },
                               {
-                                "card_duration_image": {
+                                "card_container_subtitle": {
                                   "type": "image",
                                   "texture": "textures/ui/Black",
                                   "layer": 2,
