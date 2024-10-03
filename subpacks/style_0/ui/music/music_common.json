@@ -342,7 +342,7 @@
                             "controls": [
                               {
                                 "card_container_creator_img@music_common.card_label_background": {
-                                  "color": 0.3,
+                                  "color": "0.3",
                                   "size": [ "100%c + 4px", 12 ],
                                   "controls": [
                                     {
