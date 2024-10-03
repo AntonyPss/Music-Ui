@@ -38,6 +38,70 @@
             }
           ]
         }
+      },
+      {
+        "padding0": {
+          "type": "panel",
+          "size": [ "100%", 4 ]
+        }
+      },
+      {
+        "header_tab_section": {
+          "type": "panel",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "stack_panel": {
+                "type": "stack_panel",
+                "orientation": "horizontal",
+                "size": [ "100% - 24px", 28 ],
+                "controls": [
+                  {
+                    "header_tab_0@music_common.header_tab_base": {
+                      "$toggle_group_forced_index": 0,
+                      "$toggle_view_binding_name": "music_default_section",
+                      "$button_text": "music.tabSection.default",
+                      "size": [ "50% - 4px", "100%"]
+                    }
+                  },
+                  {
+                    "padding_middle": {
+                      "type": "panel",
+                      "size": [ "fill", 0 ]
+                    }
+                  },
+                  {
+                    "header_tab_1@music_common.header_tab_base": {
+                      "$toggle_group_forced_index": 1,
+                      "$toggle_view_binding_name": "music_custom_section",
+                      "$button_text": "music.tabSection.custom",
+                      "size": [ "50% - 4px", "100%"]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "padding1": {
+          "type": "panel",
+          "size": [ "100%", 4 ]
+        }
+      },
+      {
+        "main_panel_content": {
+          "type": "panel",
+          "size": [ "100%", "fill" ],
+          "controls": [
+            {
+              "main_panel_content@music_common.main_panel_content": {
+                "size": [ "100% - 24px", "100% - 2px" ]
+              }
+            }
+          ]
+        }
       }
     ]
   }
