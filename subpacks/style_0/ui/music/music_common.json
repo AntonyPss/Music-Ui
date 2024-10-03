@@ -323,7 +323,7 @@
                             "size": [ "100%", "100%c" ],
                             "controls": [
                               {
-                                "card_container_creator_img@music_common": {
+                                "card_container_creator_img@music_common.card_label_": {
                                   "alpha": 0.3,
                                   "size": [ "100%c + 4px", 12 ],
                                   "controls": [
