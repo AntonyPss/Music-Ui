@@ -324,9 +324,6 @@
                             "controls": [
                               {
                                 "card_container_creator_img": {
-                                  "type": "image",
-                                  "texture": "textures/ui/Black",
-                                  "layer": 2,
                                   "alpha": 0.3,
                                   "size": [ "100%c + 4px", 12 ],
                                   "controls": [
