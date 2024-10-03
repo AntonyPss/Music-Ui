@@ -284,7 +284,7 @@
   "music_header_section": {
     "type": "panel",
 
-    "$music_name|default": "Unk",
+    "$music_name|default": "",
     "$music_time|default": "",
     "$music_creator|default": "",
 
