@@ -374,7 +374,7 @@
               }
             },
             {
-              "card_bottom_panel": {
+              "card_container_": {
                 "type": "image",
                 "texture": "textures/ui/dialog/dialog_background_footer",
                 "layer": 2,
