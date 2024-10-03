@@ -139,6 +139,17 @@
     "size": [ "default", 10 ]
   },
 
+  "section_divider_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%", "100%cm + 8px" ]
+  },
+
+  "section_divider_padding": {
+    "type": "panel",
+    "size": [ 4, 0 ]
+  },
+
   "close_button_panel": {
     "type": "panel",
     "$texture_color|default": [ 1.0, 1.0, 1.0 ],
