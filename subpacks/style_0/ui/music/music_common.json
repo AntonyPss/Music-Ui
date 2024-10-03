@@ -15,6 +15,40 @@
     "size": [ "default", 10 ]
   },
 
+  "close_button": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "back_button@common.button": {
+          "$button_panel": "music_common.close_button_panel",
+          "$pressed_button_name": "button.menu_exit",
+          "size": [ "100% - 1px", "100% - 1px"  ],
+          "controls": [
+            {
+              "default@$button_panel": {
+                "$bg_visible": false
+              }
+            },
+            {
+              "hover@$button_panel": {
+                "$bg_visible": true,
+                "$texture_color": [ 0.1, 0.1, 0.1 ]
+              }
+            },
+            {
+              "pressed@$button_panel": {
+                "$bg_visible": true,
+                "$texture_color": [ 0.2, 0.2, 0.2 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   //---------------------------------------------------------------------------
   // Screen Content
   //---------------------------------------------------------------------------
