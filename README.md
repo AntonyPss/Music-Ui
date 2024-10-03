@@ -18,7 +18,7 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 
 ## 🎶 Default Songs Included
 
-- **PHONK (200MG)** - Deha INC.
+- **PHONK (200MG)** - Deha Inc.
 - **WHY NOT** - Ghostface Playa
 - **BULLET IN MY HEAD** (feat. Blxckbusta)
 - **CLOSE EYES** - DVRST
