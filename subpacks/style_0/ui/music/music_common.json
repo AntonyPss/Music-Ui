@@ -284,7 +284,7 @@
   "music_header_section": {
     "type": "panel",
 
-    "$music_name|default": "",
+    "$music_name|default": "music.noname.title",
     "$music_time|default": "",
     "$music_creator|default": "",
 
