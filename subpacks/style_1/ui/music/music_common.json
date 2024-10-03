@@ -603,7 +603,7 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$pressed_button_name": "button.menu_buy_game",
-    "$button_text": "M",
+    "$button_type_panel": "",
     "size": [ 24, 24 ],
     "offset": [ 2, 2 ]
   }
