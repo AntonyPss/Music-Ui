@@ -285,7 +285,7 @@
     "type": "panel",
 
     "$music_name|default": "music.noname.title",
-    "$music_time|default": "",
+    "$music_time|default": "00:00",
     "$music_creator|default": "",
 
     "size": [ "24%", "100%cm" ],
