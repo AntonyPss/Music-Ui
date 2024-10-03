@@ -595,16 +595,31 @@
     ]
   },
 
-  "menu_open_button@common_buttons.light_content_button": {
-    "$border_visible": false,
-    "$default_button_texture": "textures/ui/buttons/default_img",
-    "$hover_button_texture": "textures/ui/buttons/hover_img",
-    "$pressed_button_texture": "textures/ui/buttons/pressed_img",
+  "menu_open_button@common.button": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$pressed_button_name": "button.menu_buy_game",
-    "$button_content": "common.empty_panel",
-    "size": [ 24, 24 ],
-    "offset": [ 2, 2 ]
-  }
-}
+    "$button_text": "M",
+    "size": [ 20, 20 ],
+    "offset": [ 2, 2 ],
+    "controls": [
+      {
+        "default@music_common.music_button_image": {
+          "$button_image": "textures/ui/buttons/default_img",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
+        }
+      },
+      {
+        "hover@music_common.music_button_image": {
+          "$button_image": "textures/ui/buttons/hover_img",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
+        }
+      },
+      {
+        "pressed@music_common.music_button_image": {
+          "$button_image": "textures/ui/buttons/pressed_img",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    ]
+  },
