@@ -596,6 +596,7 @@
   },
 
   "menu_open_button@common_buttons.light_content_button": {
+    "$default_button_texture": "",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$pressed_button_name": "button.menu_buy_game",
