@@ -27,7 +27,7 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 - **FIGHT CLUB** - MoonDeity
 - **GHOST!** - phonk.me
 - **GIGACHAD THEME** - g3ox_em
-- ****
+- **Fun**
 
 ## 📥 How to Install
 
