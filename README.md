@@ -1,5 +1,5 @@
 # Music UI 
-## Music Ui for Minecraft Bedrock
+## Music UI for Minecraft Bedrock
 
 **Creator: @AntonyPss (Discord)**
 
