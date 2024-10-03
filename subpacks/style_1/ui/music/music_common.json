@@ -595,6 +595,8 @@
     ]
   },
 
+  "": {},
+
   "menu_open_button@common.button": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
