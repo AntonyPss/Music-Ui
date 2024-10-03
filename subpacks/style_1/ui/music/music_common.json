@@ -596,7 +596,7 @@
   },
 
   "menu_open_button@common_buttons.light_content_button": {
-    "$border_visible": ""
+    "$border_visible": "",
     "$default_button_texture": "textures/ui/buttons/default_img",
     "$hover_button_texture": "textures/ui/buttons/hover_img",
     "$pressed_button_texture": "textures/ui/buttons/pressed_img",
