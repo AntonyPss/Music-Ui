@@ -125,7 +125,9 @@
               }
             },
             {
-              "padding2@music_common.section_divider_padding": {}
+              "padding2@music_common.section_divider_padding": {
+                
+              }
             },
             {
               "music_12@music_common.music_header_section": {
