@@ -290,7 +290,7 @@
       },
       {
         "pressed@music_common.music_button_image": {
-          "$button_image": "textures/ui/white_button_pressed",
+          "$button_image": "textures/ui/buttons/default_img",
           "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       }
