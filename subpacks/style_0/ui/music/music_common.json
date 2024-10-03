@@ -368,7 +368,7 @@
               }
             },
             {
-              "card_container_footer@music_common.": {
+              "card_container_footer@music_common.card_container_footer": {
                 "size": [ "100%", 30 ],
                 "controls": [
                   {
