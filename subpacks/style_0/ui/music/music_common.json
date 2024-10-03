@@ -33,7 +33,7 @@
     ]
   },
 
-  "back_button_panel": {
+  "close_button": {
     "type": "panel",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
