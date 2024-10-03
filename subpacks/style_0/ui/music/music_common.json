@@ -317,7 +317,7 @@
     "size": [ "100%", "100%" ],
     "controls": [
       {
-        "header_common_panel": {
+        "header_common_panelmusic": {
           "size": [ "100%", 24 ],
           "controls": [
             {
