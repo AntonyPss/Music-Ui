@@ -286,7 +286,7 @@
 
     "$music_name|default": "",
     "$music_time|default": "",
-    "$music"
+    "$music_creator|default": "",
 
     "size": [ "24%", "100%cm" ],
     "controls": [
