@@ -263,6 +263,142 @@
   // Screen Content
   //---------------------------------------------------------------------------
 
+  "music_header_section": {
+    "type": "panel",
+    "size": [ "24%", "100%cm" ],
+    "controls": [
+      {
+        "card_background": {
+          "type": "image",
+          "texture": "textures/ui/dialog/dialog_background",
+          "layer": 1,
+          "size": [ "100%", "100%sm + 2px" ]
+        }
+      },
+      {
+        "card_content": {
+          "type": "stack_panel",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [ "100% - 2px", "100%c" ],
+          "controls": [
+            {
+              "card_header_image": {
+                "type": "panel",
+                "size": [ "100%", "100%c + 4px" ],
+                "controls": [
+                  {
+                    "card_image": {
+                      "type": "image",
+                      "texture": "textures/ui/img",
+                      "layer": 4,
+                      "size": [ "100%", "40%x" ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "card_header_panel": {
+                "type": "panel",
+                "size": [ "100%", "100%c" ],
+                "controls": [
+                  {
+                    "card_header_text": {
+                      "type": "stack_panel",
+                      "size": [ "100%", "100%c" ],
+                      "controls": [
+                        {
+                          "card_title@music_common.label_common": {
+                            "text": "$music_name",
+                            "layer": 4,
+                            "max_size": [ "100%", "default" ]
+                          }
+                        },
+                        {
+                          "padding": {
+                            "type": "panel",
+                            "size": [ "100%", 4 ]
+                          }
+                        },
+                        {
+                          "card_down_label": {
+                            "type": "stack_panel",
+                            "orientation": "horizontal",
+                            "size": [ "100%", "100%c" ],
+                            "controls": [
+                              {
+                                "card_creator_image": {
+                                  "type": "image",
+                                  "texture": "textures/ui/Black",
+                                  "layer": 2,
+                                  "alpha": 0.3,
+                                  "size": [ "100%c + 4px", 12 ],
+                                  "controls": [
+                                    {
+                                      "card_creator_text@music_common.label_common": {
+                                        "text": "$music_creator",
+                                        "layer": 4,
+                                        "size": [ "default", "default" ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "padding": {
+                                  "type": "panel",
+                                  "size": [ 4, 0 ]
+                                }
+                              },
+                              {
+                                "card_duration_image": {
+                                  "type": "image",
+                                  "texture": "textures/ui/Black",
+                                  "layer": 2,
+                                  "color": "yellow",
+                                  "size": [ "100%c + 4px", 12 ],
+                                  "controls": [
+                                    {
+                                      "card_duration_text@music_common.label_common": {
+                                        "text": "$music_time",
+                                        "layer": 4,
+                                        "size": [ "default", "default" ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "card_bottom_panel": {
+                "type": "image",
+                "texture": "textures/ui/dialog/dialog_background_footer",
+                "layer": 2,
+                "size": [ "100%", 30 ],
+                "controls": [
+                  {
+                    "music_buttons_stack@music_common.music_buttons_stack": {
+                      "layer": 2
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "scrolling_content_panel": {
     "type": "stack_panel",
     "size": [ "100%", "100%c" ],
