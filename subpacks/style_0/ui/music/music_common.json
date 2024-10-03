@@ -284,6 +284,8 @@
   "music_header_section": {
     "type": "panel",
 
+    "$music_time|default": "",
+
     "size": [ "24%", "100%cm" ],
     "controls": [
       {
