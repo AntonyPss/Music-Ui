@@ -268,7 +268,7 @@
     "size": [ "24%", "100%cm" ],
     "controls": [
       {
-        "card_background@music_common.card_con": {
+        "card_background@music_common.card_container_background": {
           "size": [ "100%", "100%sm + 2px" ]
         }
       },
