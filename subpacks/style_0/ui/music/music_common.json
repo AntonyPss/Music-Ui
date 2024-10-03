@@ -48,12 +48,6 @@
   "header_tab_base@settings_common.section_toggle_base": {
     "$button_type_panel": "music_common.header_tab_common",
     "$toggle_name": "music_tab_toggle",
-
-    /*"$default_texture": "textures/ui/white_button",
-    "$hover_texture": "textures/ui/white_button_hover",
-    "$pressed_texture": "textures/ui/white_button",
-    "$pressed_no_hover_texture": "textures/ui/white_button_hover",*/
-
     "$default_border_visible": false,
     "$hover_border_visible": false
   },
