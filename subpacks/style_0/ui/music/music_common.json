@@ -25,6 +25,25 @@
     "layer": 2
   },
 
+  "card_container_background": {
+    "type": "image",
+    "texture": "textures/ui/dialog/dialog_background",
+    "layer": 1
+  },
+
+  "card_container_footer": {
+    "type": "image",
+    "texture": "textures/ui/dialog/dialog_background_footer",
+    "layer": 2
+  },
+
+  "card_label_background": {
+    "type": "image",
+    "texture": "textures/ui/Black",
+    "layer": 2
+  },
+
+
   //---------------------------------------------------------------------------
   // Button Section
   //---------------------------------------------------------------------------
