@@ -57,7 +57,7 @@
                 "size": [ "100% - 24px", 28 ],
                 "controls": [
                   {
-                    "header_tab_0@music_common.header_tab_base": {
+                    "header_tab_left@music_common.header_tab_base": {
                       "$toggle_group_forced_index": 0,
                       "$toggle_view_binding_name": "music_default_section",
                       "$button_text": "music.tabSection.default",
