@@ -597,7 +597,8 @@
 
   "music_button_image": {
     "type": "image",
-    "texture": "$button_image"
+    "texture": "$button_image",
+    "layer": 1
   },
 
   "menu_open_button@common.button": {
