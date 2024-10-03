@@ -42,7 +42,7 @@
     "controls": [
       {
         "back_button@common.button": {
-          "$button_panel": "music_common.leback_button_common",
+          "$button_panel": "music_common.back_button_common",
           "$pressed_button_name": "button.menu_exit",
           "size": [ "100% - 1px", "100% - 1px"  ],
           "controls": [
@@ -511,6 +511,9 @@
           "layer": 2,
           "size": [ "100%", 24 ],
           "controls": [
+            {
+              "": {}
+            },
             {
               "title_text@music_common.label_common": {
                 "text": "music.screen.title",
