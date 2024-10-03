@@ -599,7 +599,7 @@
     "type": "image",
     "texture": "$button_image",
     "layer": 1,
-    "size": [ ""]
+    "size": [ "100%", "100%" ]
   },
 
   "menu_open_button@common.button": {
