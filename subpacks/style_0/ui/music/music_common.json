@@ -71,7 +71,7 @@
                     }
                   },
                   {
-                    "header_tab_1@music_common.header_tab_base": {
+                    "header_tab_right@music_common.header_tab_base": {
                       "$toggle_group_forced_index": 1,
                       "$toggle_view_binding_name": "music_custom_section",
                       "$button_text": "music.tabSection.custom",
