@@ -118,7 +118,8 @@
               }
             },
             {
-              "padding1@music_common.section_divider_padding": {}
+              "padding1@music_common.section_divider_padding": {
+              }
             },
             {
               "music_11@music_common.music_header_section": {
@@ -126,7 +127,6 @@
             },
             {
               "padding2@music_common.section_divider_padding": {
-                
               }
             },
             {
