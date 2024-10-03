@@ -512,7 +512,7 @@
           "size": [ "100%", 24 ],
           "controls": [
             {
-              "": {}
+              "close": {}
             },
             {
               "title_text@music_common.label_common": {
