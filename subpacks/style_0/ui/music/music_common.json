@@ -42,7 +42,7 @@
     "controls": [
       {
         "back_button@common.button": {
-          "$button_panel": "music_common.back_button_common",
+          "$button_panel": "music_common.close_button_panel",
           "$pressed_button_name": "button.menu_exit",
           "size": [ "100% - 1px", "100% - 1px"  ],
           "controls": [
