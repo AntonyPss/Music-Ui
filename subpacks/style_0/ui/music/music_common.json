@@ -23,7 +23,7 @@
               }
             },
             {
-              "title_text@music_common.label_common": {
+              "title_label@music_common.label_common": {
                 "text": "music.screen.title",
                 "text_alignment": "center",
                 "font_type": "MinecraftTen",
