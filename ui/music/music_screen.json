@@ -111,14 +111,6 @@
               }
             },
             {
-              "music_9@music_common.music_header_section": {
-                // "$music_name": ""
-                // "$music_time": "",
-                // "$music_creator": "",
-                // "$music_button_sound_name": ""
-              }
-            },
-            {
               "padding0@music_common.section_divider_padding": {}
             },
             {
