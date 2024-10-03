@@ -331,7 +331,7 @@
                                   "size": [ "100%c + 4px", 12 ],
                                   "controls": [
                                     {
-                                      "card_creator_text@music_common.label_common": {
+                                      "card_container_creator_imgtext@music_common.label_common": {
                                         "text": "$music_creator",
                                         "layer": 4,
                                         "size": [ "default", "default" ]
