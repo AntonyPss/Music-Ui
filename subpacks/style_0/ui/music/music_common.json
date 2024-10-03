@@ -7,6 +7,9 @@
 
   "music_screen_content": {
     "type": "stack_panel",
-    ""
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {}
+    ]
   }
 }
