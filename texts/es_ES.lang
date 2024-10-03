@@ -8,7 +8,7 @@ music.tabSection.custom=Música personalizada
 
 ## Music Property ##
 music.noname.title=Sin nombre
-music.nocreator.title
+music.nocreator.title=
 
 ## Music Tip ##
 music.tip.message=Podrasa personalizar la musica en la siguiente ubicacion del dispositivo en tu almacenamiento.
