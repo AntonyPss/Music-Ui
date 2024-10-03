@@ -369,9 +369,6 @@
             },
             {
               "card_container_footer": {
-                "type": "image",
-                "texture": "textures/ui/dialog/dialog_background_footer",
-                "layer": 2,
                 "size": [ "100%", 30 ],
                 "controls": [
                   {
