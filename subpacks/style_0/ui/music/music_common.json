@@ -294,7 +294,7 @@
               }
             },
             {
-              "card_container_": {
+              "card_container_body": {
                 "type": "panel",
                 "size": [ "100%", "100%c" ],
                 "controls": [
