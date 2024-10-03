@@ -374,7 +374,7 @@
               }
             },
             {
-              "card_container_": {
+              "card_container_button": {
                 "type": "image",
                 "texture": "textures/ui/dialog/dialog_background_footer",
                 "layer": 2,
