@@ -212,6 +212,56 @@
   // Screen Content
   //---------------------------------------------------------------------------
 
+
+  "scrolling_content_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "music_default_section@music_screen.music_default_pack": {
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "music_default_section",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "music_custom_section@music_screen.music_custom_user": {
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "music_custom_section",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_panel_content": {
+    "type": "panel",
+    "ttsSectionContainer": true,
+    "size": [ "100%", "100% - 4px" ],
+    "controls": [
+      {
+        "scrolling_panel@common.scrolling_panel": {
+          "layer": 4,
+          "$show_background": false,
+          "$scrolling_content": "music_common.scrolling_content_panel",
+          "$scroll_size": [ 4, "100% - 4px" ],
+          "$scrolling_pane_size": [ "100%", "100%" ],
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
+  },
+
   "music_screen_content": {
     "type": "stack_panel",
     "size": [ "100%", "100%" ],
