@@ -7,7 +7,7 @@ music.tabSection.default=Música predeterminada
 music.tabSection.custom=Música personalizada
 
 ## Music Property ##
-music.noname.title=Desconocido
+music.noname.title=Sin nombre
 
 ## Music Tip ##
 music.tip.message=Podrasa personalizar la musica en la siguiente ubicacion del dispositivo en tu almacenamiento.
