@@ -5,5 +5,8 @@
   // Screen Content
   //---------------------------------------------------------------------------
 
-  "music_screen_content": {}
+  "music_screen_content": {
+    "type": "stack_panel",
+    ""
+  }
 }
