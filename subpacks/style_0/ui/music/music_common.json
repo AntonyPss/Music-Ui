@@ -238,7 +238,6 @@
     ]
   },
 
-
   "music_button_image": {
     "type": "panel",
     "size": [ "100%", "100%" ],
