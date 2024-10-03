@@ -283,6 +283,7 @@
 
   "music_header_section": {
     "type": "panel",
+
     "size": [ "24%", "100%cm" ],
     "controls": [
       {
