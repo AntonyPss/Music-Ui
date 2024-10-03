@@ -344,7 +344,7 @@
                                 }
                               },
                               {
-                                "card_container_time_img": {
+                                "card_container_time_imgmusic_common.card_label_background": {
                                   "type": "image",
                                   "texture": "textures/ui/Black",
                                   "layer": 2,
