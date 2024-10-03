@@ -278,7 +278,7 @@
           "size": [ "100% - 2px", "100%c" ],
           "controls": [
             {
-              "card_header_image": {
+              "card_container_image": {
                 "type": "panel",
                 "size": [ "100%", "100%c + 4px" ],
                 "controls": [
