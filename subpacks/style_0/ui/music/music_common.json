@@ -91,7 +91,7 @@
         }
       },
       {
-        "main_panel_content": {
+        "main_contetn": {
           "type": "panel",
           "size": [ "100%", "fill" ],
           "controls": [
