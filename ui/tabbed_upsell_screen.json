@@ -1,6 +1,6 @@
 {
   "tabbed_upsell_screen": {
-    "$header_safezone_control": "$header_safezone_panel",
+    "$header_safezone_control": "m",
     "$header_bar_control": "$header_bar_panel",
     "$screen_content": "music_common.music_screen_content",
     "$screen_bg_content": "common.screen_background",
