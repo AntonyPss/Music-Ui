@@ -318,9 +318,6 @@
     "controls": [
       {
         "header_common_panel": {
-          "type": "image",
-          "texture": "textures/ui/top_bar",
-          "layer": 2,
           "size": [ "100%", 24 ],
           "controls": [
             {
