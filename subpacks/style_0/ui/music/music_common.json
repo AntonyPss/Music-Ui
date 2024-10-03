@@ -172,6 +172,7 @@
       }
     ]
   },
+
   "header_tab_common": {
     "type": "panel",
     "$text_color|default": [ 0.1, 0.1, 0.1 ],
