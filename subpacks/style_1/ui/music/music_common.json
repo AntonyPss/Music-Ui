@@ -604,7 +604,7 @@
     "anchor_to": "top_left",
     "$pressed_button_name": "button.menu_buy_game",
     "$button_text": "M",
-    "size": [ 24, 20 ],
+    "size": [ 24, 24 ],
     "offset": [ 2, 2 ]
   }
 }
