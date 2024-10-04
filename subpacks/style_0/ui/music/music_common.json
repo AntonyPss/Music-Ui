@@ -545,7 +545,15 @@
       {
         "padding_0": {
           "type": "panel",
-          "size": [ "100%", 4 ]
+          "size": [ "100%", 4 ],
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "tip_message_toggle",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ],
         }
       },
       {
