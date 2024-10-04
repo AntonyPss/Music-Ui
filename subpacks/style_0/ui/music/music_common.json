@@ -500,7 +500,7 @@
                       "controls": [
                         {
                           "tip_message_label@music_common.label_common": {
-                            "size": [ "100%", "default" ]
+                            "size": [ "100% - 4px", "default" ]
                           }
                         }
                       ]
