@@ -145,7 +145,7 @@
       },
       {
         "hover@music_common.music_button_image": {
-          "$button_image": "textures/ui/button/default_img",
+          "$button_image": "textures/ui/button/hover_img",
           "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       },
