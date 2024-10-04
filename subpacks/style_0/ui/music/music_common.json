@@ -495,7 +495,7 @@
                     }
                   },
                   {
-                    "tip_message_image@music_common.card_": {
+                    "tip_message_image@music_common.card_label_background": {
                       "layer": 98,
                       "size": [ 132, "100%c + 4px" ],
                       "controls": [
