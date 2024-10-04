@@ -491,6 +491,8 @@
                 "controls": [
                   {
                     "tip_toggle_button@music_common.tip_toggle_button": {
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
                       "size": [ 14, 14 ]
                     }
                   },
