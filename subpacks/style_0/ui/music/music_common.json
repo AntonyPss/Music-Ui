@@ -546,7 +546,7 @@
                       "controls": [
                         {
                           "tip_message_label": {
-                            "size":
+                            "size": [ 132, "default" ]
                           }
                         }
                       ]
