@@ -209,56 +209,6 @@
     ]
   },
 
-  "tip_button_panel": {
-    "type": "stack_panel",
-    "orientation": "horizontal",
-    "controls": [
-      {
-        "tip_icon_panel": {
-          "type": "panel",
-          "size": [ "100%c", "100%" ],
-          "controls": [
-            {
-              "tip_icon": {
-                "type": "image",
-                "texture": "textures/ui/icons/tip_icon",
-                "layer": 4,
-                "color": [ 0.1, 0.1, 0.1 ],
-                "size": [ 12, 12 ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "padding": {
-          "type": "panel",
-          "size": [ 2, 0 ]
-        }
-      },
-      {
-        "tip_label_panel": {
-          "type": "panel",
-          "size": [ "100%c", "100%" ],
-          "controls": [
-            {
-              "tip_label": {
-                "type": "label",
-                "text": "music.screen.tip",
-                "text_alignment": "center",
-                "anchor_from": "center",
-                "anchor_to": "center",
-                "layer": 4,
-                "color": [ 0.1, 0.1, 0.1 ],
-                "size": [ "default", 10 ]
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-
   "header_tab_common": {
     "type": "panel",
     "$text_color|default": [ 0.1, 0.1, 0.1 ],
