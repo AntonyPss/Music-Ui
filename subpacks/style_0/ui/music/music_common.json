@@ -534,7 +534,7 @@
                 "anchor_from": "top_right",
                 "anchor_to": "top_right",
                 "size": [ 16, 16 ],
-                "offset": [ 0, -2 ]
+                "offset": [ 0, 0.5 ]
               }
             }
           ]
