@@ -500,7 +500,7 @@
                       "anchor_to": "top_right",
                       "layer": 98,
                       "size": [ 132, "100%c + 4px" ],
-                      "offset": [ -28, 8 ],
+                      "offset": [ -28, 16 ],
                       "controls": [
                         {
                           "tip_message_label@music_common.label_common": {
