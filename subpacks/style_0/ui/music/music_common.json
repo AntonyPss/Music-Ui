@@ -553,7 +553,7 @@
               "source_property_name": "#toggle_state",
               "target_property_name": "#visible"
             }
-          ],
+          ]
         }
       },
       {
