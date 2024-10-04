@@ -139,7 +139,7 @@
     "controls": [
       {
         "default@music_common.music_button_image": {
-          "$button_image": "textures/ui/button",
+          "$button_image": "textures/ui/button/default",
           "$text_color": [ 1.0, 1.0, 1.0 ]
         }
       },
