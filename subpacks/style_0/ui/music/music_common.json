@@ -129,7 +129,10 @@
     ]
   },
 
-  "music_button_image"
+  "music_button_image": {
+    "type": "image",
+    "texture": ""
+  },
 
   "menu_open_button@common.button": {
     "anchor_from": "top_left",
