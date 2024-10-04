@@ -14,7 +14,7 @@
 
   "stop_icon": {
     "type": "image",
-    "texture": "textures/icons/stop_icon",
+    "texture": "textures/ui/icons/stop_icon",
     "layer": 2,
     "size": [ 16, 16 ]
   },
