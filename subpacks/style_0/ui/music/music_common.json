@@ -545,7 +545,9 @@
                       "color": [],
                       "controls": [
                         {
-                          "tip_message_label": {}
+                          "tip_message_label": {
+                            "size":
+                          }
                         }
                       ]
                     }
