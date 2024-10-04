@@ -368,6 +368,8 @@
                   {
                     "card_container_content": {
                       "type": "stack_panel",
+                      "anchor_from": "center",
+                      "anchor_to": "center",
                       "size": [ "100% - 2px", "100%c" ],
                       "controls": [
                         {
