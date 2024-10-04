@@ -531,7 +531,12 @@
             },
             {
               "tip_message_panel": {
-                "type"
+                "type": "panel",
+                "controls": [
+                  {
+                    "": []
+                  }
+                ]
               }
             }
           ]
