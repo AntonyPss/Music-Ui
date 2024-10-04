@@ -549,6 +549,7 @@
                       "controls": [
                         {
                           "tip_message_label@music_common.label_common": {
+                            "text": "",
                             "anchor_from": "center",
                             "anchor_to": "center",
                             "layer": 99,
