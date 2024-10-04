@@ -495,7 +495,9 @@
                     }
                   },
                   {
-                    "tip_message_image": {}
+                    "tip_message_image": {
+                      "size": [ ]
+                    }
                   }
                 ]
               }
