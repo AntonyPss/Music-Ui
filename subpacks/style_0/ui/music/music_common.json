@@ -518,7 +518,7 @@
           "bindings": [
             {
               "binding_type": "view",
-              "source_control_name": "tip_message_toggle",
+              "source_control_name": "tip_message_show",
               "source_property_name": "#toggle_state",
               "target_property_name": "#visible"
             }
