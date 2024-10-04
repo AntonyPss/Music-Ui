@@ -556,7 +556,9 @@
           "bindings": [
             {
               "binding_type": "view",
-              "source_control_name": ""
+              "source_control_name": "tip_message_toggle",
+              "source_property_name": "#toggle_state",
+              ""
             }
           ],
           "controls": [
