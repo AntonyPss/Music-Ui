@@ -548,7 +548,7 @@
                       "color": [ 132, "100%c + 4px" ],
                       "controls": [
                         {
-                          "tip_message_label": {
+                          "tip_message_label@music_common.": {
                             "anchor_from": "center",
                             "anchor_to": "center",
                             "layer": 99,
