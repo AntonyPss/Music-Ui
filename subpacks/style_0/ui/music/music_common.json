@@ -545,7 +545,7 @@
                       "anchor_from": "top_right",
                       "anchor_to": "top_right",
                       "layer": 98,
-                      "color": [],
+                      "color": [ 132, ""],
                       "controls": [
                         {
                           "tip_message_label": {
