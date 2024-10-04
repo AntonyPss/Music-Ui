@@ -496,7 +496,7 @@
                   },
                   {
                     "tip_message_image": {
-                      "layer"
+                      "layer": 98,
                       "size": [ 132, "100%c" ],
                       "controls": [
                         {
