@@ -9,4 +9,5 @@ music.tabSection.custom=Custom Music
 music.noname.title=No Name
 music.nocreator.title=Unknown
 
-## Music Tip ##music.tip.message=You can customize the music in:
+## Music Tip ##
+music.tip.message=You can customize the music in:
