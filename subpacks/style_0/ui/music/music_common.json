@@ -552,7 +552,7 @@
                             "anchor_from": "center",
                             "anchor_to": "center",
                             "layer": 99,
-                            "size": [ 132, "default" ]
+                            "size": [ "100% - 4px", "default" ]
                           }
                         }
                       ]
