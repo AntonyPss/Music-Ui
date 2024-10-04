@@ -313,6 +313,12 @@
         }
       },
       {
+        "paddingMiddle": {
+          "type": "panel",
+          "size": [ 8, 0 ]
+        }
+      },
+      {
         "paddingRight": {
           "type": "panel",
           "size": [ 8, 0 ]
