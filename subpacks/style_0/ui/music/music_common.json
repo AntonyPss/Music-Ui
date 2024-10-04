@@ -415,7 +415,7 @@
                                 "card_container_time_img@music_common.card_label_background": {
                                   "color": [ 0.75, 0.65, 0.15 ],
                                   "size": [ "100%c + 4px", 12 ],
-                                  "max_size": [ 12],
+                                  "max_size": [ , 12],
                                   "controls": [
                                     {
                                       "card_container_time_text@music_common.label_common": {
