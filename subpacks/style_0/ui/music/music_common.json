@@ -499,7 +499,7 @@
                       "size": [ 132, "100%c" ],
                       "controls": [
                         {
-                          "": {}
+                          "tip_message_label": {}
                         }
                       ]
                     }
