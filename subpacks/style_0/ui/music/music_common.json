@@ -82,7 +82,7 @@
   },
 
   "tip_button_toggle@common_toggles.light_content_toggle": {
-    "$toggle_view_binding_name": "",
+    "$toggle_view_binding_name": "tip",
     "$toggle_name": "tip_modal_toggle",
     "layer": 4,
     "size": [ "100%", "100%" ]
