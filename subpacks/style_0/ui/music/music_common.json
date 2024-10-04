@@ -490,7 +490,7 @@
                 "size": [ "100%", "100%" ],
                 "controls": [
                   {
-                    "tip_toggle_button@music_common.tip_message_toggle": {}
+                    "tip_toggle_button@music_common.tip_toggle_button": {}
                   }
                 ]
               }
