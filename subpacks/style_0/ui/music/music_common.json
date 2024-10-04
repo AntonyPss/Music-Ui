@@ -535,7 +535,12 @@
             {
               "tip_message_panel": {
                 "type": "panel",
-                "size": [ "100%", "100%" ]
+                "size": [ "100%", "100%" ],
+                "controls": [
+                  {
+                    "": {}
+                  }
+                ]
               }
             }
           ]
