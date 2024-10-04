@@ -493,6 +493,9 @@
                     "tip_toggle_button@music_common.tip_toggle_button": {
                       "size": [ 14, 14 ]
                     }
+                  },
+                  {
+                    ""
                   }
                 ]
               }
