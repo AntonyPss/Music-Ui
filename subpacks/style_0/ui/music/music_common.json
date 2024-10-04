@@ -534,7 +534,7 @@
                 "type": "panel",
                 "controls": [
                   {
-                    "tip_toggle_button": {}
+                    "tip_toggle_button@ms": {}
                   }
                 ]
               }
