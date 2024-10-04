@@ -557,7 +557,7 @@
           "anchor_from": "top_right",
           "anchor_to": "top_right",
           "layer": 98,
-          "color": [ 132, "100%c + 4px" ],
+          "color": [ "!00%", "100%c + 4px" ],
           "controls": [
             {
               "tip_message_label@music_common.label_common": {
