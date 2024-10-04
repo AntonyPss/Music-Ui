@@ -491,7 +491,7 @@
                 "controls": [
                   {
                     "tip_toggle_button@music_common.tip_toggle_button": {
-                      "size": [ ]
+                      "size": [ 14, ]
                     }
                   }
                 ]
