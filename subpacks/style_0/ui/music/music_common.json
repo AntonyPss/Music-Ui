@@ -7,7 +7,7 @@
 
   "play_icon": {
     "type": "image",
-    "texture": "textures/icons/play_icon",
+    "texture": "textures/uiicons/play_icon",
     "layer": 2,
     "size": [ 16, 16 ]
   },
