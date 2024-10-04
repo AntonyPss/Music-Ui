@@ -319,7 +319,7 @@
         }
       },
       {
-        "tip_mesa@music_common.music_button_template": {
+        "tip_message_panel@music_common.music_button_template": {
           "$music_button_sound_volume": 0.0000000000000001,
           "$music_button_name": "button.menu_stop",
           "$button_content": "music_common.stop_icon",
