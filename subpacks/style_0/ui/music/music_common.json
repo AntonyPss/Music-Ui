@@ -530,7 +530,9 @@
               }
             },
             {
-              "tip_message_panel": {}
+              "tip_message_panel": {
+                "type"
+              }
             }
           ]
         }
