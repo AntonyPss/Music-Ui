@@ -387,7 +387,7 @@
                           "card_container_subtitle": {
                             "type": "stack_panel",
                             "orientation": "horizontal",
-                            "size": [ "100% - 4px", "100%cm" ],
+                            "size": [ "100%", "100%cm" ],
                             "controls": [
                               {
                                 "card_container_creator_img@music_common.card_label_background": {
