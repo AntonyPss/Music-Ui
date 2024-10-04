@@ -546,7 +546,7 @@
                       "controls": [
                         {
                           "tip_message_label": {
-                            "layer": "",
+                            "layer": 99,
                             "size": [ 132, "default" ]
                           }
                         }
