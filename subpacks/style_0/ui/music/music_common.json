@@ -542,6 +542,7 @@
                   },
                   {
                     "tip_message_image@music_common.card_label_background": {
+                      "layer": 98,
                       "color": [],
                       "controls": [
                         {
