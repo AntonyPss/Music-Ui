@@ -393,6 +393,7 @@
                                 "card_container_creator_img@music_common.card_label_background": {
                                   "color": [ 0.16, 0.16, 0.16 ],
                                   "size": [ "100%c + 4px", 12 ],
+                                  "max_size": ,
                                   "controls": [
                                     {
                                       "card_container_creator_text@music_common.label_common": {
