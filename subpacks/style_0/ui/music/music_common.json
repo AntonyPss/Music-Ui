@@ -372,6 +372,7 @@
                                       "card_container_time_text@music_common.label_common": {
                                         "text": "$music_time",
                                         "layer": 4,
+                                        "shadow": true,
                                         "color": [ 0.1, 0.1, 0.1 ],
                                         "size": [ "default", "default" ]
                                       }
