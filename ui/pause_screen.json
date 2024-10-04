@@ -1,7 +1,7 @@
 {
   "namespace": "pause",
 
-  "start_screen_content": {
+  "pause_screen_content": {
     "modifications": [
       {
         "array_name": "controls",
