@@ -129,6 +129,35 @@
     ]
   },
 
+  "menu_open_button@common.button": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "$pressed_button_name": "button.menu_buy_game",
+    "$button_text": "M",
+    "size": [ 20, 20 ],
+    "offset": [ 2, 2 ],
+    "controls": [
+      {
+        "default@music_common.music_button_image": {
+          "$button_image": "textures/ui/white_button",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
+        }
+      },
+      {
+        "hover@music_common.music_button_image": {
+          "$button_image": "textures/ui/white_button_hover",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
+        }
+      },
+      {
+        "pressed@music_common.music_button_image": {
+          "$button_image": "textures/ui/white_button_pressed",
+          "$text_color": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    ]
+  },
+
   //---------------------------------------------------------------------------
   // Common Section
   //---------------------------------------------------------------------------
