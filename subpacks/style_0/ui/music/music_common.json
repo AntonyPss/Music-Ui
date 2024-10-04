@@ -273,7 +273,7 @@
           "layer": 2,
           "color": "$text_color",
           "size": [ "default", "default" ],
-          "offset": [ 0, 0 ]
+          "offset": [ 0, -1 ]
         }
       }
     ]
