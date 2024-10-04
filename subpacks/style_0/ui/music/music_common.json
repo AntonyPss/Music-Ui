@@ -129,6 +129,8 @@
     ]
   },
 
+  "music_button_image"
+
   "menu_open_button@common.button": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
