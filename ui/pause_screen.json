@@ -1,7 +1,13 @@
 {
   "pause_screen_content": {
-    "$screen_content": "music_common.music_screen_content",
-    "$screen_bg_content": "common.screen_background",
-    "$screen_background_alpha": 0.5
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {}
+        ]
+      }
+    ]
   }
 }
