@@ -313,7 +313,7 @@
         }
       },
       {
-        "paddingMiddle": {
+        "paddingMiddleFill": {
           "type": "panel",
           "size": [ 8, 0 ]
         }
