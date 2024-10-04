@@ -552,6 +552,7 @@
                             "anchor_from": "center",
                             "anchor_to": "center",
                             "layer": 99,
+                            "color": [ 0.1, 0.1, 0.1 ],
                             "size": [ "100% - 4px", "default" ]
                           }
                         }
