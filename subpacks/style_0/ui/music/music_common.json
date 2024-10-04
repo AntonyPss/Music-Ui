@@ -83,7 +83,7 @@
 
   "tip_toggle_button@common_toggles.light_content_toggle": {
     "$toggle_view_binding_name": "tip_message_show",
-    "$toggle_name": "tip_modal_toggle",
+    "$toggle_name": "tip_message",
     "layer": 4,
     "size": [ "100%", "100%" ]
   },
