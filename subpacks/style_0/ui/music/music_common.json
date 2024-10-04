@@ -531,6 +531,9 @@
                 "size": [ "default", "default" ],
                 "offset": [ 0, -2 ]
               }
+            },
+            {
+              "": []
             }
           ]
         }
