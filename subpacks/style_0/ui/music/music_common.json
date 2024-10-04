@@ -497,7 +497,7 @@
                   {
                     "tip_message_image": {
                       "layer": 98,
-                      "size": [ 132, "100%c" ],
+                      "size": [ 132, "100%c + 4px" ],
                       "controls": [
                         {
                           "tip_message_label@music_common.label_common": {
