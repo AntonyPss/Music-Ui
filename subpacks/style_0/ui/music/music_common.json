@@ -550,7 +550,7 @@
                         {
                           "tip_message_label": {
                             "anchor_from": "top_right",
-                            "anchor_to": "top_right",
+                            "anchor_to": "center",
                             "layer": 99,
                             "size": [ 132, "default" ]
                           }
