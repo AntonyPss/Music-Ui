@@ -25,10 +25,11 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 - **FUNK ESTRANHO** - NeZz
 
 ## 📥 How to Install
-1. Download the pack and add the `.mcpack` file to your device.
-2. Import the pack into Minecraft Bedrock from the resource packs menu.
-3. Activate the pack in the world where you want to use the music player.
-4. Access the player in-game and enjoy the music.
+1. Download the pack and add the `.zip` file to your device.
+2. Using a text editor rename the `.zip` file to `.mcpack`.
+3. Import the pack into Minecraft Bedrock from the resource packs menu.
+4. Activate the pack in the world where you want to use the music player.
+5. Access the player in-game and enjoy the music.
 
 ## 🎮 How to Use
 - Open the **Music Player** from the game’s menu.
