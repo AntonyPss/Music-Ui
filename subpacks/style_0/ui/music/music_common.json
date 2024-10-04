@@ -295,7 +295,7 @@
           "$music_button_sound_volume": 1.0,
           "$music_button_name": "button.menu_play",
           "$button_content": "music_common.play_icon",
-          "size": [ 20, 20 ]
+          "size": [ 22, 20 ]
         }
       },
       {
