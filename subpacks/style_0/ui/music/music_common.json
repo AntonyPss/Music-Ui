@@ -549,6 +549,8 @@
                       "controls": [
                         {
                           "tip_message_label": {
+                            "anchor_from": "top_right",
+                            "anchor_to": "top_right",
                             "layer": 99,
                             "size": [ 132, "default" ]
                           }
