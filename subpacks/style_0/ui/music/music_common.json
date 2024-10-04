@@ -350,6 +350,7 @@
                                       "card_container_creator_text@music_common.label_common": {
                                         "text": "$music_creator",
                                         "layer": 4,
+                                        "shadow": true,
                                         "size": [ "default", "default" ]
                                       }
                                     }
