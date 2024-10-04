@@ -485,8 +485,6 @@
             {
               "tip_message_panel": {
                 "type": "panel",
-                "anchor_from": "top_right",
-                "anchor_to": "top_right",
                 "size": [ "100%", "100%" ],
                 "controls": [
                   {
