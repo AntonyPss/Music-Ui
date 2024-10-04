@@ -540,7 +540,7 @@
                 "size": [ "100%", "100%" ],
                 "controls": [
                   {
-                    "tip_message_toggle@music_common.": {}
+                    "tip_message_toggle@music_common.tip_mes": {}
                   }
                 ]
               }
