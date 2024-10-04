@@ -540,7 +540,7 @@
                 "size": [ "100%c", "100%c" ],
                 "controls": [
                   {
-                    "tip_": {}
+                    "tip_message_toggle": {}
                   }
                 ]
               }
