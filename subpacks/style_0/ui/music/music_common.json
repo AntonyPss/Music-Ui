@@ -553,6 +553,7 @@
           "layer": 98,
           "color": [ 0.75, 0.65, 0.15 ],
           "size": [ "100%", "100%c + 4px" ],
+          "bindings": [],
           "controls": [
             {
               "tip_message_label@music_common.label_common": {
