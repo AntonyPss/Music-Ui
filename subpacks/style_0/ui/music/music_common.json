@@ -81,7 +81,7 @@
     ]
   },
 
-  "tip_toggle@common_toggles.light_content_toggle": {
+  "tip_toggle_button@common_toggles.light_content_toggle": {
     "$toggle_view_binding_name": "tip_message_toggle",
     "$toggle_name": "tip_modal_toggle",
     "layer": 4,
