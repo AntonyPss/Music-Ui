@@ -441,7 +441,7 @@
                 "size": [ "100%", 30 ],
                 "controls": [
                   {
-                    "music_buttons_stack@music_common.music_buttons_stack": {
+                    "music_buttons@music_common.music_buttons_stack": {
                       "layer": 2
                     }
                   }
