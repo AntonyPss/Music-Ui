@@ -601,7 +601,7 @@
           "layer": 2,
           "color": [ 0.1, 0.1, 0.1 ],
           "size": [ "default", 10 ],
-          "offset": [ 0, 0 ]
+          "offset": [ 0, -1 ]
         }
       }
     ]
