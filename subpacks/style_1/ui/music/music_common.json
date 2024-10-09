@@ -342,7 +342,7 @@
     "size": [ "100%", "100%c" ],
     "controls": [
       {
-        "music_default_pack@music_screen.music_default_pack": {
+        "music_default_section@music_screen.music_default_pack": {
           "ignored": "(not $default_pack_music_visible)",
           "max_size": [ "96%", "100%c" ],
           "bindings": [
