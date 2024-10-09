@@ -128,7 +128,7 @@
         }
       },
       {
-        "music_buttons_panel@music_common.music_buttons_stack": {
+        "music_buttons_panel@music_common.music_buttons_panel": {
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
           "offset": [ 0, -4.5 ]
