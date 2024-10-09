@@ -91,7 +91,7 @@
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 2,
-                "size": [ "100%y", "40%" ]
+                "size": [ "100%y", "40%" ] // Random soize
               }
             }
           ]
