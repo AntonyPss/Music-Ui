@@ -323,7 +323,6 @@
   //---------------------------------------------------------------------------
 
   "music_dialog_screen@music_common.custom_dialog_screen": {
-    "$dialog_screen_content": "music_common.music_scrolling_panel",
     "variables": [
       {
         "requires": "$pocket_screen",
