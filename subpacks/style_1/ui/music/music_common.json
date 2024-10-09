@@ -388,7 +388,7 @@
     "controls": [
       {
         "title_text@music_common.label_common": {
-          "text": "$dialog_screen_title",
+          "text": "music.screen.title",
           "text_alignment": "center",
           "font_type": "MinecraftTen",
           "font_scale_factor": 1.2,
