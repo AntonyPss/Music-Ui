@@ -356,7 +356,7 @@
         }
       },
       {
-        "music_custom_user@music_screen.music_custom_user": {
+        "music_custom_section@music_screen.music_custom_user": {
           "ignored": "(not $user_custom_music_visible)",
           "max_size": [ "96%", "100%c" ],
           "bindings": [
