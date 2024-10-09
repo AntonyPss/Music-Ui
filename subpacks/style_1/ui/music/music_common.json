@@ -314,7 +314,6 @@
     "$scrolling_pane_offset": [ 2, 0 ],
 
     "$scrolling_content": "music_common.music_scrolling_content",
-    // "$scrolling_content": "music_common.music_grid_test",
     "$show_background": false,
     "size": [ "100%", "100%" ]
   },
