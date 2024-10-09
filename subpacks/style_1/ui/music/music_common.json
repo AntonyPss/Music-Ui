@@ -478,7 +478,7 @@
           "size": [ "100% - 8px", "100% - 12px" ],
           "controls": [
             {
-              "dialog_screen_content@$dialog_screen_content": {
+              "dialog_screen_content@music_common.music_scrolling_panel": {
                 "layer": 4
               }
             }
