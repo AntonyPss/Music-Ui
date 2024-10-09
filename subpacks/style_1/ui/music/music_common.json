@@ -87,7 +87,7 @@
             {
               "music_icon": {
                 "type": "image",
-                "texture": "textures/ui/icons/music_icon", // This path is no valid
+                "texture": "textures/ui/icons/music_icon", // This path no have image
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 2,
