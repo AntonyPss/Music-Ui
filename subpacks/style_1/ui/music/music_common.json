@@ -68,6 +68,7 @@
   "music_header_section": {
     "type": "image",
     "texture": "textures/ui/background_music_image",
+
     "$music_name|default": "music.noname.title",
     "$music_creator|default": "music.nocreator.title",
     "$music_time|default": "00:00",
