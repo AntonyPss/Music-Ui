@@ -176,7 +176,7 @@
     ]
   },
 
-  "music_buttons_stack": {
+  "music_buttons_panel": {
     "type": "stack_panel",
     "orientation": "horizontal",
     "size": [ "100%", "100%cm" ],
