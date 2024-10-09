@@ -68,6 +68,7 @@
   "music_header_section": {
     "type": "image",
     "texture": "textures/ui/background_music_image",
+
     "size": [ "fill", 108 ],
     "controls": [
       {
