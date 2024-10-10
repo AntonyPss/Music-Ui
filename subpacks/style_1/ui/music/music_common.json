@@ -82,17 +82,18 @@
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
           "layer": 2,
-          "size": [ "100% - 8px", 56 ],
+          "size": [ "100% - 12px", 56 ],
           "offset": [ 0, 4.5 ],
           "controls": [
             {
               "music_icon": {
-                "type": "image",
-                "texture": "textures/ui/icons/music_icon", // This path no have image
+                "type": "label",
+                "text": "None",
+                "text_alignment": "center",
                 "anchor_from": "center",
                 "anchor_to": "center",
-                "layer": 2,
-                "size": [ "100%y", "40%" ] // Random size
+                "layer": 4,
+                "size": [ "default", "default" ]
               }
             }
           ]
@@ -103,7 +104,7 @@
           "type": "stack_panel",
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
-          "size": [ "100% - 8px", "100%c" ],
+          "size": [ "100% - 12px", "100%c" ],
           "offset": [ 0, -24.5 ],
           "controls": [
             {
@@ -203,17 +204,18 @@
             {
               "music_duration_subtitle": {
                 "type": "image",
-                "texture": "textures/ui/Black",
+                "texture": "textures/ui/hud_tip_text_background",
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 2,
-                "alpha": 0.5,
-                "size": [ "100%c + 4px", 12 ],
+                "alpha": 0.4,
+                "size": [ "100%c + 6px", "100%c + 4px" ],
                 "controls": [
                   {
                     "music_duration_label@music_common.label_common": {
                       "text": "$music_time",
-                      "layer": 4
+                      "layer": 4,
+                      "size": [ "default", "default" ]
                     }
                   }
                 ]
@@ -326,11 +328,11 @@
     "variables": [
       {
         "requires": "$pocket_screen",
-        "$music_screen_size": [ "100% - 16px", "100% - 20px" ]
+        "$music_screen_size": [ "100% - 4px", "100% - 4px" ]
       },
       {
         "requires": "$desktop_screen",
-        "$music_screen_size": [ "100% - 24px", "100% - 24px" ]
+        "$music_screen_size": [ "100% - 8px", "100% - 4px" ]
       }
     ]
   },
@@ -451,7 +453,7 @@
           "anchor_to": "right_middle",
           "layer": 4,
           "size": [ 24, 24 ],
-          "offset": [ -2, 0 ]
+          "offset": [ -2, -0.5 ]
         }
       },
       {
@@ -460,7 +462,7 @@
           "anchor_to": "right_middle",
           "layer": 4,
           "size": [ 18, 18 ],
-          "offset": [ -24, 0 ]
+          "offset": [ -24, -0.5 ]
         }
       }
     ]
@@ -580,11 +582,12 @@
         "label_bindings": {
           "type": "label",
           "text": "$button_text",
+          "text_alignment": "center",
           "anchor_from": "center",
           "anchor_to": "center",
           "layer": 2,
           "color": [ 0.1, 0.1, 0.1 ],
-          "size": [ "default", 10 ],
+          "size": [ "default", "default" ],
           "offset": [ 0, -1 ]
         }
       }
@@ -625,7 +628,7 @@
       {
         "topbar_image@music_common.topbar_image_panel": {
           "layer": 2,
-          "size": [ "100%", 24 ]
+          "size": [ "100%", 28 ]
         }
       },
       {

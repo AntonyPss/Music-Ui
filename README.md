@@ -13,6 +13,8 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 
 - **Minimalist Design**: Following a simple yet functional aesthetic, the interface integrates seamlessly with Minecraft’s visual style, maintaining aesthetic cohesion in the game.
 
+- **Ui Themes:** I will soon be working on another new style for the pack so only the normal style will remain as default.
+
 ## 🎶 Default Songs Included
 - **PHONK (200MG)** - Deha Inc.
 - **WHY NOT** - Ghostface Playa

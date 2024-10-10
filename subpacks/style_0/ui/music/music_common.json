@@ -89,6 +89,11 @@
   },
 
   "header_tab_base@settings_common.section_toggle_base": {
+    "$default_texture": "textures/ui/button/white_button",
+    "$hover_texture": "textures/ui/button/white_button",
+    "$pressed_texture": "textures/ui/button/white_button",
+    "$pressed_no_hover_texture": "textures/ui/button/white_button",
+
     "$button_type_panel": "music_common.header_tab_common",
     "$toggle_name": "music_tab_toggle",
     "$default_border_visible": false,
@@ -476,7 +481,7 @@
                 "text": "music.screen.title",
                 "text_alignment": "center",
                 "font_type": "MinecraftTen",
-                "font_scale_factor": 1.05,
+                "font_scale_factor": 1.2,
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 4,
@@ -511,10 +516,9 @@
         }
       },
       {
-        "tip_message_image@music_common.card_label_background": {
-          "layer": 98,
-          "color": [ 0.75, 0.65, 0.15 ],
-          "size": [ "100%", "100%c + 4px" ],
+        "tip_message_panel": {
+          "type": "panel",
+          "size": [ "100%", "100%cm" ],
           "bindings": [
             {
               "binding_type": "view",
@@ -525,13 +529,22 @@
           ],
           "controls": [
             {
-              "tip_message_label@music_common.label_common": {
-                "text": "this is a long messageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee lol bruhhhhhh nahhhhhh",
-                "anchor_from": "center",
-                "anchor_to": "center",
-                "layer": 99,
-                "color": [ 0.1, 0.1, 0.1 ],
-                "size": [ "100% - 4px", "default" ]
+              "tip_message_image@music_common.card_label_background": {
+                "layer": 98,
+                "color": [ 0.75, 0.65, 0.15 ],
+                "size": [ "100%", "100%c + 4px" ],
+                "controls": [
+                  {
+                    "tip_message_label@music_common.label_common": {
+                      "text": "this is a long messageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee lol bruhhhhhh nahhhhhh",
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "layer": 99,
+                      "color": [ 0.1, 0.1, 0.1 ],
+                      "size": [ "100% - 4px", "default" ]
+                    }
+                  }
+                ]
               }
             }
           ]
