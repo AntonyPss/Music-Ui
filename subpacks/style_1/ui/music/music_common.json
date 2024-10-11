@@ -69,9 +69,13 @@
     "type": "image",
     "texture": "textures/ui/background_music_image",
 
+    "$music_icon_texture|default": "",
+
     "$music_name|default": "music.noname.title",
     "$music_creator|default": "music.nocreator.title",
     "$music_time|default": "00:00",
+
+    "$show_blank_label|default": true,
 
     "size": [ "fill", 108 ],
     "controls": [
@@ -86,14 +90,27 @@
           "offset": [ 0, 4.5 ],
           "controls": [
             {
-              "music_icon": {
+              "music_blank_label": {
                 "type": "label",
+                "ignored": "(not $show_blank_label)",
                 "text": "None",
                 "text_alignment": "center",
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 4,
                 "size": [ "default", "default" ]
+              }
+            },
+            {
+              "music_icon": {
+                "type": "image",
+                "ignored": "$show_blank_label",
+                "texture": "$music_icon_texture",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 4,
+                "size": [ 48, 48 ],
+                "offset": [ 0, -0.5 ]
               }
             }
           ]
@@ -328,11 +345,11 @@
     "variables": [
       {
         "requires": "$pocket_screen",
-        "$music_screen_size": [ "100% - 4px", "100% - 4px" ]
+        "$music_screen_size": [ "100% - 12px", "100% - 8px" ]
       },
       {
         "requires": "$desktop_screen",
-        "$music_screen_size": [ "100% - 8px", "100% - 4px" ]
+        "$music_screen_size": [ 386, "100% - 24px" ]
       }
     ]
   },
@@ -343,8 +360,7 @@
     "controls": [
       {
         "music_default_section@music_screen.music_default_pack": {
-          "ignored": "(not $default_pack_music_visible)",
-          "max_size": [ "96%", "100%c" ],
+          "min_size": [ "82%", "100%c" ],
           "bindings": [
             {
               "binding_type": "view",
@@ -357,8 +373,7 @@
       },
       {
         "music_custom_section@music_screen.music_custom_user": {
-          "ignored": "(not $user_custom_music_visible)",
-          "max_size": [ "96%", "100%c" ],
+          "min_size": [ "82%", "100%c" ],
           "bindings": [
             {
               "binding_type": "view",
