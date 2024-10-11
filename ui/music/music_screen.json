@@ -8,12 +8,14 @@
   "music_default_pack": {
     "type": "stack_panel",
     "size": [ "100%", "100%c" ],
+    "$show_blank_label": false,
     "controls": [
       {
         "horizontal_section_panel_1@music_common.section_divider_panel": {
           "controls": [
             {
               "music_1@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_5",
                 "$music_name": "PHONK (200mg)",
                 "$music_time": "02:04",
                 "$music_creator": "Deha INC.",
@@ -25,6 +27,7 @@
             },
             {
               "music_2@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_1",
                 "$music_name": "Why Not",
                 "$music_time": "02:50",
                 "$music_creator": "Ghostface Playa",
@@ -36,6 +39,7 @@
             },
             {
               "music_3@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_6",
                 "$music_name": "Bullet In My Head",
                 "$music_time": "02:02",
                 "$music_creator": "feat. Blxckbusta",
@@ -47,6 +51,7 @@
             },
             {
               "music_4@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_2",
                 "$music_name": "Close Eyes",
                 "$music_time": "02:12",
                 "$music_creator": "DVRST",
@@ -61,6 +66,7 @@
           "controls": [
             {
               "music_5@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_7",
                 "$music_name": "Crystals",
                 "$music_time": "02:19",
                 "$music_creator": "Isolate.exe",
@@ -72,6 +78,7 @@
             },
             {
               "music_6@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_3",
                 "$music_name": "Fight Club",
                 "$music_time": "01:56",
                 "$music_creator": "MoonDeity",
@@ -83,6 +90,7 @@
             },
             {
               "music_7@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_8",
                 "$music_name": "GHOST!",
                 "$music_time": "03:50",
                 "$music_creator": "phonk.me",
@@ -94,6 +102,7 @@
             },
             {
               "music_8@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_4",
                 "$music_name": "GigaChad Theme Phonk (Home Version)",
                 "$music_time": "02:26",
                 "$music_creator": "g3ox_em",
@@ -108,6 +117,7 @@
           "controls": [
             {
               "music_9@music_common.music_header_section": {
+                "$music_icon_texture": "textures/music/music_thumball_0",
                 "$music_name": "Funk Estranho",
                 "$music_time": "01:46",
                 "$music_creator": "NeZz",
@@ -119,6 +129,7 @@
             },
             {
               "music_10@music_common.music_header_section": {
+                "$show_blank_label": true
                 // "$music_name": ""
                 // "$music_time": "",
                 // "$music_creator": "",
@@ -130,6 +141,7 @@
             },
             {
               "music_11@music_common.music_header_section": {
+                "$show_blank_label": true
                 // "$music_name": ""
                 // "$music_time": "",
                 // "$music_creator": "",
@@ -141,6 +153,7 @@
             },
             {
               "music_12@music_common.music_header_section": {
+                "$show_blank_label": true
                 // "$music_name": ""
                 // "$music_time": "",
                 // "$music_creator": "",
