@@ -344,11 +344,11 @@
   "music_dialog_screen@music_common.custom_dialog_screen": {
     "variables": [
       {
-        "requires": "$pocket_screen",
+        "requires": "($touch or $pocket_screen and $pocket_edition)",
         "$music_screen_size": [ "100% - 12px", "100% - 8px" ]
       },
       {
-        "requires": "$desktop_screen",
+        "requires": "($desktop_screen or $win10_edition)",
         "$music_screen_size": [ 386, "100% - 24px" ]
       }
     ]
@@ -603,7 +603,7 @@
           "layer": 2,
           "color": [ 0.1, 0.1, 0.1 ],
           "size": [ "default", "default" ],
-          "offset": [ 0, -1 ]
+          "offset": [ 0, 0 ]
         }
       }
     ]
