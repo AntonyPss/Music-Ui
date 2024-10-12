@@ -27,7 +27,7 @@ Para agregar tu propia música al **Music Player para Minecraft Bedrock Edition*
        "category": "ui",
        "sounds": [
          {
-           "name": "sounds/music/funk_estranho",
+           "name": "sounds/music/music_custom_path",
            "stream": true,
            "volume": 1.0,
            "load_on_low_memory": true
