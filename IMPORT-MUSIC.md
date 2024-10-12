@@ -1,16 +1,16 @@
-## 🎶 Importar una canción personalizada
+## 🎶 How to Import a Custom Song
 
-Para agregar tu propia música al **Music Ui**, sigue estos pasos:
+To add your own music to the **Music Ui**, follow these steps:
 
-1. **Formato del archivo**: Asegúrate de que tu archivo de música esté en formato `.mp3`.
+1. **File Format**: Make sure your music file is in `.mp3` format.
 
-2. **Conversión a .ogg**: Convierte el archivo `.mp3` a `.ogg` para que el juego lo detecte. Puedes usar herramientas en línea o software como Audacity para hacer esta conversión.
+2. **Convert to .ogg**: Convert the `.mp3` file to `.ogg` so that the game can detect it. You can use online tools or software like Audacity for this conversion.
 
-3. **Mover el archivo**: Una vez convertido, mueve el archivo `.ogg` a la carpeta `Music Ui/sounds/music/`, y asígnale un nombre. Por ejemplo, puedes llamarlo `music_custom.ogg`.
+3. **Move the File**: Once converted, move the `.ogg` file to the `Music Ui/sounds/music/` folder and give it a name. For example, you can name it `music_custom.ogg`.
 
-4. **Configuración en JSON**:
-   - Abre el archivo `Music Ui/ui/music/music_screen.json`. En este archivo, hay una sección llamada **'music_custom_user'**.
-   - Dentro de esta sección, encontrarás una serie de variables predefinidas con comentarios (//). Deberás eliminar estos comentarios (//) para habilitar la configuración:
+4. **Configuration in JSON**:
+   - Open the file `Music Ui/ui/music/music_screen.json`. In this file, there is a section called **'music_custom_user'**.
+   - Inside this section, you will find a series of predefined variables with comments (//). You need to remove these comments (//) to enable the configuration:
 
       ```json
       "$music_name": ""
@@ -19,15 +19,15 @@ Para agregar tu propia música al **Music Ui**, sigue estos pasos:
       "$music_button_sound_name": ""
       ```
 
-5. **Edición de variables**:
-   - **$music_name**: Aquí ingresa el nombre de la canción.
-   - **$music_time**: Establece la duración de la canción (en minutos y segundos).
-   - **$music_creator**: Indica el nombre del creador de la música.
-   - **$music_button_sound_name**: Esta variable debe coincidir con el nombre que asignarás en el archivo `sound_definitions.json` (lo explicaremos en el siguiente paso).
+5. **Editing Variables**:
+   - **$music_name**: Enter the name of the song here.
+   - **$music_time**: Set the duration of the song (in minutes and seconds).
+   - **$music_creator**: Specify the name of the music creator.
+   - **$music_button_sound_name**: This variable must match the name you will assign in the `sound_definitions.json` file (we'll explain this in the next step).
 
-6. **Editar `sound_definitions.json`**:
-   - Abre el archivo `sound_definitions.json` con un editor de texto.
-   - Escribe la siguiente estructura de código:
+6. **Editing `sound_definitions.json`**:
+   - Open the `sound_definitions.json` file with a text editor.
+   - Write the following code structure:
 
      ```json
      "music.music_custom_variable": {
@@ -43,9 +43,9 @@ Para agregar tu propia música al **Music Ui**, sigue estos pasos:
      }
      ```
 
-   - La variable que colocaste anteriormente en **$music_button_sound_name** (por ejemplo, `music.music_custom_variable`) debe coincidir con la que aparece en el código de ejemplo, en **"music.music_custom_variable"**.
+   - The variable you used in **$music_button_sound_name** (for example, `music.music_custom_variable`) must match the one that appears in this code example, in **"music.music_custom_variable"**.
    
-   - En el elemento `"name"`, debes escribir la ruta del archivo de música que moviste previamente. Siguiendo el ejemplo, si tu canción es **my_music_custom.ogg** y la colocaste en la carpeta `sounds/music/`, la ruta será:
+   - In the `"name"` field, you must write the path to the music file you moved earlier. Following the example, if your song is **my_music_custom.ogg** and you placed it in the `sounds/music/` folder, the path will be:
 
      ```json
      "name": "sounds/music/my_music_custom"
@@ -53,4 +53,4 @@ Para agregar tu propia música al **Music Ui**, sigue estos pasos:
 
 ---
 
-Con estos pasos, podrás añadir y configurar canciones personalizadas en el reproductor de música para Minecraft Bedrock.
+By following these steps, you will be able to add and configure custom songs in the music player for Minecraft Bedrock.
