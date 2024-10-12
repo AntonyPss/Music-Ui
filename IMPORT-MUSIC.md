@@ -1,12 +1,12 @@
 ## 🎶 Cómo importar una canción personalizada
 
-Para agregar tu propia música al **Music Player para Minecraft Bedrock Edition**, sigue estos pasos:
+Para agregar tu propia música al **Music Ui**, sigue estos pasos:
 
-1. **Formato del archivo**: Asegúrate de que tu archivo de música esté en formato **.mp3**.
+1. **Formato del archivo**: Asegúrate de que tu archivo de música esté en formato `.mp3`.
 
-2. **Conversión a .ogg**: Convierte el archivo **.mp3** a **.ogg** para que el juego lo detecte. Puedes usar herramientas en línea o software como Audacity para hacer esta conversión.
+2. **Conversión a .ogg**: Convierte el archivo `.mp3` a `.ogg` para que el juego lo detecte. Puedes usar herramientas en línea o software como Audacity para hacer esta conversión.
 
-3. **Mover el archivo**: Una vez convertido, mueve el archivo **.ogg** a la carpeta `Music Ui/sounds/music/`, y asígnale un nombre. Por ejemplo, puedes llamarlo `music_0.ogg`.
+3. **Mover el archivo**: Una vez convertido, mueve el archivo `.ogg` a la carpeta `Music Ui/sounds/music/`, y asígnale un nombre. Por ejemplo, puedes llamarlo `music_custom.ogg`.
 
 4. **Configuración en JSON**:
    - Abre el archivo `Music Ui/ui/music/music_screen.json`. En este archivo, hay una sección llamada **'music_custom_user'**.
