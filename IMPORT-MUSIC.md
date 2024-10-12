@@ -1,4 +1,4 @@
-## 🎶 Cómo importar una canción personalizada
+## 🎶 Importar una canción personalizada
 
 Para agregar tu propia música al **Music Ui**, sigue estos pasos:
 
@@ -10,7 +10,14 @@ Para agregar tu propia música al **Music Ui**, sigue estos pasos:
 
 4. **Configuración en JSON**:
    - Abre el archivo `Music Ui/ui/music/music_screen.json`. En este archivo, hay una sección llamada **'music_custom_user'**.
-   - Dentro de esta sección, encontrarás una serie de variables predefinidas con comentarios (//). Deberás eliminar estos comentarios (//) para habilitar la configuración.
+   - Dentro de esta sección, encontrarás una serie de variables predefinidas con comentarios (//). Deberás eliminar estos comentarios (//) para habilitar la configuración:
+
+      ```json
+      "$music_name": ""
+      "$music_time": "",
+      "$music_creator": "",
+      "$music_button_sound_name": ""
+      ```
 
 5. **Edición de variables**:
    - **$music_name**: Aquí ingresa el nombre de la canción.
