@@ -13,7 +13,7 @@ To add your own music to the **Music Ui**, follow these steps:
    - Inside this section, you will find a series of predefined variables with comments (//). You need to remove these comments (//) to enable the configuration:
 
       ```json
-      "$music_name": ""
+      "$music_name": "",
       "$music_time": "",
       "$music_creator": "",
       "$music_button_sound_name": ""
