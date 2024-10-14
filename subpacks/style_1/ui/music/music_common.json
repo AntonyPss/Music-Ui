@@ -342,19 +342,6 @@
   // Screen
   //---------------------------------------------------------------------------
 
-  "music_dialog_screen@music_common.custom_dialog_screen": {
-    "variables": [
-      {
-        "requires": "($touch or $pocket_screen and $pocket_edition)",
-        "$music_screen_size": [ "100% - 12px", "100% - 8px" ]
-      },
-      {
-        "requires": "($desktop_screen or $win10_edition)",
-        "$music_screen_size": [ 386, "100% - 24px" ]
-      }
-    ]
-  },
-
   "music_scrolling_content": {
     "type": "panel",
     "size": [ "100%", "100%c" ],
@@ -392,8 +379,9 @@
     "type": "panel",
     "controls": [
       {
-        "dialog_screen@music_common.music_dialog_screen": {
-          "size": "$music_screen_size"
+        "dialog_screen@music_common.custom_dialog_screen": {
+          // Perfect size for all devices
+          "size": [ 386, "100% - 24px" ]
         }
       }
     ]
