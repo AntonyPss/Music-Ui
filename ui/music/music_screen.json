@@ -123,42 +123,6 @@
                 "$music_creator": "NeZz",
                 "$music_button_sound_name": "music.music_9"
               }
-            },
-            {
-              "padding0@music_common.section_divider_padding": {}
-            },
-            {
-              "music_10@music_common.music_header_section": {
-                "$show_blank_label": true
-                // "$music_name": ""
-                // "$music_time": "",
-                // "$music_creator": "",
-                // "$music_button_sound_name": ""
-              }
-            },
-            {
-              "padding1@music_common.section_divider_padding": {}
-            },
-            {
-              "music_11@music_common.music_header_section": {
-                "$show_blank_label": true
-                // "$music_name": ""
-                // "$music_time": "",
-                // "$music_creator": "",
-                // "$music_button_sound_name": ""
-              }
-            },
-            {
-              "padding2@music_common.section_divider_padding": {}
-            },
-            {
-              "music_12@music_common.music_header_section": {
-                "$show_blank_label": true
-                // "$music_name": ""
-                // "$music_time": "",
-                // "$music_creator": "",
-                // "$music_button_sound_name": ""
-              }
             }
           ]
         }
@@ -179,7 +143,7 @@
           "controls": [
             {
               "music_1@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -190,7 +154,7 @@
             },
             {
               "music_2@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -201,7 +165,7 @@
             },
             {
               "music_3@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -212,7 +176,7 @@
             },
             {
               "music_4@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -226,7 +190,7 @@
           "controls": [
             {
               "music_5@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -237,7 +201,7 @@
             },
             {
               "music_6@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -248,7 +212,7 @@
             },
             {
               "music_7@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -259,7 +223,7 @@
             },
             {
               "music_8@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -273,7 +237,7 @@
           "controls": [
             {
               "music_9@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -284,7 +248,7 @@
             },
             {
               "music_10@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -295,7 +259,7 @@
             },
             {
               "music_11@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -306,7 +270,7 @@
             },
             {
               "music_12@music_common.music_header_section": {
-                // "$music_name": ""
+                // "music_name": "",,
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
