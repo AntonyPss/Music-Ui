@@ -1,0 +1,12 @@
+{
+  "$music_common_label_color": [ 1.0, 1.0, 1.0 ],
+
+  "$music_name_text_color": [ 1.0, 1.0, 1.0 ],
+  "$music_time_text_color": [ 1.0, 1.0, 1.0 ],
+  "$music_creator_text_color": [ 0.75, 0.75, 0.75 ],
+
+  "$music_tip_text_color": [ 0.2, 0.2, 0.2 ],
+  "$music_path_text_color": [ 1.0, 1.0, 1.0 ],
+
+  "$music_button_text_color": [ 0.1, 0.1, 0.1 ]
+}

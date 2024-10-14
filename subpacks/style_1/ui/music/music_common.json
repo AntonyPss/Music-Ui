@@ -47,6 +47,7 @@
     "type": "label",
     "layer": 2,
     "shadow": true,
+    "color": "$music_common_label_color",
     "size": [ "default", 10 ]
   },
 
@@ -90,8 +91,7 @@
           "offset": [ 0, 4.5 ],
           "controls": [
             {
-              "music_blank_label": {
-                "type": "label",
+              "music_blank_label@music_common.label_common": {
                 "ignored": "(not $show_blank_label)",
                 "text": "None",
                 "text_alignment": "center",
@@ -130,15 +130,16 @@
                 "anchor_to": "center",
                 "text": "$music_name",
                 "font_type": "MinecraftTen",
+                "color": "$music_name_text_color",
                 "size": [ "100%", 12 ],
                 "max_size": [ "100%", 12 ]
               }
             },
             {
-              "music_duration_label@music_common.label_common": {
+              "music_creator_label@music_common.label_common": {
                 "text": "$music_creator",
                 "layer": 4,
-                "color": [ 0.75, 0.75, 0.75 ],
+                "color": "$music_creator_text_color",
                 "size": [ "100%", 12 ]
               }
             }
@@ -232,6 +233,7 @@
                     "music_duration_label@music_common.label_common": {
                       "text": "$music_time",
                       "layer": 4,
+                      "color" :"$music_time_text_color",
                       "size": [ "default", "default" ]
                     }
                   }
@@ -257,7 +259,6 @@
       }
     ]
   },
-
 
   "music_button_image": {
     "type": "panel",
@@ -525,7 +526,7 @@
                       "text": "music.tip.message",
                       "layer": 4,
                       "shadow": false,
-                      "color": [ 0.2, 0.2, 0.2 ]
+                      "color": "$music_tip_text_color"
                     }
                   }
                 ]
@@ -551,7 +552,7 @@
                       "localize": false,
                       "layer": 4,
                       "shadow": false,
-                      "color": [ 1.0, 1.0, 1.0 ]
+                      "color": "$music_path_text_color"
                     }
                   }
                 ]
@@ -601,7 +602,7 @@
           "anchor_from": "center",
           "anchor_to": "center",
           "layer": 2,
-          "color": [ 0.1, 0.1, 0.1 ],
+          "color": "$music_button_text_color",
           "size": [ "default", "default" ],
           "offset": [ 0, 0 ]
         }

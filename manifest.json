@@ -13,6 +13,7 @@
       "folder_name": "style_1",
       "memory_tier": 1
     }
+    // Remove this for a bug
     /*{
       "name": "Ore Ui Theme",
       "folder_name": "style_0",
