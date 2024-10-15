@@ -2,6 +2,20 @@
   "namespace": "music_screen",
 
   //---------------------------------------------------------------------------
+  // Music Custom Variables
+  //---------------------------------------------------------------------------
+  //
+  //   "$show_blank_label": Display 'None' text when no music icon is found.
+  //   "$music_name": Name of the music.
+  //   "$music_time": Duration of music (In minutes and seconds '00:00').
+  //   "$music_creator": Creator of music.
+  //   "$music_button_sound_name": Variables written in 'sound_definitions.json'.
+  //
+  //---------------------------------------------------------------------------
+  // Music Custom Variables
+  //---------------------------------------------------------------------------
+
+  //---------------------------------------------------------------------------
   // Default Music Section
   //---------------------------------------------------------------------------
 
