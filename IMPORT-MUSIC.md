@@ -12,12 +12,12 @@ To add your own music to the **Music Ui**, follow these steps:
    - Open the file `Music Ui/ui/music/music_screen.json`. In this file, there is a section called **'music_custom_user'**.
    - Inside this section, you will find a series of predefined variables with comments (//). You need to remove these comments (//) to enable the configuration:
 
-      ```json
-      "$music_name": "",
-      "$music_time": "",
-      "$music_creator": "",
-      "$music_button_sound_name": ""
-      ```
+     ```json
+     "$music_name": "",
+     "$music_time": "",
+     "$music_creator": "",
+     "$music_button_sound_name": ""
+     ```
 
 5. **Editing Variables**:
    - **$music_name**: Enter the name of the song here.
@@ -50,7 +50,5 @@ To add your own music to the **Music Ui**, follow these steps:
      ```json
      "name": "sounds/music/my_music_custom"
      ```
-
----
 
 By following these steps, you will be able to add and configure custom songs in the music player for Minecraft Bedrock.

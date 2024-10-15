@@ -4,6 +4,8 @@
 ## 📝 Description
 This pack adds a fully functional music player inside Minecraft Bedrock. The player allows you to play a customizable list of songs directly in the game. It’s perfect for those who want to enjoy their favorite music while exploring and building in their Minecraft worlds.
 
+- **Pack size:** *20MB (approximately).*
+
 ## ⚙️ Features
 - **Modern Interface**: The interface is designed to be easy to use. Each song has play and pause controls, along with a clear display of its duration.
   
