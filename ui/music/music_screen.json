@@ -2,20 +2,6 @@
   "namespace": "music_screen",
 
   //---------------------------------------------------------------------------
-  // Music Custom Variables
-  //---------------------------------------------------------------------------
-  //
-  //   "$show_blank_label": Display 'None' text when no music icon is found.
-  //   "$music_name": Name of the music.
-  //   "$music_time": Duration of music (In minutes and seconds '00:00').
-  //   "$music_creator": Creator of music.
-  //   "$music_button_sound_name": Variables written in 'sound_definitions.json'.
-  //
-  //---------------------------------------------------------------------------
-  // Music Custom Variables
-  //---------------------------------------------------------------------------
-
-  //---------------------------------------------------------------------------
   // Default Music Section
   //---------------------------------------------------------------------------
 
@@ -157,7 +143,7 @@
           "controls": [
             {
               "music_1@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -168,7 +154,7 @@
             },
             {
               "music_2@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -179,7 +165,7 @@
             },
             {
               "music_3@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -190,7 +176,7 @@
             },
             {
               "music_4@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -204,7 +190,7 @@
           "controls": [
             {
               "music_5@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -215,7 +201,7 @@
             },
             {
               "music_6@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -226,7 +212,7 @@
             },
             {
               "music_7@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -237,7 +223,7 @@
             },
             {
               "music_8@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -251,7 +237,7 @@
           "controls": [
             {
               "music_9@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -262,7 +248,7 @@
             },
             {
               "music_10@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -273,7 +259,7 @@
             },
             {
               "music_11@music_common.music_header_section": {
-                // "music_name": "",
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""
@@ -284,7 +270,7 @@
             },
             {
               "music_12@music_common.music_header_section": {
-                // "music_name": "",,
+                // "$music_name": "",
                 // "$music_time": "",
                 // "$music_creator": "",
                 // "$music_button_sound_name": ""

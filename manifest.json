@@ -1,11 +1,11 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Phonk Music Ui v2.8",
-    "description": "Phonk Music Ui create by @Antony Pss (Discord)",
+    "name": "Music Ui v2.8.1",
+    "description": "Music Ui create by @Antony Pss (Discord)",
     "uuid": "2a893de8-d103-4890-864e-355157920329",
     "min_engine_version": [ 1, 20, 0 ],
-    "version": [ 2, 8, 0 ]
+    "version": [ 2, 8, 1 ]
   },
   "subpacks": [
     {
