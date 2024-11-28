@@ -1,67 +1,56 @@
 ## 🎶 How to Import a Custom Song
 
-To add your own music to **Music Ui**, follow these steps:
+Follow these steps to add your own music to **Music Ui**:
 
-1. **File Format**: Ensure your music file is in `.mp3` format.
+### 1. Convert Your Music File
+- Ensure your music is in `.mp3` format.
+- Convert it to `.ogg` using tools like [Audacity](https://www.audacityteam.org/) or online converters.
 
-2. **Convert to .ogg**: Convert the `.mp3` file to `.ogg` so that the game can detect it. You can use online tools or software like Audacity for this conversion.
+### 2. Place the File
+- Move the `.ogg` file to the `Music Ui/sounds/music/` folder.
+- Name it appropriately, e.g., `my_music.ogg`.
 
-3. **Move the File**: After conversion, move the `.ogg` file to the `Music Ui/sounds/music/` folder and give it a name, for example, `music_custom.ogg`.
+### 3. Update the Configuration
+1. Open `Music Ui/ui/music/music_screen.json`.
+2. Locate **"music_custom_user"** and edit the variables:
+   - **`$music_name`**: Song name.
+   - **`$music_time`**: Duration (MM:SS).
+   - **`$music_creator`**: Artist name.
+   - **`$music_button_sound_name`**: Match this with the key in `sound_definitions.json`.
 
-4. **Configuration in JSON**:
-   - Open the file `Music Ui/ui/music/music_screen.json`. In this file, locate the section **"music_custom_user"**.
-   - Inside this section, you’ll find a set of predefined variables with comments (//). Remove the comments (//) to enable the configuration:
+   Example:
+   ```json
+   "custom_music_example@music_common.music_header_section": {
+      "$show_blank_label": false,
+      "$music_icon_texture": "textures/music/my_thumbnail",
+      "$music_name": "Custom Song",
+      "$music_time": "03:45",
+      "$music_creator": "Unknown Artist",
+      "$music_button_sound_name": "music.custom_music"
+   }
+   ```
 
-      ```json
-      "$music_name": "",
-      "$music_time": "",
-      "$music_creator": "",
-      "$music_button_sound_name": ""
-      ```
-
-5. **Editing Variables**:
-   - **$music_name**: Enter the song name.
-   - **$music_time**: Set the song duration (in minutes and seconds).
-   - **$music_creator**: Specify the name of the music creator.
-   - **$music_button_sound_name**: This should match the name defined in `sound_definitions.json` (explained in Step 6).
-   - **$show_blank_label**: If set to `true`, only the text will appear if the image is missing. If set to `false`, you’ll need to specify an image for the thumbnail with `"$music_icon_texture"`.
-   - **Example Code**:
-
-     ```json
-     "custom_music_example@music_common.music_header_section": {
-        "$show_blank_label": false, // Show music thumbnail
-        "$music_icon_texture": "textures/music/music_thumbnail_image", // Image Path
-        "$music_name": "My Song",
-        "$music_time": "02:00",
-        "$music_creator": "All Music",
-        "$music_button_sound_name": "music.music_0"
-     }
-     ```
-
-6. **Editing `sound_definitions.json`**:
-   - Open `sound_definitions.json` in a text editor.
-   - Add the following structure:
-
-     ```json
-     "music.music_custom_variable": {
-       "category": "ui",
-       "sounds": [
+### 4. Define the Sound
+1. Open `sound_definitions.json` and add:
+   ```json
+   "music.custom_music": {
+      "category": "ui",
+      "sounds": [
          {
-           "name": "sounds/music/music_custom_path",
-           "stream": true,
-           "volume": 1.0,
-           "load_on_low_memory": true
+            "name": "sounds/music/my_music",
+            "stream": true,
+            "volume": 1.0,
+            "load_on_low_memory": true
          }
-       ]
-     }
-     ```
+      ]
+   }
+   ```
+2. Ensure `"name"` points to your `.ogg` file without the extension.
 
-   - Ensure that the variable you used in **$music_button_sound_name** (e.g., `music.music_custom_variable`) matches the one in this example, `"music.music_custom_variable"`.
-   
-   - In the `"name"` field, specify the path to your custom music file. For instance, if your song is named `my_music_custom.ogg` and is in the `sounds/music/` folder, the path will be:
+### Notes
+- To add a thumbnail, specify its path in **`$music_icon_texture`**.
+- Verify all paths and names are consistent across files.
 
-     ```json
-     "name": "sounds/music/my_music_custom" // Music Path
-     ```
+---
 
 By following these steps, you’ll be able to add and configure custom songs in the music player for Minecraft Bedrock.
