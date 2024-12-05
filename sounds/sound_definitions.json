@@ -1,4 +1,7 @@
 {
+  // The ui folder is where you configure the sound buttons related to the music interface.
+  // The behavior and visual properties of the buttons are defined here.
+
   "music.music_1": {
     "category": "ui",
     "sounds": [
