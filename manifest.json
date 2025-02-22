@@ -1,24 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Music Ui v2.8.2",
-    "description": "Music Ui create by @Antony Pss (Discord)",
-    "uuid": "2a893de8-d103-4890-864e-355157920329",
-    "min_engine_version": [ 1, 20, 0 ],
-    "version": [ 2, 8, 2 ]
+    "name": "Music Ore-Ui v1.0",
+    "description": "Made by @AntonyPss",
+    "min_engine_version": [1, 21, 0],
+    "uuid": "ebe90262-a320-41cc-8664-bf2ca120a77c",
+    "version": [1, 0, 0]
   },
-  "subpacks": [
-    {
-      "name": "Default Ui Theme",
-      "folder_name": "style_1",
-      "memory_tier": 1
-    }
-  ],
   "modules": [
     {
       "type": "resources",
-      "uuid": "795772e9-4a0c-4731-9311-ff2822f50703",
-      "version": [ 1, 0, 0 ]
+      "uuid": "bd1f9830-d3ae-477c-a520-2fcb893d1948",
+      "version": [1, 0, 0]
     }
   ]
 }

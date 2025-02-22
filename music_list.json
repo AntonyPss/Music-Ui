@@ -1,0 +1,28 @@
+{
+  "namespace": "music_list",
+
+  "main_list_scroll_content": {
+    "type": "stack_panel",
+    "size": ["100%", "100%c"],
+    "controls": [
+      // DONT DELETE THIS!!! //
+      { "help_panel@music.help_panel": {} },
+
+      // List of songs //
+      {
+        "songExample@music.list_item_grid": {
+          "$songAudio": "music.music_1",
+          "$songName": "Music Name",
+          "$songAuthor": "Artist Name",
+          "$songDuration": "02:30",
+          "$songCover": "textures/covers/cover_1"
+        }
+      },
+      { "song0@music.list_item_grid": {} },
+      { "song1@music.list_item_grid": {} },
+      { "song2@music.list_item_grid": {} },
+      { "song3@music.list_item_grid": {} },
+      { "song4@music.list_item_grid": {} }
+    ]
+  }
+}

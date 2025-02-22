@@ -1,0 +1,16 @@
+{
+  // The ui folder is where you configure the sound buttons related to the music interface.
+  // The behavior and visual properties of the buttons are defined here.
+
+  "music.music_1": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/music/song1.ogg",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

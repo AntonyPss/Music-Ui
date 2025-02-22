@@ -2,27 +2,31 @@
 music.screen.title=Reproductor de Música
 
 ## Music Tabs ##
-music.tabSection.default=Música predeterminada
-music.tabSection.custom=Música personalizada
+music.tabSection.list=Lista de Reproducción
+music.tabSection.info=Información
 
 ## Music Property ##
-music.noname.title=Sin nombre
-music.nocreator.title=Desconocido
+music.songName=Sin nombre
+music.songAuthor=Desconocido
+
+## Music About ##
+music.about.title=Acerca de Music Ui
+music.about.description=Music Ui es un complemento que mejora la experiencia musical en Minecraft Bedrock. Con Music Ui, puedes personalizar la música de fondo y disfrutar de una interfaz de usuario mejorada.
+
+music.about.features=Funcionalidades principales:
+music.about.feature_1=> Soporte para múltiples archivos de audio.
+music.about.feature_2=> Visualización de información de la canción (nombre, duración, creador).
+music.about.feature_3=> Posibilidad de personalizar la imagen de portada de la música.
+
+music.about.import=¿Cómo importar música personalizada?
+music.about.import_description=Para importar música personalizada, puedes revisar mi guía en GitHub: §9https://github.com/AntonyPss/Music-Ui/blob/main/IMPORT-MUSIC.md
+
+music.about.feedback=¿Tienes alguna sugerencia o problema?
+music.about.feedback_description=Si tienes alguna sugerencia o problema, puedes unirte a mi servidor de Discord: §9https://discord.gg/8ZvzU8K
+
+music.about.thanks=Agradecimientos
+music.about.thanks_description=Gracias por utilizar Music Ui. ¡Disfruta de una experiencia musical mejorada en Minecraft Bedrock!
 
 ## Music Tip ##
-music.tip.message=Podrás personalizar la música en:
-
-## Music Information ##
-music_ui.creator_title=Music Ui creado por @AntonyPss.
-music_ui.description=Music Ui permite la reproducción de música personalizada en Minecraft Bedrock Edition. Para agregar tu propia música, consulta la guía a continuación.
-
-music_ui.features_title=Funcionalidades principales:
-music_ui.feature_1=> Soporte para múltiples archivos de audio.
-music_ui.feature_2=> Visualización de información de la canción (nombre, duración, creador).
-music_ui.feature_3=> Posibilidad de personalizar la imagen de portada de la música.
-
-music_ui.github_guide=Cómo importar música personalizada en GitHub:
-
-music_ui.discord_support=¿Necesitas ayuda? Únete a mi servidor de Discord:
-
-music_ui.thanks=Gracias por utilizar Music Ui. ¡Disfruta de una experiencia musical mejorada en Minecraft Bedrock!
+music.help.tip=Para poder agregar música personalizada, haz lo siguiente:
+music.help.tip2=Encuentra la carpeta: "Music Ui/sounds/music".

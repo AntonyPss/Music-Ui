@@ -1,0 +1,19 @@
+{
+  "start_screen_content": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "open_menu_music@music.open_menu_music": {
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [2, 2]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2,27 +2,31 @@
 music.screen.title=Music Player
 
 ## Music Tabs ##
-music.tabSection.default=Default Music
-music.tabSection.custom=Custom Music
+music.tabSection.list=Playlist
+music.tabSection.info=Information
 
 ## Music Property ##
-music.noname.title=No Name
-music.nocreator.title=Unknown
+music.songName=Unnamed
+music.songAuthor=Unknown
+
+## Music About ##
+music.about.title=About Music Ui
+music.about.description=Music Ui is an add-on that enhances the music experience in Minecraft Bedrock. With Music Ui, you can customize the background music and enjoy an improved user interface.
+
+music.about.features=Main features:
+music.about.feature_1=> Support for multiple audio files.
+music.about.feature_2=> Display of song information (name, duration, creator).
+music.about.feature_3=> Ability to customize the music cover image.
+
+music.about.import=How to import custom music?
+music.about.import_description=To import custom music, you can check out my guide on GitHub: §9https://github.com/AntonyPss/Music-Ui/blob/main/IMPORT-MUSIC.md
+
+music.about.feedback=Do you have any suggestions or issues?
+music.about.feedback_description=If you have any suggestions or issues, you can join my Discord server: §9https://discord.gg/8ZvzU8K
+
+music.about.thanks=Acknowledgements
+music.about.thanks_description=Thank you for using Music Ui. Enjoy an enhanced music experience in Minecraft Bedrock!
 
 ## Music Tip ##
-music.tip.message=You can customize the music in:
-
-## Music Information ##
-music_ui.creator_title=Music Ui created by @AntonyPss.
-music_ui.description=Music Ui enables customized music playback in Minecraft Bedrock Edition. To add your own music, see the guide below.
-
-music_ui.features_title=Main Features:
-music_ui.feature_1=> Support for multiple audio files.
-music_ui.feature_2=> Display song information (name, duration, creator).
-music_ui.feature_3=> Ability to customize the music cover image.
-
-music_ui.github_guide=How to import custom music on GitHub:
-
-music_ui.discord_support=Need help? Join my Discord server:
-
-music_ui.thanks=Thank you for using Music Ui. Enjoy an enhanced music experience in Minecraft Bedrock!
+music.help.tip=To add custom music, do the following:
+music.help.tip2=Find the folder: "Music Ui/sounds/music".
