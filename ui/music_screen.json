@@ -45,11 +45,11 @@
 
   "open_menu_icon": {
     "type": "image",
-    "texture": "textures/ui/menu_music",
-    "layer": 2
+    "texture": "textures/ui/menu_music"
   },
 
   "open_menu_music@common.button": {
+    "layer": 99,
     "$pressed_button_name": "button.menu_buy_game",
     "size": [18, 18],
     "controls": [
