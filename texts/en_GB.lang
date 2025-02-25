@@ -19,7 +19,7 @@ music.about.feature_2=> Display of song information (name, duration, creator).
 music.about.feature_3=> Ability to customize the music cover image.
 
 music.about.import=How to import custom music?
-music.about.import_description=To import custom music, you can check out my guide on GitHub: §9https://github.com/AntonyPss/Music-Ui/blob/main/IMPORT-MUSIC.md
+music.about.import_description=To import custom music, you can check out my guide on GitHub: §9https://github.com/AntonyPss/Music-Ui/blob/ore-ui/IMPORT-MUSIC.md
 
 music.about.feedback=Do you have any suggestions or issues?
 music.about.feedback_description=If you have any suggestions or issues, you can join my Discord server: §9https://discord.gg/8ZvzU8K

@@ -7,14 +7,13 @@
     "controls": [
       // DONT DELETE THIS!!! //
       { "help_panel@music.help_panel": {} },
-
       // List of songs //
       {
         "songExample@music.list_item_grid": {
           "$songAudio": "music.music_1",
-          "$songName": "Music Name",
-          "$songAuthor": "Artist Name",
-          "$songDuration": "02:30",
+          "$songName": "ThatBehavior - Back Again | DnB | NCS",
+          "$songAuthor": "NCS",
+          "$songDuration": "02:48",
           "$songCover": "textures/covers/cover_1"
         }
       },

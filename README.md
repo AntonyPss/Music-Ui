@@ -1,4 +1,4 @@
-# Music UI for Minecraft Bedrock
+# Music Ore-UI for Minecraft Bedrock
 **Creator: @AntonyPss (Discord)**
 
 ## 📝 Description
@@ -7,7 +7,7 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 ## ⚙️ Features
 - **Modern Interface**: The interface is designed to be easy to use. Each song has play and pause controls, along with a clear display of its duration.
   
-- **Default and Custom Music**: You can choose from a default list of songs or load your own music using the "Custom Music" option. Customize your experience to the fullest!
+- **Music Content**: You can choose from a default list of songs or load your own music using the "Custom Music" option. Customize your experience to the fullest!
 
 - **Compatibility**: The pack is compatible with the latest version of **Minecraft Bedrock**, and it’s designed to be lightweight and efficient, without affecting game performance.
 

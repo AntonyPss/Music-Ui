@@ -1,6 +1,8 @@
 {
   "namespace": "music",
 
+  // CODE FROM music_list.json //
+
   "scroll_box_image": {
     "type": "image",
     "texture": "textures/ui/scroll_handle",
@@ -540,14 +542,7 @@
                     "icon@$button_content": {
                       "anchor_from": "center",
                       "anchor_to": "center",
-                      "offset": "$offset",
-                      "$offset|default": [0, -1],
-                      "variables": [
-                        {
-                          "requires": "$hover_border_visible",
-                          "$offset": [0, 0]
-                        }
-                      ]
+                      "offset": [0, -1]
                     }
                   }
                 ]

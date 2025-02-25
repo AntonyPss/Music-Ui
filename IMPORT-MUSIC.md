@@ -44,7 +44,7 @@ Follow these steps to add your own music to **Music Ui**:
        "category": "ui",
        "sounds": [
           {
-             "name": "sounds/music/my_music.ogg",
+             "name": "sounds/music/my_music",
              "stream": true,
              "volume": 1.0,
              "load_on_low_memory": true
