@@ -51,20 +51,19 @@
   "open_menu_music@common.button": {
     "layer": 99,
     "$pressed_button_name": "button.menu_buy_game",
-    "size": [18, 18],
+    "size": [20, 22],
     "controls": [
       {
         "default@music.open_menu_icon": {}
       },
       {
         "hover@music.open_menu_icon": {
-          "texture": "textures/ui/menu_music_hover"
+          "color": [0.8, 0.8, 0.8]
         }
       },
       {
         "pressed@music.open_menu_icon": {
-          "texture": "textures/ui/menu_music_hover",
-          "alpha": 0.8
+          "color": [0.6, 0.6, 0.6]
         }
       }
     ]
