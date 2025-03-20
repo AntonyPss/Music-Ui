@@ -19,13 +19,13 @@ music.about.feature_2=> Visualización de información de la canción (nombre, d
 music.about.feature_3=> Posibilidad de personalizar la imagen de portada de la música.
 
 music.about.import=¿Cómo importar música personalizada?
-music.about.import_description=Para importar música personalizada, puedes revisar mi guía en GitHub: §9https://github.com/AntonyPss/Music-Ui/blob/ore-ui/IMPORT-MUSIC.md
+music.about.import_description=Para importar música personalizada, puedes revisar mi guía completa en GitHub: §9https://github.com/AntonyPss/Music-Ui/blob/ore-ui/IMPORT-MUSIC.md
 
 music.about.feedback=¿Tienes alguna sugerencia o problema?
-music.about.feedback_description=Si tienes alguna sugerencia o problema, puedes unirte a mi servidor de Discord: §9https://discord.gg/8ZvzU8K
+music.about.feedback_description=Si tienes alguna sugerencia o problema, puedes unirte a mi servidor de Discord: §9https://discord.gg/8ZvzU8K.
 
 music.about.thanks=Agradecimientos
-music.about.thanks_description=Gracias por utilizar Music Ui. ¡Disfruta de una experiencia musical mejorada en Minecraft Bedrock!
+music.about.thanks_description=¡Gracias por usar Music UI! Esperamos que disfrutes de una experiencia musical personalizada en Minecraft.
 
 ## Music Tip ##
 music.help.tip=Para poder agregar música personalizada, haz lo siguiente:
