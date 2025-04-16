@@ -1,0 +1,7 @@
+{
+  // DONT DETELE THIS!!! //
+  "ui_defs": [
+    "ui/music_screen.json",
+    "music_list.json"
+  ]
+}

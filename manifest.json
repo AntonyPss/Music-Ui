@@ -7,13 +7,6 @@
     "min_engine_version": [ 1, 20, 0 ],
     "version": [ 2, 8, 2 ]
   },
-  "subpacks": [
-    {
-      "name": "Default Ui Theme",
-      "folder_name": "style_1",
-      "memory_tier": 1
-    }
-  ],
   "modules": [
     {
       "type": "resources",

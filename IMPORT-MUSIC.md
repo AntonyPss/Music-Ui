@@ -20,7 +20,7 @@ Follow these steps to add your own music to **Music Ui**:
 
    Example:
    ```json
-   "custom_music_example@music_common.music_header_section": {
+   "custom_music_example@music.music_header_section": {
       "$show_blank_label": false,
       "$music_icon_texture": "textures/music/my_thumbnail",
       "$music_name": "Custom Song",

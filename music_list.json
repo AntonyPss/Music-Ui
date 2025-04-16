@@ -1,0 +1,81 @@
+{
+  "namespace": "music_list",
+
+  // This is the main panel that will be displayed on the screen.
+  // Please do not change the name of this panel.
+
+  "upper_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": ["100%", "100%cm + 4px"]
+  },
+
+  "upper_item": {
+    "type": "stack_panel",
+    "size": ["fill", "100%cm"],
+    "controls": [{ "upper_common@music.upper_item_common": {} }]
+  },
+
+  // Please do not change the name of this panel.
+
+  "music_scrolling_content": {
+    "type": "stack_panel",
+    "size": ["100%", "100%c"],
+    "controls": [
+      {
+        "upper_section_1@upper_panel": {
+          "controls": [
+            {
+              "upper_item_1@upper_item": {}
+            },
+            {
+              "upper_item_2@upper_item": {}
+            },
+            {
+              "upper_item_3@upper_item": {}
+            },
+            {
+              "upper_item_4@upper_item": {}
+            }
+          ]
+        }
+      },
+      {
+        "upper_section_2@upper_panel": {
+          "controls": [
+            {
+              "upper_item_1@upper_item": {}
+            },
+            {
+              "upper_item_2@upper_item": {}
+            },
+            {
+              "upper_item_3@upper_item": {}
+            },
+            {
+              "upper_item_4@upper_item": {}
+            }
+          ]
+        }
+      },
+      {
+        "upper_section_3@upper_panel": {
+          "controls": [
+            {
+              "upper_item_1@upper_item": {}
+            },
+            {
+              "upper_item_2@upper_item": {}
+            },
+            {
+              "upper_item_3@upper_item": {}
+            },
+            {
+              "upper_item_4@upper_item": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "namespace": "music_list",
+
+  // This is the main panel that will be displayed on the screen.
+  // Please do not change the name of this panel.
+
+  "upper_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": ["100%", "100%cm + 4px"]
+  },
+
+  "upper_item": {
+    "type": "stack_panel",
+    "size": ["fill", "100%cm"],
+    "controls": [{ "upper_common@music.upper_item_common": {} }]
+  },
+
+  // This is the main panel that will be displayed on the screen.
+  // Please do not change the name of this panel.
+
+  "music_scrolling_content": {
+    "type": "stack_panel",
+    "size": ["100%", "100%c"],
+    "controls": [
+      {
+        "upper_section_1@upper_panel": {
+          "controls": [
+            {
+              "upper_item_1@upper_item": {
+                "$songCover": "textures/covers/cover_7",
+                "$songName": "PHONK (200mg)",
+                "$songDuration": "02:04",
+                "$songArtist": "Deha INC.",
+                "$songAudio": "music.music_1"
+              }
+            },
+            {
+              "upper_item_2@upper_item": {
+                "$songCover": "textures/covers/cover_3",
+                "$songName": "Why Not",
+                "$songDuration": "02:50",
+                "$songArtist": "Ghostface Playa",
+                "$songAudio": "music.music_2"
+              }
+            },
+            {
+              "upper_item_3@upper_item": {
+                "$songCover": "textures/covers/cover_8",
+                "$songName": "Bullet In My Head",
+                "$songDuration": "02:02",
+                "$songArtist": "feat. Blxckbusta",
+                "$songAudio": "music.music_3"
+              }
+            },
+            {
+              "upper_item_4@upper_item": {
+                "$songCover": "textures/covers/cover_4",
+                "$songName": "Close Eyes",
+                "$songDuration": "02:12",
+                "$songArtist": "DVRST",
+                "$songAudio": "music.music_4"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "upper_section_2@upper_panel": {
+          "controls": [
+            {
+              "upper_item_1@upper_item": {
+                "$songCover": "textures/covers/cover_9",
+                "$songName": "Crystals",
+                "$songDuration": "02:19",
+                "$songArtist": "Isolate.exe",
+                "$songAudio": "music.music_5"
+              }
+            },
+            {
+              "upper_item_2@upper_item": {
+                "$songCover": "textures/covers/cover_5",
+                "$songName": "Fight Club",
+                "$songDuration": "01:56",
+                "$songArtist": "MoonDeity",
+                "$songAudio": "music.music_6"
+              }
+            },
+            {
+              "upper_item_3@upper_item": {
+                "$songCover": "textures/covers/cover_10",
+                "$songName": "GHOST!",
+                "$songDuration": "03:50",
+                "$songArtist": "phonk.me",
+                "$songAudio": "music.music_7"
+              }
+            },
+            {
+              "upper_item_4@upper_item": {
+                "$songCover": "textures/covers/cover_6",
+                "$songName": "GigaChad Theme Phonk (Home Version)",
+                "$songDuration": "02:26",
+                "$songArtist": "g3ox_em",
+                "$songAudio": "music.music_8"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "upper_section_3@upper_panel": {
+          "controls": [
+            {
+              "upper_item_1@upper_item": {
+                "$songCover": "textures/covers/cover_2",
+                "$songName": "Funk Estranho",
+                "$songDuration": "01:46",
+                "$songArtist": "NeZz",
+                "$songAudio": "music.music_9"
+              }
+            },
+            {
+              "upper_item_2@upper_item": {
+                "$songAudio": "music.music_10",
+                "$songName": "ThatBehavior - Back Again",
+                "$songArtist": "NCS",
+                "$songDuration": "02:48",
+                "$songCover": "textures/covers/cover_1"
+              }
+            },
+            {
+              "upper_item_3@upper_item": {
+                "$songName": "Placeholder",
+                "$songDuration": "00:00",
+                "$songArtist": "Unknown",
+                "$songAudio": "music.music_11"
+              }
+            },
+            {
+              "upper_item_4@upper_item": {
+                "$songName": "Placeholder",
+                "$songDuration": "00:00",
+                "$songArtist": "Unknown",
+                "$songAudio": "music.music_12"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

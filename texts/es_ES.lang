@@ -1,28 +1,24 @@
-## Music Screen ##
 music.screen.title=Reproductor de Música
 
-## Music Tabs ##
-music.tabSection.default=Música predeterminada
-music.tabSection.custom=Música personalizada
+music.tabSection.playlist=Lista de Reproducción
 
-## Music Property ##
 music.noname.title=Sin nombre
-music.nocreator.title=Desconocido
+music.noartist.title=Desconocido
 
-## Music Tip ##
 music.tip.message=Podrás personalizar la música en:
 
-## Music Information ##
-music_ui.creator_title=Music Ui creado por @AntonyPss.
-music_ui.description=Music Ui permite la reproducción de música personalizada en Minecraft Bedrock Edition. Para agregar tu propia música, consulta la guía a continuación.
+music.about.title=Acerca de Music Ui
+music.about.description=Music Ui es un complemento de Minecraft Bedrock que permite reproducir música personalizada en el juego. Puedes importar tus propias canciones y disfrutar de una experiencia musical única mientras juegas.
+music.about.creator=Creado por @AntonyPss (Discord)
+music.about.version=Versión 2.8.8
 
-music_ui.features_title=Funcionalidades principales:
-music_ui.feature_1=> Soporte para múltiples archivos de audio.
-music_ui.feature_2=> Visualización de información de la canción (nombre, duración, creador).
-music_ui.feature_3=> Posibilidad de personalizar la imagen de portada de la música.
+music.about.features=Funcionalidades
+music.about.features1=- Reproduce música personalizada en el juego.
+music.about.features2=- Interfaz de usuario intuitiva y fácil de usar.
+music.about.features3=- Compatibilidad con diferentes plataformas de Minecraft Bedrock.
 
-music_ui.github_guide=Cómo importar música personalizada en GitHub:
+music.about.import_music=¿Cómo importar música?
+music.about.import_music1=Para importar música, sigue la guia en GitHub: §5"https://github.com/AntonyPss/Music-Ui/blob/main/IMPORT-MUSIC.md"
 
-music_ui.discord_support=¿Necesitas ayuda? Únete a mi servidor de Discord:
-
-music_ui.thanks=Gracias por utilizar Music Ui. ¡Disfruta de una experiencia musical mejorada en Minecraft Bedrock!
+music.about.discord=¿Necesitas ayuda?
+music.about.discord1=Únete a mi servidor de Discord: §5"https://discord.gg/kYDf4gadKw"
