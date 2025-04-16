@@ -1,6 +1,0 @@
-{
-  "ui_defs": [
-    "ui/music/music_common.json", // Screen Assets
-    "ui/music/music_screen.json"  // Screen Contents
-  ]
-}
