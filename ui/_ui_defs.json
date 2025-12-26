@@ -1,7 +1,3 @@
 {
-  // DONT DETELE THIS!!! //
-  "ui_defs": [
-    "ui/music_screen.json",
-    "music_list.json"
-  ]
+    "ui_defs": ["music_list.json", "ui/music_screen.json"]
 }

@@ -1,19 +1,19 @@
 {
-  "pause_screen_content": {
-    "modifications": [
-      {
-        "array_name": "controls",
-        "operation": "insert_front",
-        "value": [
-          {
-            "open_menu_music@music.open_menu_music": {
-              "anchor_from": "top_left",
-              "anchor_to": "top_left",
-              "offset": [2, 2]
+    "pause_screen_content": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_front",
+                "value": [
+                    {
+                        "open_menu_music_button@music.menu_music_button": {
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "offset": [4, 4]
+                        }
+                    }
+                ]
             }
-          }
         ]
-      }
-    ]
-  }
+    }
 }

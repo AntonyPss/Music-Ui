@@ -1,24 +1,26 @@
-music.screen.title=Reproductor de Música
+## Pantalla 
+music.screen.title=Reproductor de música 
 
-music.tabSection.playlist=Lista de Reproducción
+## Acerca de 
+music.aboutSection.title=Acerca de Music UI
+music.aboutSection.text=Añade un reproductor de música totalmente funcional en Minecraft Bedrock.
+music.aboutSection.creator=Creador:
+music.aboutSection.pack=Versión del paquete:
+music.aboutSection.copyright=© AntonyPss. Todos los derechos reservados.
 
-music.noname.title=Sin nombre
-music.noartist.title=Desconocido
+## Información sobre herramientas
+music.tooltip.title=Consejo
+music.tooltip.text=Puedes añadir más música en la siguiente ubicación:
+music.tooltip.tip1=• Convierte tus canciones a formato .ogg
+music.tooltip.tip2=• Evita espacios en los nombres de archivo
 
-music.tip.message=Podrás personalizar la música en:
+## Sección de pestañas
+music.tabSection.main=Música predeterminada
+music.tabSection.custom=Música personalizada
 
-music.about.title=Acerca de Music Ui
-music.about.description=Music Ui es un complemento de Minecraft Bedrock que permite reproducir música personalizada en el juego. Puedes importar tus propias canciones y disfrutar de una experiencia musical única mientras juegas.
-music.about.creator=Creado por @AntonyPss (Discord)
-music.about.version=Versión 2.8.8
+## Elemento de pista
+card.unknown.track=Sin título
+card.unknown.artist=Artista desconocido
 
-music.about.features=Funcionalidades
-music.about.features1=- Reproduce música personalizada en el juego.
-music.about.features2=- Interfaz de usuario intuitiva y fácil de usar.
-music.about.features3=- Compatibilidad con diferentes plataformas de Minecraft Bedrock.
-
-music.about.import_music=¿Cómo importar música?
-music.about.import_music1=Para importar música, sigue la guia en GitHub: §5"https://github.com/AntonyPss/Music-Ui/blob/main/IMPORT-MUSIC.md"
-
-music.about.discord=¿Necesitas ayuda?
-music.about.discord1=Únete a mi servidor de Discord: §5"https://discord.gg/kYDf4gadKw"
+card.play.hoverButton=Reproducir
+card.stop.hoverButton=Detener

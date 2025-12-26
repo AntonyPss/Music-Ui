@@ -13,6 +13,19 @@ This pack adds a fully functional music player inside Minecraft Bedrock. The pla
 
 - **Minimalist Design**: Following a simple yet functional aesthetic, the interface integrates seamlessly with Minecraft’s visual style, maintaining aesthetic cohesion in the game.
 
+- **Ui Themes:** I will soon be working on another new style for the pack so only the normal style will remain as default.
+
+## 🎶 Default Songs Included
+- **PHONK (200MG)** - Deha Inc.
+- **WHY NOT** - Ghostface Playa
+- **BULLET IN MY HEAD** - Ghostface Playa
+- **CLOSE EYES** - DVRST
+- **CRYSTALS** - Isolate.exe
+- **FIGHT CLUB** - MoonDeity
+- **GHOST!** - phonk.me
+- **GIGACHAD THEME** - g3ox_em
+- **FUNK ESTRANHO** - NeZz
+
 ## 📥 How to Install
 1. Download the pack and add the `.zip` file to your device.
 2. Using a text editor rename the `.zip` file to `.mcpack`.

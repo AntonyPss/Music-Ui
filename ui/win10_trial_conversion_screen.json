@@ -1,7 +1,5 @@
 {
-  "win10_trial_conversion_screen": {
-    "$screen_content": "music.music_screen_content",
-    "$screen_bg_content": "common.screen_background",
-    "$screen_background_alpha": 0.5
-  }
+    "win10_trial_conversion_screen": {
+        "$screen_content": "music.music_screen_content"
+    }
 }
