@@ -18,6 +18,9 @@ Elevate your Minecraft interface! **Music UI** is a complete overhaul of the gam
 
 ---
 
+### 📷 Screenshot Preview
+<img width="700" height="465" alt="image" src="https://github.com/user-attachments/assets/49b2e0d1-defc-481a-a2bf-eac7e8d79ba2" />
+
 ### ⚠️ Important: Media Disclaimer
 
 The screenshots provided are a **preview** of the interface using locally loaded songs. Due to copyright restrictions, **the songs shown are not included in the public download.** However, thanks to our **new custom song method**, you can easily add your own library to the game!
@@ -35,3 +38,4 @@ The screenshots provided are a **preview** of the interface using locally loaded
 Developed by **AntonyPss**.
 For bugs, suggestions, or to check the source code:
 🔗 [GitHub Repository](https://github.com/AntonyPss/Music-Ui)
+
