@@ -3,14 +3,14 @@
     "header": {
         "name": "Music UI v2.10.1",
         "description": "Music UI create by @Antony Pss. More info in my Discord Community.",
-        "uuid": "5fd49728-a00c-4264-9d70-cf092823eb66",
+        "uuid": "27cb36de-ec22-4011-acd1-e33a3f7ab7ad",
         "min_engine_version": [1, 21, 0],
-        "version": [2, 9, 0]
+        "version": [2, 10, 1]
     },
     "modules": [
         {
             "type": "resources",
-            "uuid": "75c02555-f965-4bba-b497-4de9e5d7127e",
+            "uuid": "287045e0-7beb-45be-bd27-c199ce65adc5",
             "version": [1, 0, 0]
         }
     ]
