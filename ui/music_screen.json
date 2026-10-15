@@ -1,0 +1,856 @@
+{
+    "namespace": "music",
+
+    /* ============================================
+     ANIMATIONS
+     ============================================ */
+    "anim_alpha_screen": {
+        "anim_type": "alpha",
+        "easing": "in_out_expo",
+        "duration": 0.5,
+        "from": 0,
+        "to": 1
+    },
+
+    "anim_offset_screen": {
+        "anim_type": "offset",
+        "easing": "in_out_expo",
+        "duration": 0.5,
+        "from": [0, -16],
+        "to": [0, 0]
+    },
+
+    /* ============================================
+     ICONS
+     ============================================ */
+    "icon": {
+        "type": "image",
+        "layer": 1
+    },
+
+    "about@music.icon": {
+        "texture": "textures/icons/about_color",
+        "size": [18, 18]
+    },
+    "close@music.icon": { "texture": "textures/icons/close_color" },
+    "music@music.icon": { "texture": "textures/icons/music" },
+    "play@music.icon": { "texture": "textures/icons/play_color" },
+    "scroll@music.icon": { "texture": "textures/ui/scrollBox" },
+    "stop@music.icon": { "texture": "textures/icons/stop_color" },
+    "tooltip@music.icon": {
+        "texture": "textures/icons/tooltip_color",
+        "size": [18, 18]
+    },
+
+    /* ============================================
+     BUTTONS BASE
+     ============================================ */
+    "button@common.button": {
+        "$default_content|default": "common.empty_panel",
+        "$hover_content|default": "common.empty_panel",
+        "$pressed_content|default": "common.empty_panel",
+        "controls": [
+            { "default@$default_content": {} },
+            { "hover@$hover_content": {} },
+            { "pressed@$pressed_content": { "alpha": 0.8 } }
+        ]
+    },
+
+    /* ============================================
+     HEADER SECTION
+     ============================================ */
+    "header_title": {
+        "type": "label",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "color": "$main_header_text_color",
+        "font_scale_factor": 1.1,
+        "font_type": "MinecraftTen",
+        "text": "music.screen.title"
+    },
+
+    "header_section_panel": {
+        "type": "image",
+        "size": ["100%", 24],
+        "texture": "textures/ui/headerBar",
+        "controls": [
+            {
+                "header_title@music.header_title": {
+                    "layer": 4,
+                    "offset": [0, -1]
+                }
+            },
+            {
+                "right_buttons": {
+                    "type": "stack_panel",
+                    "anchor_from": "right_middle",
+                    "anchor_to": "right_middle",
+                    "offset": [-5, 0],
+                    "orientation": "horizontal",
+                    "size": ["100%c", 18],
+                    "controls": [
+                        {
+                            "about_btn@common_toggles.light_image_toggle": {
+                                "$radio_toggle_group": true,
+                                "$toggle_default_state": false,
+                                "$toggle_group_forced_index": 1,
+                                "$toggle_name": "popup_overlay",
+                                "$toggle_view_binding_name": "about_popup_toggle",
+                                "$unchecked_control": "music.about",
+                                "$checked_control": "music.about",
+                                "$unchecked_hover_control": "music.about",
+                                "$checked_hover_control": "music.about",
+                                "size": [18, 18]
+                            }
+                        },
+                        { "spacer1": { "type": "panel", "size": [1, 0] } },
+                        {
+                            "tooltip_btn@common_toggles.light_image_toggle": {
+                                "$radio_toggle_group": true,
+                                "$toggle_default_state": false,
+                                "$toggle_group_forced_index": 2,
+                                "$toggle_name": "popup_overlay",
+                                "$toggle_view_binding_name": "tooltip_popup_toggle",
+                                "$unchecked_control": "music.tooltip",
+                                "$checked_control": "music.tooltip",
+                                "$unchecked_hover_control": "music.tooltip",
+                                "$checked_hover_control": "music.tooltip",
+                                "size": [18, 18]
+                            }
+                        },
+                        { "spacer2": { "type": "panel", "size": [1, 0] } },
+                        {
+                            "close_btn@common_buttons.light_text_button": {
+                                "$border_visible": false,
+                                "$button_type_panel": "common.empty_panel",
+                                "$default_button_texture": "textures/icons/close_color",
+                                "$hover_button_texture": "textures/icons/close_color",
+                                "$pressed_button_texture": "textures/icons/close_color",
+                                "$pressed_button_name": "button.menu_exit",
+                                "size": [18, 18]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    /* ============================================
+     MAIN SECTION
+     ============================================ */
+    "scrolling_section_base@common.scrolling_panel": {
+        "$scroll_box_mouse_image_control": "music.scroll",
+        "$scroll_size": [6, "100% - 4px"],
+        "$show_background": false,
+        "layer": 6,
+        "variables": [
+            {
+                "requires": "$touch",
+                "$use_touch_mode": false
+            }
+        ]
+    },
+
+    "main_section_panel": {
+        "type": "image",
+        "size": ["100%", "fill"],
+        "texture": "textures/ui/contentBackground",
+        "controls": [
+            {
+                "content": {
+                    "type": "panel",
+                    "size": ["100% - 6px", "100% - 6px"],
+                    "controls": [
+                        {
+                            "main_section@music.scrolling_section_base": {
+                                "$scrolling_content": "music_list.main_list_content",
+                                "bindings": [
+                                    {
+                                        "binding_type": "view",
+                                        "source_control_name": "main_section_toggle",
+                                        "source_property_name": "#toggle_state",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "custom_section@music.scrolling_section_base": {
+                                "$scrolling_content": "music_list.custom_list_content",
+                                "bindings": [
+                                    {
+                                        "binding_type": "view",
+                                        "source_control_name": "custom_section_toggle",
+                                        "source_property_name": "#toggle_state",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    /* ============================================
+     FOOTER SECTION
+     ============================================ */
+    "tab_section_wrapper": {
+        "type": "label",
+        "color": "$main_header_text_color",
+        "layer": 3,
+        "text": "$toggle_text"
+    },
+
+    "tab_section_toggle@settings_common.section_toggle_base": {
+        "$button_type_panel": "music.tab_section_wrapper",
+        "$default_border_visible": false,
+        "$default_texture": "textures/buttons/normal",
+        "$hover_border_visible": false,
+        "$hover_texture": "textures/buttons/hover",
+        "$pressed_no_hover_texture": "textures/buttons/hover",
+        "$pressed_texture": "textures/buttons/pressed",
+        "$toggle_name": "tab_section_toggle",
+        "anchor_from": "$tab_anchor",
+        "anchor_to": "$tab_anchor",
+        "offset": "$tab_offset",
+        "size": ["50% - 4px", 24]
+    },
+
+    "footer_section_panel": {
+        "type": "image",
+        "$default_selector_toggle_index": 0,
+        "size": ["100%", 32],
+        "texture": "textures/ui/footerBar",
+        "controls": [
+            {
+                "main_section_tab@music.tab_section_toggle": {
+                    "$tab_anchor": "left_middle",
+                    "$tab_offset": [4, 0],
+                    "$toggle_group_forced_index": 0,
+                    "$toggle_text": "music.tabSection.main",
+                    "$toggle_view_binding_name": "main_section_toggle"
+                }
+            },
+            {
+                "custom_section_tab@music.tab_section_toggle": {
+                    "$tab_anchor": "right_middle",
+                    "$tab_offset": [-4, 0],
+                    "$toggle_group_forced_index": 1,
+                    "$toggle_text": "music.tabSection.custom",
+                    "$toggle_view_binding_name": "custom_section_toggle"
+                }
+            }
+        ]
+    },
+
+    /* ============================================
+     TRACK ITEMS & MEDIA BUTTONS
+     ============================================ */
+    "media_hover_wrapper": {
+        "type": "panel",
+        "layer": 16,
+        "size": ["100%", "100%"],
+        "controls": [
+            {
+                "hover_bg": {
+                    "type": "image",
+                    "alpha": 0.5,
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "offset": [10, -14],
+                    "size": ["100%c + 6px", "100%c + 2px"],
+                    "texture": "textures/ui/hud_tip_text_background",
+                    "controls": [
+                        {
+                            "hover_text": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "color": "$main_header_text_color",
+                                "font_scale_factor": 0.8,
+                                "font_type": "smooth",
+                                "text": "$hover_text"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "hover_icon@$hover_icon": {
+                    "anchor_from": "center",
+                    "anchor_to": "center"
+                }
+            }
+        ]
+    },
+
+    "media_control_button@music.button": {
+        "$hover_content": "music.media_hover_wrapper",
+        "$songAudio|default": "random.click",
+        "anchor_from": "$button_anchor",
+        "anchor_to": "$button_anchor",
+        "layer": 4,
+        "size": ["100%y", "100% - 8px"],
+        "sound_name": "$songAudio",
+        "sound_pitch": 1.0,
+        "sound_volume": "$soundVolume",
+        "button_mappings": [
+            {
+                "from_button_id": "button.menu_select",
+                "to_button_id": "$pressed_button_name",
+                "mapping_type": "pressed"
+            },
+            {
+                "from_button_id": "button.menu_ok",
+                "to_button_id": "$pressed_button_name",
+                "mapping_type": "focused"
+            }
+        ]
+    },
+
+    "track_item_label": {
+        "type": "label",
+        "anchor_from": "$item_anchor",
+        "anchor_to": "$item_anchor",
+        "color": "$main_header_text_color",
+        "font_scale_factor": 0.9,
+        "layer": 3,
+        "shadow": true,
+        "size": ["100%", 10]
+    },
+
+    "duration_label_wrapper@music.icon": {
+        "alpha": 0.4,
+        "layer": 3,
+        "size": ["100%c + 6px", "100%c + 4px"],
+        "texture": "textures/ui/hud_tip_text_background",
+        "controls": [
+            {
+                "duration_label@music.track_item_label": {
+                    "$item_anchor": "center",
+                    "layer": 4,
+                    "size": ["default", "default"],
+                    "text": "$songDuration"
+                }
+            }
+        ]
+    },
+
+    "track_item_button@music.icon": {
+        "$trackItemTexture|default": "textures/ui/trackBackground",
+        "texture": "$trackItemTexture"
+    },
+
+    "track_item_common": {
+        "type": "panel",
+        "size": [88, "100%cm"],
+        "controls": [
+            {
+                "item_bg_button@common.button": {
+                    "$pressed_button_name": "button.track",
+                    "size": ["100%", "100%sm + 8px"],
+                    "controls": [
+                        {
+                            "default@music.track_item_button": {}
+                        },
+                        {
+                            "hover@music.track_item_button": {
+                                "$trackItemTexture": "textures/ui/trackBackgroundHover"
+                            }
+                        },
+                        {
+                            "pressed@music.track_item_button": {
+                                "texture": "textures/ui/trackBackgroundHover",
+                                "alpha": 0.8
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "content_stack": {
+                    "type": "stack_panel",
+                    "size": ["100% - 8px", "100%c"],
+                    "controls": [
+                        {
+                            "cover_overlay": {
+                                "type": "image",
+                                "texture": "textures/ui/trackBackground",
+                                "layer": 3,
+                                "size": ["100%", "100%x"],
+                                "controls": [
+                                    {
+                                        "cover@music.icon": {
+                                            "texture": "$songCover",
+                                            "layer": 4,
+                                            "size": ["100% - 2px", "100% - 2px"]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "labels_panel": {
+                                "type": "panel",
+                                "size": ["100%", 22],
+                                "controls": [
+                                    {
+                                        "track_item_name": {
+                                            "type": "label",
+                                            "text": "$songName",
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "font_type": "MinecraftTen",
+                                            "font_scale_factor": 0.9,
+                                            "shadow": true,
+                                            "layer": 3,
+                                            "size": ["100%", 10]
+                                        }
+                                    },
+                                    {
+                                        "track_item_artist": {
+                                            "type": "label",
+                                            "text": "$songArtist",
+                                            "anchor_from": "bottom_left",
+                                            "anchor_to": "bottom_left",
+                                            "font_scale_factor": 0.9,
+                                            "shadow": true,
+                                            "layer": 3,
+                                            "size": ["100%", 10]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "controls_stack": {
+                                "type": "panel",
+                                "size": ["100%", 22],
+                                "controls": [
+                                    {
+                                        "play_button@music.media_control_button": {
+                                            "$pressed_button_name": "button.play",
+                                            "$soundVolume": 1.0,
+                                            "$button_anchor": "left_middle",
+                                            "$default_content": "music.play",
+                                            "$hover_icon": "music.play",
+                                            "$hover_text": "card.play.hoverButton",
+                                            "$pressed_content": "music.play"
+                                        }
+                                    },
+                                    {
+                                        "duration_label@music.duration_label_wrapper": {
+                                            "anchor_from": "center",
+                                            "anchor_to": "center"
+                                        }
+                                    },
+                                    {
+                                        "stop_button@music.media_control_button": {
+                                            "$pressed_button_name": "button.stop",
+                                            "$soundVolume": 0.0000000000000001,
+                                            "$button_anchor": "right_middle",
+                                            "$default_content": "music.stop",
+                                            "$hover_icon": "music.stop",
+                                            "$hover_text": "card.stop.hoverButton",
+                                            "$pressed_content": "music.stop"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "empty_library_panel": {
+        "type": "image",
+        "offset": [0, 8],
+        "size": ["100% - 2px", 86],
+        "texture": "textures/ui/trackBackground",
+        "controls": [
+            {
+                "title": {
+                    "type": "label",
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle",
+                    "color": "$main_header_text_color",
+                    "font_scale_factor": 1.1,
+                    "font_type": "MinecraftTen",
+                    "offset": [0, 12],
+                    "size": ["100% - 12px", "default"],
+                    "text": "music.custom.empty.title",
+                    "text_alignment": "center"
+                }
+            },
+            {
+                "message": {
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "color": "$sub_text_color",
+                    "size": ["100% - 20px", "default"],
+                    "text": "music.custom.empty.body",
+                    "text_alignment": "center"
+                }
+            },
+            {
+                "path": {
+                    "type": "label",
+                    "anchor_from": "bottom_middle",
+                    "anchor_to": "bottom_middle",
+                    "color": "$main_header_text_color",
+                    "offset": [0, -10],
+                    "size": ["100% - 12px", "default"],
+                    "text": "music.custom.empty.path",
+                    "text_alignment": "center"
+                }
+            }
+        ]
+    },
+
+    /* ============================================
+     MUSIC SCREEN PANEL
+     ============================================ */
+    "music_screen_panel": {
+        "type": "stack_panel",
+        "alpha": "@music.anim_alpha_screen",
+        "offset": "@music.anim_offset_screen",
+        "propagate_alpha": true,
+        "size": "$music_screen_size",
+        "controls": [
+            { "header@music.header_section_panel": {} },
+            { "main@music.main_section_panel": {} },
+            { "footer@music.footer_section_panel": {} }
+        ]
+    },
+
+    /* ============================================
+     POPUPS (MODALS) - ARREGLADOS SEGÚN PAUSE
+     ============================================ */
+    "popup_base": {
+        "type": "panel",
+        "size": ["100%", "100%"],
+        "controls": [
+            {
+                "bg": {
+                    "type": "image",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 98,
+                    "nineslice_size": [2, 2, 2, 2],
+                    "size": [240, "100%sm + 8px"],
+                    "texture": "textures/ui/popupBackground"
+                }
+            },
+            {
+                "content": {
+                    "type": "stack_panel",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 100,
+                    "size": [232, "100%c"],
+                    "controls": "$popup_content"
+                }
+            }
+        ]
+    },
+
+    "popup_close_cell": {
+        "type": "image",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "nineslice_size": [2, 2, 2, 2],
+        "size": [108, 20],
+        "texture": "textures/ui/banner_gold",
+        "controls": [
+            {
+                "l": {
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "color": [1.0, 1.0, 1.0],
+                    "layer": 2,
+                    "text": "olcano.overlay.close",
+                    "text_alignment": "center"
+                }
+            }
+        ]
+    },
+
+    "popup_close_cell_hover": {
+        "type": "image",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "nineslice_size": [2, 2, 2, 2],
+        "size": [108, 20],
+        "texture": "textures/ui/panel_hover",
+        "controls": [
+            {
+                "l": {
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "color": [1.0, 1.0, 1.0],
+                    "layer": 2,
+                    "text": "olcano.overla",
+                    "text_alignment": "center"
+                }
+            }
+        ]
+    },
+
+    /* About Section */
+    "about_popup_container@music.popup_base": {
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "about_popup_toggle",
+                "source_property_name": "#toggle_state",
+                "target_property_name": "#visible"
+            }
+        ],
+        "$popup_content": [
+            {
+                "title": {
+                    "type": "panel",
+                    "size": ["100%", "100%c"],
+                    "controls": [
+                        {
+                            "text": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "color": "$main_header_text_color",
+                                "font_type": "MinecraftTen",
+                                "text": "music.aboutSection.title"
+                            }
+                        },
+                        {
+                            "close_btn@common_toggles.light_image_toggle": {
+                                "$radio_toggle_group": true,
+                                "$toggle_default_state": false,
+                                "$toggle_group_forced_index": 0,
+                                "$toggle_name": "popup_overlay",
+                                "$toggle_view_binding_name": "about_popup_toggle",
+                                "$unchecked_control": "music.close",
+                                "$checked_control": "music.close",
+                                "$unchecked_hover_control": "music.close",
+                                "$checked_hover_control": "music.close",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "size": [20, 20],
+                                "offset": [0, -4]
+                            }
+                        }
+                    ]
+                }
+            },
+            { "s1": { "type": "panel", "size": [0, 4] } },
+            {
+                "text": {
+                    "type": "label",
+                    "color": "$main_header_text_color",
+                    "size": ["100%", "default"],
+                    "text": "music.aboutSection.text",
+                    "text_alignment": "center"
+                }
+            },
+            { "s2": { "type": "panel", "size": [0, 8] } },
+            {
+                "creator_label": {
+                    "type": "label",
+                    "color": "$sub_text_color",
+                    "font_scale_factor": 0.9,
+                    "size": ["100%", "default"],
+                    "text": "music.aboutSection.creator",
+                    "text_alignment": "center"
+                }
+            },
+            {
+                "creator_name": {
+                    "type": "label",
+                    "color": "$main_header_text_color",
+                    "font_scale_factor": 1.0,
+                    "font_type": "MinecraftTen",
+                    "size": ["100%", "default"],
+                    "text": "@AntonyPss",
+                    "text_alignment": "center"
+                }
+            },
+            { "s3": { "type": "panel", "size": [0, 12] } },
+            {
+                "pack_label": {
+                    "type": "label",
+                    "color": "$sub_text_color",
+                    "font_scale_factor": 0.9,
+                    "size": ["100%", "default"],
+                    "text": "music.aboutSection.pack",
+                    "text_alignment": "center"
+                }
+            },
+            {
+                "pack_name": {
+                    "type": "label",
+                    "color": "$main_header_text_color",
+                    "font_scale_factor": 1.0,
+                    "font_type": "MinecraftTen",
+                    "size": ["100%", "default"],
+                    "text": "v2.10.1",
+                    "text_alignment": "center"
+                }
+            },
+            { "s4": { "type": "panel", "size": [0, 12] } },
+            {
+                "copyright_label": {
+                    "type": "label",
+                    "color": "$sub_text_color",
+                    "font_scale_factor": 0.9,
+                    "size": ["100%", "default"],
+                    "text": "music.aboutSection.copyright",
+                    "text_alignment": "center"
+                }
+            }
+        ]
+    },
+
+    /* Tooltip Section */
+    "tooltip_popup_container@music.popup_base": {
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "tooltip_popup_toggle",
+                "source_property_name": "#toggle_state",
+                "target_property_name": "#visible"
+            }
+        ],
+        "$popup_content": [
+            {
+                "title": {
+                    "type": "panel",
+                    "size": ["100%", "100%c"],
+                    "controls": [
+                        {
+                            "text": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "color": "$main_header_text_color",
+                                "font_type": "MinecraftTen",
+                                "text": "music.tooltip.title"
+                            }
+                        },
+                        {
+                            "close_btn@common_toggles.light_image_toggle": {
+                                "$radio_toggle_group": true,
+                                "$toggle_default_state": false,
+                                "$toggle_group_forced_index": 0,
+                                "$toggle_name": "popup_overlay",
+                                "$toggle_view_binding_name": "tooltip_popup_toggle",
+                                "$unchecked_control": "music.close",
+                                "$checked_control": "music.close",
+                                "$unchecked_hover_control": "music.close",
+                                "$checked_hover_control": "music.close",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "size": [20, 20],
+                                "offset": [-4, 0]
+                            }
+                        }
+                    ]
+                }
+            },
+            { "s1": { "type": "panel", "size": [0, 8] } },
+            {
+                "text": {
+                    "type": "label",
+                    "color": "$main_header_text_color",
+                    "size": ["100%", "default"],
+                    "text": "music.tooltip.text",
+                    "text_alignment": "center"
+                }
+            },
+            { "s2": { "type": "panel", "size": [0, 4] } },
+            {
+                "path_box": {
+                    "type": "panel",
+                    "size": ["100%", "100%c"],
+                    "controls": [
+                        {
+                            "bg": {
+                                "type": "image",
+                                "alpha": 0.5,
+                                "layer": 19,
+                                "size": ["100%sm + 16px", 22],
+                                "texture": "textures/ui/hud_tip_text_background"
+                            }
+                        },
+                        {
+                            "path": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "color": "$sub_text_color",
+                                "layer": 20,
+                                "size": ["default", 10],
+                                "text": "sounds/music/...",
+                                "text_alignment": "center"
+                            }
+                        }
+                    ]
+                }
+            },
+            { "s3": { "type": "panel", "size": [0, 4] } },
+            {
+                "tip1": {
+                    "type": "label",
+                    "color": "$sub_text_color",
+                    "size": ["100%", "default"],
+                    "text": "music.tooltip.tip1"
+                }
+            },
+            { "s4": { "type": "panel", "size": [0, 4] } },
+            {
+                "tip2": {
+                    "type": "label",
+                    "color": "$sub_text_color",
+                    "size": ["100%", "default"],
+                    "text": "music.tooltip.tip2"
+                }
+            }
+        ]
+    },
+
+    /* ============================================
+     MUSIC SCREEN CONTENT & LAUNCHER
+     ============================================ */
+    "music_screen_content": {
+        "type": "panel",
+        "$main_header_text_color": [0.9, 0.9, 0.9, 1.0],
+        "$sub_text_color": [0.7, 0.7, 0.7, 1.0],
+        "controls": [
+            { "music_screen_panel@music.music_screen_panel": { "layer": 4 } },
+            { "about_popup@music.about_popup_container": { "layer": 9 } },
+            { "tooltip_popup@music.tooltip_popup_container": { "layer": 6 } }
+        ],
+        "variables": [
+            {
+                "requires": "($desktop_screen or $win10_edition)",
+                "$music_screen_size": [376, 250]
+            },
+            {
+                "requires": "($touch or $pocket_screen and $pocket_edition)",
+                "$music_screen_size": [320, 210]
+            }
+        ]
+    },
+
+    "menu_music_button@music.button": {
+        "$default_content": "music.music",
+        "$hover_content": "music.music",
+        "$pressed_button_name": "button.menu_buy_game",
+        "$pressed_content": "music.music",
+        "size": [24, 24]
+    }
+}

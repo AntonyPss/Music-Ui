@@ -1,0 +1,3 @@
+{
+    "ui_defs": ["ui/music_list.json", "ui/music_screen.json"]
+}

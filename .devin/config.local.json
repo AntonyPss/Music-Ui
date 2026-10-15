@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(mv)",
+      "Exec(move)",
+      "Exec(mkdir)",
+      "Exec(rmdir)",
+      "Exec(find)"
+    ]
+  }
+}
