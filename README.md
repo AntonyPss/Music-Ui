@@ -1,41 +1,67 @@
-## 🎵 Music UI v2.9.0 – The Ultimate Audio Experience
+# 🎵 Music UI — Minecraft Bedrock
 
-Elevate your Minecraft interface! **Music UI** is a complete overhaul of the game's audio-visual experience, designed to provide fluid navigation with a premium musical aesthetic.
+**A customizable music interface for Minecraft Bedrock Edition.**
 
-### 🆕 What's New in v2.9.0?
+Music UI is a resource pack by **AntonyPss** that brings a custom music-player interface to Minecraft Bedrock, with a focus on visual design, usability, and customization.
 
-* **Fresh Redesign:** A completely revamped visual experience with a cleaner and more modern aesthetic.
-* **New Music Integration Method:** We've implemented a brand-new, simplified method for adding your own custom songs to the UI.
-* **Performance Boost:** Optimized audio files to reduce size without sacrificing quality, ensuring faster loading.
-* **General Fixes:** Smoother transitions and improved button layouts.
+## ✨ Features
 
-### 🚀 Key Features
+- 🎧 **Custom music interface** — A dedicated interface for the Music UI experience.
+- 🎨 **Custom UI design** — A Minecraft-inspired interface with custom textures and visual elements.
+- 🎵 **Music customization** — Support for organizing custom music assets within the pack.
+- ℹ️ **About panel** — Displays the creator, pack version, last update, and community information.
+- 💡 **Tooltips and information popups** — Additional interface information where supported.
+- 🧩 **JSON UI** — Built around Minecraft Bedrock's resource-pack UI system.
 
-* **Stylized Interface:** A modern UI inspired by high-end music players.
-* **Customization:** Multiple configuration options to match your style.
-* **Intuitive Navigation:** Reorganized menus to find everything faster.
-* **Lightweight:** No lag, optimized for both Mobile and PC.
+## 📦 Installation
 
----
+1. Download the Music UI `.mcpack` file.
+2. Open the file with Minecraft Bedrock Edition.
+3. Wait for the resource pack to import.
+4. Open **Settings → Global Resources**.
+5. Activate Music UI and apply the changes.
 
-### 📷 Screenshot Preview
-<img width="700" height="465" alt="image" src="https://github.com/user-attachments/assets/49b2e0d1-defc-481a-a2bf-eac7e8d79ba2" />
+If the pack does not appear or some elements do not work correctly, check that your Minecraft version is compatible and that no other resource pack is overriding the same UI files.
 
-### ⚠️ Important: Media Disclaimer
+## 🎼 Custom Music
 
-The screenshots provided are a **preview** of the interface using locally loaded songs. Due to copyright restrictions, **the songs shown are not included in the public download.** However, thanks to our **new custom song method**, you can easily add your own library to the game!
+If your version of Music UI supports custom music assets, use the pack's designated music directory and follow its existing file structure.
 
----
+- Use the audio format required by the pack.
+- Keep filenames and references consistent.
+- Update the relevant configuration when adding or replacing tracks.
 
-### 🛠️ Installation
+**Note:** The exact import procedure depends on the current implementation of the pack.
 
-1. Download and run the `.mcpack`.
-2. Go to **Settings > Global Resources** and activate **Music UI v2.9.0**.
-3. Check the pack settings (gear icon) for customization.
+## 🛠️ Development
 
-### 📜 Credits & Support
+Music UI is developed using Minecraft Bedrock resource-pack technologies, including:
 
-Developed by **AntonyPss**.
-For bugs, suggestions, or to check the source code:
-🔗 [GitHub Repository](https://github.com/AntonyPss/Music-Ui)
+- JSON UI
+- JSON configuration files
+- Custom textures and UI assets
+- Audio assets and resource-pack structure
 
+The project prioritizes a consistent visual style, reusable UI components, and maintainable configuration.
+
+## 📋 Version
+
+**Current release: `v2.10.1`**
+
+For changes specific to this release, consult the project's changelog or release notes.
+
+## 💬 Community and Support
+
+Have questions, suggestions, or feedback?
+
+- **Discord:** [Join the Antony Labs community](https://discord.gg/kYDf4gadKw)
+- **Creator:** [@AntonyPss](https://github.com/AntonyPss)
+- **GitHub:** [Explore the project](https://github.com/AntonyPss/Music-Ui)
+
+## 📄 Credits and License
+
+Created by **AntonyPss** as part of **Antony Labs**.
+
+© 2026 Antony Labs. All rights reserved.
+
+Please check the repository's license and permissions before redistributing or modifying the pack for public release.
