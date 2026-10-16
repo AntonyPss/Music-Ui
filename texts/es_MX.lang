@@ -1,19 +1,31 @@
+## Pantalla Principal
 music.screen.title=Biblioteca de Música
+
+## Pestañas / Secciones
 music.tabSection.main=Pistas Principales
 music.tabSection.custom=Pistas Personalizadas
-card.play.hoverButton=Reproducir pista
-card.stop.hoverButton=Detener pista
+
+## Botones y Texto al pasar el cursor (Hover)
+card.play.hoverButton=Reproducir Pista
+card.stop.hoverButton=Detener Pista
 card.unknown.track=Pista Desconocida
 card.unknown.artist=Artista Desconocido
+
+## Sección de Música Personalizada (Vacía)
 music.custom.empty.title=No se encontró música personalizada
-music.custom.empty.body=Coloca tus archivos de audio .ogg personalizados dentro de la carpeta del paquete de recursos para cargarlos aquí.
+music.custom.empty.body=Coloca tus archivos de audio .ogg dentro de la carpeta del paquete de recursos para cargarlos aquí.
 music.custom.empty.path=MusicUI/sounds/music/...
+
+## Modal "Acerca de"
 music.aboutSection.title=Acerca de Music UI
-music.aboutSection.text=Una interfaz de música modular diseñada para mejorar tu experiencia de audio directamente dentro de Bedrock Edition.
-music.aboutSection.creator=Creado por 
+music.aboutSection.creator=Creado por
 music.aboutSection.pack=Versión del pack
-music.aboutSection.copyright=Todos los derechos reservados.
-music.tooltip.title=Información de ruta de audio
-music.tooltip.text=Asegúrate de que tus pistas de música personalizadas sigan la estructura de directorios y las especificaciones de formato correctas.
+music.aboutSection.lastUpdate=Última actualización
+music.aboutSection.discord=Comunidad oficial
+music.aboutSection.copyright=© 2026 Antony Labs. Todos los derechos reservados.
+
+## Modal "Información de Ruta" (Tooltip)
+music.tooltip.title=Info de Ruta de Audio
+music.tooltip.text=Asegúrate de que tus pistas de música personalizada sigan la estructura de carpetas y el formato correctos.
 music.tooltip.tip1=Formato: OGG Vorbis (.ogg)
 music.tooltip.tip2=Frecuencia de muestreo: 44100Hz recomendada

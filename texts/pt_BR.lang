@@ -1,19 +1,31 @@
-music.screen.title=Biblioteca de Músicas
+## Tela Principal
+music.screen.title=Biblioteca de Música
+
+## Seções de Abas
 music.tabSection.main=Faixas Principais
 music.tabSection.custom=Faixas Personalizadas
-card.play.hoverButton=Reproduzir faixa
-card.stop.hoverButton=Parar faixa
+
+## Botões e Texto ao passar o cursor (Hover)
+card.play.hoverButton=Reproduzir Faixa
+card.stop.hoverButton=Parar Faixa
 card.unknown.track=Faixa Desconhecida
 card.unknown.artist=Artista Desconhecido
+
+## Seção de Música Personalizada (Vazia)
 music.custom.empty.title=Nenhuma música personalizada encontrada
-music.custom.empty.body=Coloque seus arquivos de áudio .ogg personalizados dentro da pasta do pacote de recursos para carregá-los aqui.
+music.custom.empty.body=Coloque seus arquivos de áudio .ogg dentro da pasta do pacote de recursos para carregá-los aqui.
 music.custom.empty.path=MusicUI/sounds/music/...
+
+## Modal "Sobre"
 music.aboutSection.title=Sobre o Music UI
-music.aboutSection.text=Uma interface de música modular projetada para melhorar sua experiência de audição diretamente no Bedrock Edition.
-music.aboutSection.creator=Criado por 
-music.aboutSection.pack=Versão do Pack
-music.aboutSection.copyright=Todos os direitos reservados.
-music.tooltip.title=Informações do caminho de áudio
-music.tooltip.text=Certifique-se de que suas faixas de música personalizadas sigam a estrutura de diretórios e especificações de formato corretas.
+music.aboutSection.creator=Criado por
+music.aboutSection.pack=Versão do pack
+music.aboutSection.lastUpdate=Última atualização
+music.aboutSection.discord=Comunidade oficial
+music.aboutSection.copyright=© 2026 Antony Labs. Todos os direitos reservados.
+
+## Modal "Informações do Caminho" (Tooltip)
+music.tooltip.title=Info do Caminho de Áudio
+music.tooltip.text=Certifique-se de que suas faixas de música personalizada sigam a estrutura de diretórios e formato corretos.
 music.tooltip.tip1=Formato: OGG Vorbis (.ogg)
-music.tooltip.tip2=Taxa de Amostragem: 44100Hz recomendada
+music.tooltip.tip2=Taxa de amostragem: 44100Hz recomendada

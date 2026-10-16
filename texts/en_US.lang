@@ -1,18 +1,30 @@
+## Main Title Screen
 music.screen.title=Music Library
+
+## Tab Sections
 music.tabSection.main=Main Tracks
 music.tabSection.custom=Custom Tracks
+
+## Card Hover Text Buttons
 card.play.hoverButton=Play Track
 card.stop.hoverButton=Stop Track
 card.unknown.track=Unknown Track
 card.unknown.artist=Unknown Artist
+
+## Custom Section (Empty State)
 music.custom.empty.title=No Custom Music Found
 music.custom.empty.body=Place your custom .ogg audio files inside the resource pack folder to load them here.
 music.custom.empty.path=MusicUI/sounds/music/...
+
+## Modal "About"
 music.aboutSection.title=About Music UI
-music.aboutSection.text=A modular music interface designed to enhance your listening experience directly inside Bedrock Edition.
-music.aboutSection.creator=Created by 
+music.aboutSection.creator=Created by
 music.aboutSection.pack=Pack Version
-music.aboutSection.copyright=All rights reserved.
+music.aboutSection.lastUpdate=Last Update
+music.aboutSection.discord=Official Community
+music.aboutSection.copyright=© 2026 Antony Labs. All rights reserved.
+
+## Modal "Tooltip"
 music.tooltip.title=Audio Path Info
 music.tooltip.text=Make sure your custom music tracks follow the correct directory structure and format specifications.
 music.tooltip.tip1=Format: OGG Vorbis (.ogg)
