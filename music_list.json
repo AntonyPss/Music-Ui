@@ -1,0 +1,168 @@
+{
+    "namespace": "music_list",
+
+    // Main top panel shown on screen.
+    "top_panel": {
+        "type": "stack_panel",
+        "orientation": "horizontal",
+        "size": ["100%", "100%cm + 4px"]
+    },
+
+    // Reusable item used for each track/album display.
+    "track_item": {
+        "type": "panel",
+        "size": ["fill", "100%cm"],
+        "controls": [
+            {
+                "item_common@music.track_item_common": {
+                    "$songCover|default": "textures/covers/coverEmpty", // Default cover if none provided
+                    "$songName|default": "card.unknown.track", // Default name if none provided
+                    "$songDuration|default": "00:00", // Default duration if none provided
+                    "$songArtist|default": "card.unknown.artist", // Default artist if none provided
+                    "$songAudio|default": "random.click" // Default audio if none provided
+                }
+            }
+        ]
+    },
+
+    //---------------------------------------------------------------------------
+    // Main List Section
+    //---------------------------------------------------------------------------
+
+    "main_list_content": {
+        "type": "stack_panel",
+        "size": ["100%", "100%c"],
+        "controls": [
+            {
+                "top_row_1@top_panel": {
+                    "controls": [
+                        {
+                            "track_item_1@track_item": {
+                                "$songCover": "textures/covers/cover_1",
+                                "$songAudio": "music.music_1",
+                                "$songName": "ThatBehavior - Back Again",
+                                "$songArtist": "NCS",
+                                "$songDuration": "02:48"
+                            }
+                        },
+                        {
+                            "track_item_2@track_item": {
+                            }
+                        },
+                        {
+                            "track_item_3@track_item": {
+                            }
+                        },
+                        {
+                            "track_item_4@track_item": {
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "top_row_2@top_panel": {
+                    "controls": [
+                        {
+                            "track_item_1@track_item": {
+                            }
+                        },
+                        {
+                            "track_item_2@track_item": {
+                            }
+                        },
+                        {
+                            "track_item_3@track_item": {
+                            }
+                        },
+                        {
+                            "track_item_4@track_item": {
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "top_row_3@top_panel": {
+                    "controls": [
+                        {
+                            "track_item_1@track_item": {
+                            }
+                        },
+                        {
+                            "track_item_2@track_item": {
+                            }
+                        },
+                        { "track_item_3@track_item": {} },
+                        { "track_item_4@track_item": {} }
+                    ]
+                }
+            }
+        ]
+    },
+
+    //---------------------------------------------------------------------------
+    // Custom Music Section
+    //---------------------------------------------------------------------------
+
+    "custom_list_content": {
+        "type": "stack_panel",
+        "size": ["100%", "100%c"],
+        "controls": [
+            {
+                "top_row_1@top_panel": {
+                    "controls": [
+                        {
+                            "track_item_1@track_item": {}
+                        },
+                        {
+                            "track_item_2@track_item": {}
+                        },
+                        {
+                            "track_item_3@track_item": {}
+                        },
+                        {
+                            "track_item_4@track_item": {}
+                        }
+                    ]
+                }
+            },
+            {
+                "top_row_2@top_panel": {
+                    "controls": [
+                        {
+                            "track_item_1@track_item": {}
+                        },
+                        {
+                            "track_item_2@track_item": {}
+                        },
+                        {
+                            "track_item_3@track_item": {}
+                        },
+                        {
+                            "track_item_4@track_item": {}
+                        }
+                    ]
+                }
+            },
+            {
+                "top_row_3@top_panel": {
+                    "controls": [
+                        {
+                            "track_item_1@track_item": {}
+                        },
+                        {
+                            "track_item_2@track_item": {}
+                        },
+                        {
+                            "track_item_3@track_item": {}
+                        },
+                        {
+                            "track_item_4@track_item": {}
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
