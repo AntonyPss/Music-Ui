@@ -1,0 +1,13 @@
+{
+    /* Music UI Global Variables */
+    "$music_ui_creator": "@AntonyPss",
+    "$music_ui_version": "v.2.11.0",
+    "$music_ui_last_update": "2026-10-19 | 12:00 UTC-5",
+    "$music_ui_discord": "discord.gg/kYDf4gadKw",
+
+    "$wrapper_title_text_color": [0.75, 0.75, 0.75],
+    "$wrapper_value_text_color": [1.0, 1.0, 1.0],
+
+    "$track_name_text_color": [1.0, 1.0, 1.0],
+    "$track_artist_text_color": [0.8, 0.8, 0.8]
+}

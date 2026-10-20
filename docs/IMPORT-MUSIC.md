@@ -1,54 +1,56 @@
 ## 🎶 How to Import a Custom Song
 
-Follow these steps to add your own music to **Music Ui**:
+Follow these steps to add your own music to **Music UI**:
 
 ### 1. Convert Your Music File
-- Ensure your music is in `.mp3` format.
-- Convert it to `.ogg` using tools like [Audacity](https://www.audacityteam.org/) or online converters.
 
-### 2. Place the File
-- Move the `.ogg` file to the `Music Ui/sounds/music/` folder.
-- Name it appropriately, e.g., `my_music.ogg`.
+- Ensure your music is in `.mp3` or `.wav` format.
+- Convert it to `.ogg` using tools like [Convertio](https://convertio.co/mp3-ogg/) or any online converter.
 
-### 3. Update the Configuration
-1. Open `Music Ui/ui/music/music_screen.json`.
-2. Locate **"music_custom_user"** and edit the variables:
-   - **`$music_name`**: Song name.
-   - **`$music_time`**: Duration (MM:SS).
-   - **`$music_creator`**: Artist name.
-   - **`$music_button_sound_name`**: Match this with the key in `sound_definitions.json`.
+### 2. Place the File in the Correct Folder
 
-   Example:
-   ```json
-   "custom_music_example@music.music_header_section": {
-      "$show_blank_label": false,
-      "$music_icon_texture": "textures/music/my_thumbnail",
-      "$music_name": "Custom Song",
-      "$music_time": "03:45",
-      "$music_creator": "Unknown Artist",
-      "$music_button_sound_name": "music.custom_music"
-   }
-   ```
+- Move your `.ogg` file to `Music UI/sounds/music/...` inside your resource pack.
+- Name it descriptively, for example: `my_song.ogg`.
+
+### 3. Update the Song List
+
+1. Open `Music UI/ui/music_list.json`.
+2. Locate the **"custom_list_content"** block.
+3. Add a new entry using the `music.music_track_card` template:
+
+    ```json
+    "my_track@music.music_track_card": {
+      "$songCover": "textures/covers/my_cover",       // Cover path (optional)
+      "$songName": "My Favorite Song",               // Song name
+      "$songDuration": "03:45",                      // Duration in MM:SS
+      "$songArtist": "Unknown Artist",               // Artist name
+      "$songAudio": "music.my_song",                 // Key in sound_definitions.json
+      "$songPath": "sounds/music/my_song"            // Path inside sounds folder
+    }
+    ```
 
 ### 4. Define the Sound
+
 1. Open `sound_definitions.json` and add:
-   ```json
-   "music.custom_music": {
-      "category": "ui",
-      "sounds": [
-         {
-            "name": "sounds/music/my_music",
-            "stream": true,
-            "volume": 1.0,
-            "load_on_low_memory": true
-         }
-      ]
-   }
-   ```
-2. Ensure `"name"` points to your `.ogg` file without the extension.
+    ```json
+    "music.custom_music": {
+       "category": "ui",
+       "sounds": [
+          {
+             "name": "sounds/music/my_music",
+             "stream": true,
+             "volume": 1.0,
+             "load_on_low_memory": true
+          }
+       ]
+    }
+    ```
+2. `name`: points to your `.ogg` file without the extension.
+3. `stream`: Keep `true` to play long files without loading them fully into memory.
 
 ### Notes
-- To add a thumbnail, specify its path in **`$music_icon_texture`**.
+
+- To add a thumbnail, specify its path in **`$songCover`**.
 - Verify all paths and names are consistent across files.
 
 ---

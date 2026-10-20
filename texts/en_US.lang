@@ -6,15 +6,14 @@ music.tabSection.main=Main Tracks
 music.tabSection.custom=Custom Tracks
 
 ## Card Hover Text Buttons
-card.play.hoverButton=Play Track
-card.stop.hoverButton=Stop Track
+music.card.play.hover=Play Track
+music.card.stop.hover=Stop Track
 card.unknown.track=Unknown Track
 card.unknown.artist=Unknown Artist
 
 ## Custom Section (Empty State)
 music.custom.empty.title=No Custom Music Found
 music.custom.empty.body=Place your custom .ogg audio files inside the resource pack folder to load them here.
-music.custom.empty.path=MusicUI/sounds/music/...
 
 ## Modal "About"
 music.aboutSection.title=About Music UI
@@ -24,8 +23,11 @@ music.aboutSection.lastUpdate=Last Update
 music.aboutSection.discord=Official Community
 music.aboutSection.copyright=© 2026 Antony Labs. All rights reserved.
 
-## Modal "Tooltip"
+## Modal "Audio Path Info" (Tooltip)
 music.tooltip.title=Audio Path Info
-music.tooltip.text=Make sure your custom music tracks follow the correct directory structure and format specifications.
-music.tooltip.tip1=Format: OGG Vorbis (.ogg)
-music.tooltip.tip2=Sample Rate: 44100Hz recommended
+music.tooltip.text=Make sure your custom music tracks follow the correct folder structure and format specifications.
+music.tooltip.tip1=Audio format:
+music.tooltip.tip1.text=OGG Vorbis (.ogg)
+music.tooltip.tip2=Sample rate:
+music.tooltip.tip2.text=44100Hz recommended
+music.tooltip.tip3=Folder location:

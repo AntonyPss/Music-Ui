@@ -1,28 +1,15 @@
 {
     "namespace": "music_list",
 
-    // Main top panel shown on screen.
-    "top_panel": {
-        "type": "stack_panel",
-        "orientation": "horizontal",
-        "size": ["100%", "100%cm + 4px"]
-    },
-
     // Reusable item used for each track/album display.
-    "track_item": {
-        "type": "panel",
-        "size": ["fill", "100%cm"],
-        "controls": [
-            {
-                "item_common@music.track_item_common": {
-                    "$songCover|default": "textures/covers/coverEmpty", // Default cover if none provided
-                    "$songName|default": "card.unknown.track", // Default name if none provided
-                    "$songDuration|default": "00:00", // Default duration if none provided
-                    "$songArtist|default": "card.unknown.artist", // Default artist if none provided
-                    "$songAudio|default": "random.click" // Default audio if none provided
-                }
-            }
-        ]
+
+    "track_item@music.music_track_card": {
+        "$songCover|default": "textures/covers/coverEmpty", // Default cover if none provided
+        "$songName|default": "card.unknown.track", // Default name if none provided
+        "$songDuration|default": "00:00", // Default duration if none provided
+        "$songArtist|default": "card.unknown.artist", // Default artist if none provided
+        "$songAudio|default": "random.click", // Default audio if none provided
+        "$songPath|default": "sounds/music/..." // Default path if none provided
     },
 
     //---------------------------------------------------------------------------
@@ -32,104 +19,98 @@
     "main_list_content": {
         "type": "stack_panel",
         "size": ["100%", "100%c"],
+        "$songCover": "textures/covers/ncs",
         "controls": [
             {
-                "top_row_1@top_panel": {
-                    "controls": [
-                        {
-                            "track_item_1@track_item": {
-                                "$songCover": "textures/covers/cover_1",
-                                "$songAudio": "music.music_1",
-                                "$songName": "ThatBehavior - Back Again",
-                                "$songArtist": "NCS",
-                                "$songDuration": "02:48"
-                            }
-                        },
-                        {
-                            "track_item_2@track_item": {
-                                "$songAudio": "music.music_2",
-                                "$songName": "Brazilian Phonk",
-                                "$songArtist": "card.unknown.artist",
-                                "$songDuration": "02:09"
-                            }
-                        },
-                        {
-                            "track_item_3@track_item": {
-                                "$songAudio": "music.music_3",
-                                "$songName": "Hard Phonk",
-                                "$songArtist": "card.unknown.artist",
-                                "$songDuration": "02:15"
-                            }
-                        },
-                        {
-                            "track_item_4@track_item": {
-                                "$songAudio": "music.music_4",
-                                "$songName": "My Heart",
-                                "$songArtist": "Different Heaven & EH!DE",
-                                "$songDuration": "03:27"
-                            }
-                        }
-                    ]
+                "track_item_1@track_item": {
+                    "$songCover": "textures/covers/cover_1",
+                    "$songAudio": "music.music_1",
+                    "$songPath": "sounds/music/ncs_back_again",
+                    "$songName": "Back Again",
+                    "$songArtist": "ThatBehavior (NCS)",
+                    "$songDuration": "02:48"
                 }
             },
             {
-                "top_row_2@top_panel": {
-                    "controls": [
-                        {
-                            "track_item_5@track_item": {
-                                "$songAudio": "music.music_5",
-                                "$songName": "On & On",
-                                "$songArtist": "Cartoon",
-                                "$songDuration": "03:26"
-                            }
-                        },
-                        {
-                            "track_item_6@track_item": {
-                                "$songAudio": "music.music_6",
-                                "$songName": "Heroes Tonight",
-                                "$songArtist": "Janji",
-                                "$songDuration": "03:05"
-                            }
-                        },
-                        {
-                            "track_item_7@track_item": {
-                                "$songAudio": "music.music_7",
-                                "$songName": "Invincible",
-                                "$songArtist": "DEAF KEV",
-                                "$songDuration": "04:31"
-                            }
-                        },
-                        {
-                            "track_item_8@track_item": {
-                                "$songAudio": "music.music_8",
-                                "$songName": "Levels",
-                                "$songArtist": "Speo",
-                                "$songDuration": "02:58"
-                            }
-                        }
-                    ]
+                "track_item_2@track_item": {
+                    "$songAudio": "music.music_2",
+                    "$songPath": "sounds/music/brazilian-phonk",
+                    "$songName": "Brazilian Phonk",
+                    "$songArtist": "card.unknown.artist",
+                    "$songDuration": "02:09"
                 }
             },
             {
-                "top_row_3@top_panel": {
-                    "controls": [
-                        {
-                            "track_item_9@track_item": {
-                                "$songAudio": "music.music_9",
-                                "$songName": "Cloud 9",
-                                "$songArtist": "Tobu",
-                                "$songDuration": "04:28"
-                            }
-                        },
-                        {
-                            "track_item_10@track_item": {
-                                "$songAudio": "music.music_10",
-                                "$songName": "Summertime [Sunshine]",
-                                "$songArtist": "K-391",
-                                "$songDuration": "04:45"
-                            }
-                        }
-                    ]
+                "track_item_3@track_item": {
+                    "$songAudio": "music.music_3",
+                    "$songPath": "sounds/music/hard-phonk",
+                    "$songName": "Hard Phonk",
+                    "$songArtist": "card.unknown.artist",
+                    "$songDuration": "02:15"
+                }
+            },
+            {
+                "track_item_4@track_item": {
+                    "$songAudio": "music.music_4",
+                    "$songPath": "sounds/music/my_heart",
+                    "$songName": "My Heart",
+                    "$songArtist": "Different Heaven & EH!DE",
+                    "$songDuration": "03:27"
+                }
+            },
+            {
+                "track_item_5@track_item": {
+                    "$songAudio": "music.music_5",
+                    "$songPath": "sounds/music/on_and_on",
+                    "$songName": "On & On",
+                    "$songArtist": "Cartoon",
+                    "$songDuration": "03:26"
+                }
+            },
+            {
+                "track_item_6@track_item": {
+                    "$songAudio": "music.music_6",
+                    "$songPath": "sounds/music/heroes_tonight",
+                    "$songName": "Heroes Tonight",
+                    "$songArtist": "Janji",
+                    "$songDuration": "03:05"
+                }
+            },
+            {
+                "track_item_7@track_item": {
+                    "$songAudio": "music.music_7",
+                    "$songPath": "sounds/music/invincible",
+                    "$songName": "Invincible",
+                    "$songArtist": "DEAF KEV",
+                    "$songDuration": "04:31"
+                }
+            },
+            {
+                "track_item_8@track_item": {
+                    "$songAudio": "music.music_8",
+                    "$songPath": "sounds/music/levels",
+                    "$songName": "Levels",
+                    "$songArtist": "Speo",
+                    "$songDuration": "02:58"
+                }
+            },
+
+            {
+                "track_item_9@track_item": {
+                    "$songAudio": "music.music_9",
+                    "$songPath": "sounds/music/cloud_9",
+                    "$songName": "Cloud 9",
+                    "$songArtist": "Itro & Tobu",
+                    "$songDuration": "04:28"
+                }
+            },
+            {
+                "track_item_10@track_item": {
+                    "$songAudio": "music.music_10",
+                    "$songPath": "sounds/music/summertime",
+                    "$songName": "Summertime [Sunshine]",
+                    "$songArtist": "K-391",
+                    "$songDuration": "04:45"
                 }
             }
         ]
@@ -143,7 +124,7 @@
         "type": "stack_panel",
         "size": ["100%", "100%c"],
         "controls": [
-            { "empty_library@music.empty_library_panel": { "ignored": false } }
+            { "empty_library@music.empty_library_panel": { "ignored": false } } // Set ignored to "True" when you add custom music in this section.
         ]
     }
 }

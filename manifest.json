@@ -1,11 +1,11 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Music UI v2.10.1",
+        "name": "Music UI v2.11",
         "description": "Music UI create by @Antony Pss. More info in my Discord Community.",
         "uuid": "27cb36de-ec22-4011-acd1-e33a3f7ab7ad",
         "min_engine_version": [1, 21, 0],
-        "version": [2, 10, 1]
+        "version": [2, 11, 0]
     },
     "modules": [
         {

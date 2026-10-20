@@ -6,15 +6,14 @@ music.tabSection.main=Pistas Principales
 music.tabSection.custom=Pistas Personalizadas
 
 ## Botones y Texto al pasar el cursor (Hover)
-card.play.hoverButton=Reproducir Pista
-card.stop.hoverButton=Detener Pista
+music.card.play.hover=Reproducir Pista
+music.card.stop.hover=Detener Pista
 card.unknown.track=Pista Desconocida
 card.unknown.artist=Artista Desconocido
 
 ## Sección de Música Personalizada (Vacía)
 music.custom.empty.title=No se encontró música personalizada
 music.custom.empty.body=Coloca tus archivos de audio .ogg dentro de la carpeta del paquete de recursos para cargarlos aquí.
-music.custom.empty.path=MusicUI/sounds/music/...
 
 ## Modal "Acerca de"
 music.aboutSection.title=Acerca de Music UI
@@ -27,5 +26,8 @@ music.aboutSection.copyright=© 2026 Antony Labs. Todos los derechos reservados.
 ## Modal "Información de Ruta" (Tooltip)
 music.tooltip.title=Info de Ruta de Audio
 music.tooltip.text=Asegúrate de que tus pistas de música personalizada sigan la estructura de carpetas y el formato correctos.
-music.tooltip.tip1=Formato: OGG Vorbis (.ogg)
-music.tooltip.tip2=Frecuencia de muestreo: 44100Hz recomendada
+music.tooltip.tip1=Formato de audio:
+music.tooltip.tip1.text=OGG Vorbis (.ogg)
+music.tooltip.tip2=Frecuencia de muestreo:
+music.tooltip.tip2.text=44100Hz recomendada
+music.tooltip.tip3=Ubicación de archivos:
